@@ -6,13 +6,12 @@
 }
 
 #DivPerfil {
-    width:100%;
+    width: 100%;
 }
 
 .divPerfil_inner {
     background-color: rgba(161, 206, 221, 0.88);
-    width: 500px;
-    display: table;
+    display: block;
     margin: 0 auto;
 }
 
@@ -42,89 +41,91 @@
     font-family: 'Montserrat';
     font-size: 12pt;
     font-weight: 200;
-    text-align:right;
+    text-align: right;
 }
 
 #divNovaPass {
     background-color: rgba(34, 34, 34, 0.80);
-    color:white;
-
+    color: white;
 }
 
 #divThankYou {
     background-color: rgba(34, 34, 34, 0.80);
-    color:white;
+    color: white;
 }
 
-#BtnPerfilConfirmar{
-    background-color:white;
-    color:black;
+#BtnPerfilConfirmar {
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+}
 
+.btn-change-pswd {
+    background-color: white;
+    color: black;
 }
 
 .Aval_div {
-    position: absolute;
-    text-align: center;
-    top: 171px;
-    right: 0;
     background-color: transparent;
-    z-index:1;
+    z-index: 1;
 }
 
 .Aval_innerDiv {
     min-height: 290px;
     background-color: transparent;
-    display: table;
+    display: -webkit-box;
     margin: 0 auto;
     text-align: left;
-    padding: 15px 40px 18px 10px;
 }
+
     .Aval_innerDiv li [type=submit] {
         background-color: white;
         color: black;
-        border:none;
-        margin-bottom: 1.5px;
+        border: none;
+        margin-bottom: 1px;
         height: 36px;
         font-family: 'Montserrat';
         font-size: 12pt;
         font-weight: 500;
         text-align: left;
-        width:100%;
+        width: 100%;
     }
-.Aval_innerDiv li [type=submit]:hover {
-    background-color: rgb(23,82,102);
-    color: white;
-  
+
+        .Aval_innerDiv li [type=submit]:hover {
+            background-color: rgb(23,82,102);
+            color: white;
+        }
+
+.div_texto {
+    font-family: 'Montserrat';
+    font-size: 12pt;
+    line-break: 14pt;
+    border-radius: 1.5px;
+    padding: 5px;
+    margin-bottom: 13px;
 }
 
-    .div_texto {
-        font-family: 'Montserrat';
-        font-size: 12pt;
-        line-break: 14pt;
-        border-radius: 1.5px;
-        padding: 5px;
-        margin-bottom: 13px;
-    }
-
-.bg_escura{
+.bg_escura {
     background-color: #222022;
 }
 
-.bg_clara{
+.bg_clara {
     background-color: aliceblue;
 }
 
-.color_white{
-    color:white;
+.color_white {
+    color: white;
 }
 
 
 
-.ativo{
-    border: 1px solid white ;
+.ativo {
+    border: 1px solid white;
 }
 
-input[type=text]{
+input[type=text] {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.33);
     border-radius: 1.5px;
@@ -134,22 +135,22 @@ input[type=text]{
     border: none;
 }
 
-p{
+p {
     font-family: 'Montserrat';
     font-size: 12pt;
-}   
+}
 
-h1{
+h1 {
     font-family: 'Montserrat' !important;
     font-size: 29pt !important;
     font-weight: 100 !important;
 }
 
-hr{
+hr {
     height: 1pt;
 }
 
-.align-right{
+.align-right {
     text-align: right;
 }
 

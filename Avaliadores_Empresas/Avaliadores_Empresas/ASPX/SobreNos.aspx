@@ -45,7 +45,7 @@
                         <a class="nav-link" href="Contactos">Contactos</a>
                     </li>
                     <li class="nav-item">
-                        <asp:LinkButton ID="LinkButton1" runat="server"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
+                        <asp:LinkButton ID="LinkButton1" runat="server"  OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
                     </li>
                 </ul>
             </div>

@@ -443,27 +443,27 @@
                     </asp:Panel>
 
                 </div>
-                 <div class="col-3">
+                <div class="col-3">
                     <div class="Emp_div">
                         <div class="Emp_innerDiv">
                             <ul style="list-style-type: none;">
                                 <li>
-                                    <asp:Button ID="Button17" runat="server" Text="Perfil" OnClick="BtnPerfil_Click" />
+                                    <asp:Button ID="BtnPerfil" runat="server" Text="Perfil" OnClick="BtnPerfil_Click" />
                                 </li>
                                 <li>
-                                    <asp:Button ID="Button18" runat="server" Text="Pesquisa Avaliadores" OnClick="BtnPesquisaAvaliacoes_Click" />
+                                    <asp:Button ID="BtnPesquisaAvaliacoes" runat="server" Text="Pesquisa Avaliadores" OnClick="BtnPesquisaAvaliacoes_Click" />
                                 </li>
                                 <li>
-                                    <asp:Button ID="Button19" runat="server" Text="Publicar Pedido Avaliacao" OnClick="BtnPublicarPedidoAvaliacao_Click" />
+                                    <asp:Button ID="BtnPublicarPedidoAvaliacao" runat="server" Text="Publicar Pedido Avaliacao" OnClick="BtnPublicarPedidoAvaliacao_Click" />
                                 </li>
                                 <li>
-                                    <asp:Button ID="Button20" runat="server" Text="Meus Trabalhos" OnClick="BtnMinhasAvaliacoes_Click" />
+                                    <asp:Button ID="BtnMinhasAvaliacoes" runat="server" Text="Meus Trabalhos" OnClick="BtnMinhasAvaliacoes_Click" />
                                 </li>
                                 <li>
-                                    <asp:Button ID="Button21" runat="server" Text="Avaliações" OnClick="BtnAvaliacoes_Click" />
+                                    <asp:Button ID="BtnAvaliacoes" runat="server" Text="Avaliações" OnClick="BtnAvaliacoes_Click" />
                                 </li>
                                 <li>
-                                    <asp:Button ID="Button22" runat="server" Text="Ranking" OnClick="BtnRanking_Click" />
+                                    <asp:Button ID="BtnRanking" runat="server" Text="Ranking" OnClick="BtnRanking_Click" />
                                 </li>
                             </ul>
 

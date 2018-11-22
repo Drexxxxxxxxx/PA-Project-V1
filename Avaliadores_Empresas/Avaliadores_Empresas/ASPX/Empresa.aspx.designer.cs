@@ -904,58 +904,58 @@ namespace Avaliadores_Empresas {
         protected global::System.Web.UI.WebControls.ListBox ListBox10;
         
         /// <summary>
-        /// Button17 control.
+        /// BtnPerfil control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button17;
+        protected global::System.Web.UI.WebControls.Button BtnPerfil;
         
         /// <summary>
-        /// Button18 control.
+        /// BtnPesquisaAvaliacoes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button18;
+        protected global::System.Web.UI.WebControls.Button BtnPesquisaAvaliacoes;
         
         /// <summary>
-        /// Button19 control.
+        /// BtnPublicarPedidoAvaliacao control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button19;
+        protected global::System.Web.UI.WebControls.Button BtnPublicarPedidoAvaliacao;
         
         /// <summary>
-        /// Button20 control.
+        /// BtnMinhasAvaliacoes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button20;
+        protected global::System.Web.UI.WebControls.Button BtnMinhasAvaliacoes;
         
         /// <summary>
-        /// Button21 control.
+        /// BtnAvaliacoes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button21;
+        protected global::System.Web.UI.WebControls.Button BtnAvaliacoes;
         
         /// <summary>
-        /// Button22 control.
+        /// BtnRanking control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button22;
+        protected global::System.Web.UI.WebControls.Button BtnRanking;
         
         /// <summary>
         /// rptMarkers control.

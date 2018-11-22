@@ -25,6 +25,13 @@ namespace Avaliadores_Empresas
             }
         }
 
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Session.Abandon();
+            Response.Redirect("Login");
+        }
+
         protected void LinkButton2_Click(object sender, EventArgs e)
         {
             int contadortipo = 0;

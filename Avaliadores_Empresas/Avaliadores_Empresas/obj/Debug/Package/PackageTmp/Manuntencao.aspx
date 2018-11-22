@@ -25,7 +25,7 @@
 <body>
     <form runat="server">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand">
                 <img src="images/Logos/favicon.ico" width="40" height="40" alt="">
             </a>
          
@@ -98,9 +98,9 @@
 
 
                     <div class="texto">
-                        <div>
-                            <asp:Image ID="spinner" runat="server" ImageUrl="~/Imagens/Logos/lg_preto.png" Width="200px" /><br />
-                            <asp:Label ID="Label2" runat="server" Text="BREVEMENTE" CssClass="LabelPortal"></asp:Label><br />
+                        <div class="inner">
+                            <asp:Image ID="spinner" runat="server" ImageUrl="~/Imagens/Logos/lg_branco.png" Width="200px" />
+                            <asp:Label ID="Label2" runat="server" Text="BREVEMENTE" CssClass="LabelPortal mb-1 ml-4 mr-4"></asp:Label><br />
 
                         </div>
                     </div>
@@ -112,6 +112,11 @@
 
 
         </div>
+           <footer class="footer">
+            <div class="container-fluid">
+                <span class="">@Copyright</span>
+            </div>
+        </footer>
 
 
 

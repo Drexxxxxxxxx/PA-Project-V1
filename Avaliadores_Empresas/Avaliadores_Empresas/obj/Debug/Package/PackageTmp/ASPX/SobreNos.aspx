@@ -45,13 +45,13 @@
                         <a class="nav-link" href="Contactos">Contactos</a>
                     </li>
                     <li class="nav-item">
-                        <asp:LinkButton ID="LinkButton1" runat="server"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
+                        <asp:LinkButton ID="LinkButton1" runat="server"  OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <div class="row slider">
+           <div class="row slider">
             <div class="owl-carousel owl-theme" id="owl">
                 <div class="item">
                     <img src="../images/imagens_em_azul/1.jpg" alt="">
@@ -115,72 +115,85 @@
 
 
         </div>
-        <div class="somosNos_div">
-            <div class="somosNos_innerDiv">
-                <div class="col-xl-12" style="text-align: left">
-                    <h1>Sobre Nós</h1>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="div_texto bg_clara">
-                            YA YA
-                        </div>
 
+        <div class="container-fluid">
+            <div class="somosNos_div">
+                <div class="somosNos_innerDiv">
+                    <div class="col-xl-12" style="text-align: left">
+                        <h1>Sobre Nós</h1>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="div_texto bg_clara">
-                            YA YA
-                        </div>
+                    <hr>
 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="div_texto bg_clara">
-                            YA YA
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="div_texto bg_clara">
+                                    Gere o teu trabalho, negoceia os teus honorários, avalia e ganha o teu lugar no ranking
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="div_texto bg_clara">
+                                    Obtem os melhores e mais adequados avaliadores para os trabalhos que tens em mãos.
+                                </div>
+
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="div_texto bg_escura color_white">
-                            YA YA
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="div_texto bg_clara">
+                                    Avalia e sê avaliado. 
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="div_texto bg_escura color_white">
+                                    Plataforma de gestão de avaliações de imóveis
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="div_texto bg_clara">
+                                    Demonstra que a tua empresa é de todas a que presta melhor serviço."
+                                </div>
+                            </div>
+
                         </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="div_texto bg_clara">
-                            YA YA
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="div_texto bg_clara ">
+                                    Destaca-te!
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="div_texto bg_escura color_white">
+                                    Local onde as Empresas de avaliação podem publicar os seus trabalhos e obter os melhores profissionais.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 ">
+                                <div class="div_texto bg_escura color_white">
+                                    Motor de pesquisa de trabalhos disponiveis para que o avaliador possa obter e organizar o seu trabalho.
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="div_texto bg_clara">
+                                    Motor de avaliação dos avaliadores e das próprias empresas
+                                </div>
+                            </div>
+                            <div class="col-lg-4 ">
+                                <div class="div_texto bg_escura color_white">
+                                    Ranking de satisfação para empresas e avaliadores                               
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="div_texto bg_clara ">
-                            YA YA
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="div_texto bg_escura color_white">
-                            YA YA
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 ">
-                        <div class="div_texto bg_escura color_white">
-                            YA YA
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="div_texto bg_clara">
-                            YA YA
-                        </div>
-                    </div>
+
                 </div>
 
             </div>
-
         </div>
+
 
 
 

@@ -44,7 +44,7 @@
             <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link " href="SobreNos">Somos Noss</a>
+                        <a class="nav-link " href="SobreNos">Somos Nos</a>
                     </li>
                     <li class="nav-item">
                         <asp:LinkButton ID="LinkButton2" runat="server" Text="Avaliador" OnClick="LinkButton2_Click"></asp:LinkButton>

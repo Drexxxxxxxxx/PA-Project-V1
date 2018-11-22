@@ -1,9 +1,6 @@
 ﻿
 .Emp_div {
-    position: absolute;
-    text-align: center;
-    top: 171px;
-    right: 0;
+    position: relative;
     background-color: transparent;
     z-index: 1;
 }
@@ -11,17 +8,16 @@
 .Emp_innerDiv {
     min-height: 290px;
     background-color: transparent;
-    display: table;
+    display: -webkit-box;
     margin: 0 auto;
     text-align: left;
-    padding: 15px 40px 18px 10px;
 }
 
     .Emp_innerDiv li [type=submit] {
         background-color: white;
         color: black;
         border: none;
-        margin-bottom: 1.5px;
+        margin-bottom: 1px;
         height: 36px;
         font-family: 'Montserrat';
         font-size: 12pt;
@@ -71,10 +67,14 @@
 
 .divPerfil_inner {
     background-color: rgba(161, 206, 221, 0.88);
-    width: 500px;
-    display: table;
+    display: block;
     margin: 0 auto;
 }
+
+    .divPerfil_inner .btn {
+        background-color: white;
+        color: black;
+    }
 
 #divNovaPass {
     background-color: rgba(34, 34, 34, 0.80);
@@ -89,7 +89,7 @@
 input[type=text] {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.33);
-    border-radius: 1.5px;
+    border-radius: 1px;
     margin-bottom: 4px;
     font-family: 'Montserrat';
     font-size: 12pt;
@@ -99,7 +99,7 @@ input[type=text] {
 p {
     font-family: 'Montserrat';
     font-size: 12pt;
-    text-align:right;
+    text-align: right;
 }
 
 h1 {

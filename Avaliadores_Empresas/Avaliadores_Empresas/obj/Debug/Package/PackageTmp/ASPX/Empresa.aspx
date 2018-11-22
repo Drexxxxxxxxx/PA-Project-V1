@@ -97,150 +97,129 @@
                 <div class="item">
                     <img src="../images/imagens_em_azul/19.jpg" alt="">
                 </div>
-
             </div>
-        </div>
-        <div class="Emp_div">
-            <div class="Emp_innerDiv">
-                <ul style="list-style-type: none;">
-                    <li>
-                        <asp:Button ID="BtnPerfil" runat="server" Text="Perfil" OnClick="BtnPerfil_Click" />
-                    </li>
-                    <li>
-                        <asp:Button ID="BtnPesquisaAvaliacoes" runat="server" Text="Pesquisa Avaliadores" OnClick="BtnPesquisaAvaliacoes_Click" />
-                    </li>
-                    <li>
-                        <asp:Button ID="BtnPublicarPedidoAvaliacao" runat="server" Text="Publicar Pedido Avaliacao" OnClick="BtnPublicarPedidoAvaliacao_Click" />
-                    </li>
-                    <li>
-                        <asp:Button ID="BtnMinhasAvaliacoes" runat="server" Text="Meus Trabalhos" OnClick="BtnMinhasAvaliacoes_Click" />
-                    </li>
-                    <li>
-                        <asp:Button ID="BtnAvaliacoes" runat="server" Text="Avaliações" OnClick="BtnAvaliacoes_Click" />
-                    </li>
-                    <li>
-                        <asp:Button ID="BtnRanking" runat="server" Text="Ranking" OnClick="BtnRanking_Click" />
-                    </li>
-                </ul>
-
-
-            </div>
-
         </div>
 
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-        <div class="row main_div">
-            <div class="col-xl-10 col-12">
-                <div class="container">
+
+        <div class="container-fluid">
+            <div class="row main_div">
+                <div class="col-9">
                     <asp:Panel ID="DivPerfil" CssClass="DivBtn" runat="server" Visible="False">
-                        <div class="divPerfil_inner">
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <h1>Perfil </h1>
-                                    <hr />
+                        <div class="">
+                            <div class="divPerfil_inner">
+                                <div class="row">
+                                    <div class="container">
+                                        <div class="col-xl-12">
+                                            <h1>Perfil </h1>
+                                            <hr class="mt-0" />
+                                        </div>
+                                    </div>
+                                    
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xl-3">
-                                    <p>nome </p>
-                                </div>
-                                <div class="col-xl">
-                                    <asp:TextBox ID="TBoxPerfilNome" placeholder="Nome" CssClass="form-control" runat="server"></asp:TextBox>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <p>nome </p>
+                                        </div>
+                                        <div class="col">
+                                            <asp:TextBox ID="TBoxPerfilNome" placeholder="Nome" CssClass="form-control" runat="server"></asp:TextBox>
 
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xl-3">
-                                    <p>e-mail </p>
-                                </div>
-                                <div class="col-xl">
-                                    <asp:TextBox ID="TBoxPerfilEmail" placeholder="Email" CssClass="form-control" runat="server"></asp:TextBox>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xl-3">
-                                    <p>telemovel </p>
-                                </div>
-                                <div class="col-xl">
-                                    <asp:TextBox ID="TBoxPerfilTelefone" placeholder="Telefone" CssClass="form-control" runat="server"></asp:TextBox>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xl-3">
-                                    <p>Nº Registo </p>
-                                </div>
-                                <div class="col-xl">
-                                    <asp:TextBox ID="TBoxPerfilNRegisto" placeholder="Número de Registo" CssClass="form-control" runat="server"></asp:TextBox>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xl-3">
-                                    <p>Morada </p>
-                                </div>
-                                <div class="col-xl">
-                                    <asp:TextBox ID="TBoxPerfilMorada" placeholder="Morada" CssClass="form-control" runat="server"></asp:TextBox>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <asp:Button ID="BtnPerfilConfirmar" runat="server" Text="Confirmar" OnClick="BtnPerfilConfirmar_Click" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <p>e-mail </p>
+                                        </div>
+                                        <div class="col">
+                                            <asp:TextBox ID="TBoxPerfilEmail" placeholder="Email" CssClass="form-control" runat="server"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <p>telemovel </p>
+                                        </div>
+                                        <div class="col">
+                                            <asp:TextBox ID="TBoxPerfilTelefone" placeholder="Telefone" CssClass="form-control" runat="server"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <p>Nº Registo </p>
+                                        </div>
+                                        <div class="col">
+                                            <asp:TextBox ID="TBoxPerfilNRegisto" placeholder="Número de Registo" CssClass="form-control" runat="server"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <p>Morada </p>
+                                        </div>
+                                        <div class="col">
+                                            <asp:TextBox ID="TBoxPerfilMorada" placeholder="Morada" CssClass="form-control" runat="server"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                           <!--Parte da Licença-->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <asp:Label ID="Label4" runat="server">Estado de Licenciamento:</asp:Label>
+                                            <br />
+                                            <asp:Label ID="Label5" runat="server"></asp:Label>
+                                            <br />
+                                            <br />
+                                            <asp:Label ID="Label6" runat="server">Final da Licença:</asp:Label>
+                                            <br />
+                                            <asp:TextBox ID="TextBox5" runat="server" ReadOnly="True" TextMode="Date"></asp:TextBox>
+                                            <br />
+                                            <asp:TextBox ID="TextBox6" runat="server" ReadOnly="True" TextMode="Date" Visible="False"></asp:TextBox>
+                                            <br />
+                                            <br />
+                                            <asp:Button ID="Button4" runat="server" Text="Renovar por mais 30 dias (10€)" OnClick="Button4_Click" />
+                                            &nbsp;
+                                            <asp:Button ID="Button16" runat="server" OnClick="Button16_Click" Text="Renovar por mais 1 ano (100€)" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-9 offset-3 text-right">
+                                            <asp:Button ID="Button1" runat="server" CssClass="btn" Text="Mudar Password" OnClick="Button1_Click1" />
 
+                                            <br />
+                                            <asp:Button ID="BtnPerfilConfirmar" CssClass="btn mt-1" runat="server" Text="Confirmar" OnClick="BtnPerfilConfirmar_Click" />
+
+                                        </div>
+
+                                    </div>
                                 </div>
 
-                            </div>
-
-
-
-                            <br />
-                            <div class="custompopup" id="divThankYou" runat="server" visible="false">
-                                <p>
-                                    <asp:Label ID="lblmessage" runat="server">Password Antiga</asp:Label>
-                                    <asp:TextBox ID="TextBox3" runat="server" TextMode="Password"></asp:TextBox>
-                                </p>
-                                <asp:Button ID="Button3" CssClass="butoespopup" Width="25%" runat="server" Text="Ok" OnClick="Button3_Click" />
-                                <asp:Button ID="Button14" runat="server" Text="Voltar" OnClick="Button14_Click" />
-                            </div>
-                            <div class="custompopup" id="divNovaPass" runat="server" visible="false">
-                                <p>
-                                    <asp:Label ID="Label2" runat="server" Text="Nova Password"></asp:Label>
-                                    <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
-                                    <br />
-                                    <asp:Label ID="Label3" runat="server" Text="Confirmar Password"></asp:Label>
-                                    <asp:TextBox ID="TextBox4" runat="server" TextMode="Password"></asp:TextBox>
-                                </p>
-                                <asp:Button ID="Button2" CssClass="butoespopup" Width="25%" runat="server" Text="Ok" OnClick="Button2_Click" />
-                            </div>
-                            <asp:Button ID="Button1" runat="server" Text="Mudar Password" OnClick="Button1_Click1" />
-
-                            <br />
-
-                            <br />
-                            <br />
-
-                            <asp:Label ID="Label1" runat="server"></asp:Label>
-
-
-                            <!--Parte da Licença-->
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <asp:Label ID="Label4" runat="server">Estado de Licenciamento:</asp:Label>
-                                    <br />
-                                    <asp:Label ID="Label5" runat="server"></asp:Label>
-                                    <br />
-                                    <br />
-                                    <asp:Label ID="Label6" runat="server">Final da Licença:</asp:Label>
-                                    <br />
-                                    <asp:TextBox ID="TextBox5" runat="server" ReadOnly="True" TextMode="Date"></asp:TextBox>
-                                    <br />
-                                    <asp:TextBox ID="TextBox6" runat="server" ReadOnly="True" TextMode="Date" Visible="False"></asp:TextBox>
-                                    <br />
-                                    <br />
-                                    <asp:Button ID="Button4" runat="server" Text="Renovar por mais 30 dias (10€)" OnClick="Button4_Click" />
-                                    &nbsp;
-                                    <asp:Button ID="Button16" runat="server" OnClick="Button16_Click" Text="Renovar por mais 1 ano (100€)" />
+                                <br />
+                                <div class="custompopup" id="divThankYou" runat="server" visible="false">
+                                    <p>
+                                        <asp:Label ID="lblmessage" runat="server">Password Antiga</asp:Label>
+                                        <asp:TextBox ID="TextBox3" runat="server" TextMode="Password"></asp:TextBox>
+                                    </p>
+                                    <asp:Button ID="Button3" CssClass="butoespopup" Width="25%" runat="server" Text="Ok" OnClick="Button3_Click" />
+                                    <asp:Button ID="Button14" runat="server" Text="Voltar" OnClick="Button14_Click" />
                                 </div>
+                                <div class="custompopup" id="divNovaPass" runat="server" visible="false">
+                                    <p>
+                                        <asp:Label ID="Label2" runat="server" Text="Nova Password"></asp:Label>
+                                        <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
+                                        <br />
+                                        <asp:Label ID="Label3" runat="server" Text="Confirmar Password"></asp:Label>
+                                        <asp:TextBox ID="TextBox4" runat="server" TextMode="Password"></asp:TextBox>
+                                    </p>
+                                    <asp:Button ID="Button2" CssClass="butoespopup" Width="25%" runat="server" Text="Ok" OnClick="Button2_Click" />
+                                </div>
+
+                                <br />
+
+                                <br />
+                                <br />
+
+                                <asp:Label ID="Label1" runat="server"></asp:Label>
                             </div>
                         </div>
+
                     </asp:Panel>
                     <asp:Panel ID="DivPesquisaAvaliacoes" CssClass="DivBtn" runat="server" Visible="False">
 
@@ -463,6 +442,38 @@
 
                     </asp:Panel>
 
+                </div>
+                <div class="col-3">
+                    <div class="Emp_div">
+                        <div class="Emp_innerDiv">
+                            <ul style="list-style-type: none;">
+                                <li>
+                                    <asp:Button ID="BtnPerfil" runat="server" Text="Perfil" OnClick="BtnPerfil_Click" />
+                                </li>
+                                <li>
+                                    <asp:Button ID="BtnPesquisaAvaliacoes" runat="server" Text="Pesquisa Avaliadores" OnClick="BtnPesquisaAvaliacoes_Click" />
+                                </li>
+                                <li>
+                                    <asp:Button ID="BtnPublicarPedidoAvaliacao" runat="server" Text="Publicar Pedido Avaliacao" OnClick="BtnPublicarPedidoAvaliacao_Click" />
+                                </li>
+                                <li>
+                                    <asp:Button ID="BtnMinhasAvaliacoes" runat="server" Text="Meus Trabalhos" OnClick="BtnMinhasAvaliacoes_Click" />
+                                </li>
+                                <li>
+                                    <asp:Button ID="BtnLicenca" runat="server" Text="Licença" OnClick="BtnLicenca_Click" />
+                                </li>
+                                <li>
+                                    <asp:Button ID="BtnAvaliacoes" runat="server" Text="Avaliações" OnClick="BtnAvaliacoes_Click" />
+                                </li>
+                                <li>
+                                    <asp:Button ID="BtnRanking" runat="server" Text="Ranking" OnClick="BtnRanking_Click" />
+                                </li>
+                            </ul>
+
+
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
