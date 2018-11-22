@@ -1,0 +1,88 @@
+﻿body {
+    /* Margin bottom by footer height */
+    margin-bottom: 38px;
+    overflow-y: hidden;
+}
+
+.navbar {
+    background-color: #222022 !important;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    line-height: 30px;
+}
+
+nav li a {
+    padding: 10px 10px;
+    display: inline-block;
+    font-weight: 100;
+    color: white !important;
+    font-family: 'Montserrat';
+    font-size: 12pt;
+    max-height: 64px;
+    margin: 0px 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 38px;
+    line-height: 38px; /* Vertically center the text there */
+    background-color: rgb(34,34,34);
+    font-weight: 100;
+    color: white !important;
+    font-family: 'Montserrat';
+    font-size: 9pt;
+}
+
+
+input:not([type='checkbox']):not([type='submit']) {
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 1.5px;
+    margin-bottom: 4px;
+    font-family: 'Montserrat';
+    font-size: 12pt;
+    border: none;
+    width: 100%;
+}
+
+
+.owl-carousel {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+}
+
+.owl-carousel .owl-stage-outer {
+    height: 100vh;
+}
+
+.owl-carousel .owl-stage {
+    height: 100vh;
+}
+
+    .owl-carousel .owl-stage .owl-item {
+        height: 100vh;
+    }
+
+        .owl-carousel .owl-stage .owl-item .item {
+            height: 100vh;
+        }
+
+        .owl-carousel .owl-stage .owl-item .item {
+            height: 100vh;
+        }
+
+            .owl-carousel .owl-stage .owl-item .item img {
+                height: 100vh;
+            }

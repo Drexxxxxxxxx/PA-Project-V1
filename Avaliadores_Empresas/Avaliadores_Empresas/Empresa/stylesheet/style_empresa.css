@@ -1,0 +1,278 @@
+﻿
+body {
+    height: 100% !important;
+    overflow-x: hidden !important;
+    margin: 0 !important;
+    overflow: auto;
+}
+
+.navbar {
+    background-color: #222022 !important;
+}
+
+.ativo {
+    border: 1px solid white;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li a {
+    padding: 10px 10px;
+    display: inline-block;
+    font-weight: 100;
+    color: white !important;
+    font-family: 'Montserrat';
+    font-size: 12pt;
+    max-height: 64px;
+    margin: 0px 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 38px;
+    line-height: 38px; /* Vertically center the text there */
+    background-color: rgb(34,34,34);
+    font-weight: 100;
+    color: white !important;
+    font-family: 'Montserrat';
+    font-size: 9pt;
+}
+
+
+.carousel-item {
+    height: 100vh;
+    background-position: center;
+}
+
+.slider {
+    margin-left: unset !important;
+    margin-right: unset !important;
+}
+
+    .slider div {
+        padding-right: unset !important;
+        padding-left: unset !important;
+    }
+
+.carousel-inner > .item {
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
+
+.Emp_div {
+    position: absolute;
+    text-align: center;
+    top: 171px;
+    right: 0;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.Emp_innerDiv {
+    min-height: 290px;
+    background-color: transparent;
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    padding: 15px 40px 18px 10px;
+}
+
+    .Emp_innerDiv li [type=submit] {
+        background-color: white;
+        color: black;
+        border: none;
+        margin-bottom: 1.5px;
+        height: 36px;
+        font-family: 'Montserrat';
+        font-size: 12pt;
+        font-weight: 500;
+        text-align: left;
+        width: 100%;
+    }
+
+        .Emp_innerDiv li [type=submit]:hover {
+            background-color: rgb(23,82,102);
+            color: white;
+        }
+
+.main_div {
+    position: absolute;
+    top: 171px;
+    width: 100%;
+}
+
+#DivPerfil {
+    width: 100%;
+}
+
+#DivPesquisaAvaliacoes {
+    background-color: rgba(161, 206, 221, 0.88);
+}
+
+#DivPublicarPedidoAvaliacao {
+    background-color: rgba(161, 206, 221, 0.88);
+}
+
+#DivMinhasAvaliacoes {
+    background-color: rgba(161, 206, 221, 0.88);
+}
+
+#DivLicenca {
+    background-color: rgba(161, 206, 221, 0.88);
+}
+
+#DivAvaliacoes {
+    background-color: rgba(161, 206, 221, 0.88);
+}
+
+#DivRanking {
+    background-color: rgba(161, 206, 221, 0.88);
+}
+
+.divPerfil_inner {
+    background-color: rgba(161, 206, 221, 0.88);
+    width: 500px;
+    display: table;
+    margin: 0 auto;
+}
+
+#divNovaPass {
+    background-color: rgba(34, 34, 34, 0.80);
+    color: white;
+}
+
+#divThankYou {
+    background-color: rgba(34, 34, 34, 0.80);
+    color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.33);
+    border-radius: 1.5px;
+    margin-bottom: 4px;
+    font-family: 'Montserrat';
+    font-size: 12pt;
+    border: none;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-size: 12pt;
+    text-align:right;
+}
+
+h1 {
+    font-family: 'Montserrat' !important;
+    font-size: 29pt !important;
+    font-weight: 100 !important;
+}
+
+hr {
+    height: 1pt;
+}
+
+
+.div_texto {
+    font-family: 'Montserrat';
+    font-size: 12pt;
+    line-break: 14pt;
+    border-radius: 1.5px;
+    padding: 5px;
+    margin-bottom: 13px;
+}
+
+.bg_escura {
+    background-color: #222022;
+}
+
+.bg_clara {
+    background-color: aliceblue;
+}
+
+.color_white {
+    color: white;
+}
+
+
+.custompopup {
+    background-color: #fff;
+    border: 3px solid #fff;
+    display: inline-block;
+    left: 50%;
+    padding: 15px;
+    position: fixed;
+    text-align: justify;
+    top: 40%;
+    z-index: 10;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -ms-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -o-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -ms-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+}
+
+    .custompopup p, .custompopup div {
+        margin-bottom: 10px;
+    }
+
+    .custompopup label {
+        display: inline-block;
+        text-align: left;
+        width: 120px;
+    }
+
+    .custompopup input[type="text"], .custompopup input[type="password"] {
+        border: 1px solid;
+        border-color: #999 #ccc #ccc;
+        margin: 0;
+        padding: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+        border-radius: 2px;
+    }
+
+        .custompopup input[type="text"]:hover, .custompopup input[type="password"]:hover {
+            border-color: #555 #888 #888;
+        }
+
+.starRating {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+}
+
+.FilledStars {
+    background-image: url(Imagens/Estrelas/EstrelaAmarela.png)
+}
+
+.WatingStars {
+    background-image: url(Imagens/Estrelas/EstrelaCinzenta.png)
+}
+
+.EmptyStars {
+    background-image: url(Imagens/Estrelas/EstrelaCinzenta.png);
+}

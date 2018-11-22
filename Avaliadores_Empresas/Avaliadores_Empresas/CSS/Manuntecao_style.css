@@ -1,0 +1,20 @@
+﻿.texto {
+    background: none;
+    text-align: center;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.inner {
+    background-color: rgba(0, 0, 0, 0.70);
+    display: inline-block;
+}
+
+.texto .LabelPortal {
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffffff;
+    display: -webkit-box;
+}

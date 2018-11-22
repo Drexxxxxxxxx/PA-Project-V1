@@ -1,0 +1,59 @@
+
+
+.somosNos_div {
+    text-align: center;
+    margin-top: 128px;
+    width: 100%;
+    top: 0;
+    background-color: transparent;
+}
+
+.somosNos_innerDiv {
+    min-height: 290px;
+    background-color: rgba(161, 206, 221, 0.88);
+    display: table;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.div_texto {
+    font-family: 'Montserrat';
+    font-size: 12pt;
+    line-break: 14pt;
+    border-radius: 1.5px;
+    padding: 5px;
+    margin-bottom: 13px;
+    height: auto;
+}
+
+.bg_escura {
+    background-color: #222022;
+}
+
+.bg_clara {
+    background-color: aliceblue;
+}
+
+.color_white {
+    color: white;
+}
+
+
+
+.ativo {
+    border: 1px solid white;
+}
+
+@media only screen and (max-width: 500px) {
+    .somosNos_innerDiv {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-height: 662px) {
+    .somosNos_div {
+        overflow: scroll;
+        height: 100%;
+        padding-bottom: 160px;
+    }
+}

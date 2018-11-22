@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\lboavida\\Desktop\\NovoPortal\\NovoPortal\\Avaliadores_Empresas\\Avaliadores_Empresas\\Avaliadores_Empresas.csproj",
+  "TargetFramework": "v4.6.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

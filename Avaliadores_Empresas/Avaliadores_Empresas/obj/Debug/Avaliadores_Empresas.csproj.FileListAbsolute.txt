@@ -1,0 +1,1081 @@
+C:\Users\André Silva\source\repos\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll.config
+C:\Users\André Silva\source\repos\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll
+C:\Users\André Silva\source\repos\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.pdb
+C:\Users\André Silva\source\repos\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\André Silva\source\repos\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\André Silva\source\repos\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csprojResolveAssemblyReference.cache
+C:\Users\André Silva\source\repos\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CoreCompileInputs.cache
+C:\Users\André Silva\source\repos\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.dll
+C:\Users\André Silva\source\repos\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.pdb
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll.config
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.pdb
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.pdb
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.xml
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.xml
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.xml
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.xml
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.xml
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Stripe.net.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Json.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csprojResolveAssemblyReference.cache
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll.config
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.pdb
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\netstandard.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.AppContext.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Concurrent.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.NonGeneric.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Specialized.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.Primitives.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Console.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Data.Common.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Contracts.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Debug.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Process.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.StackTrace.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tools.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TraceSource.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tracing.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Drawing.Primitives.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Dynamic.Runtime.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Calendars.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Extensions.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.IsolatedStorage.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Pipes.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Expressions.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Parallel.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Queryable.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Http.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NameResolution.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NetworkInformation.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Ping.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Primitives.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Requests.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Security.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Sockets.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebHeaderCollection.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.Client.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ObjectModel.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Extensions.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Primitives.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Reader.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.ResourceManager.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Writer.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Extensions.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Handles.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Numerics.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Json.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Claims.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Csp.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Principal.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.SecureString.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.Extensions.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.RegularExpressions.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Overlapped.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Thread.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.ThreadPool.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Timer.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ValueTuple.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.ReaderWriter.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XDocument.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlDocument.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlSerializer.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.XDocument.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\RestSharp.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Stripe.net.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Json.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.xml
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.xml
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.xml
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.xml
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.xml
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csprojResolveAssemblyReference.cache
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CoreCompileInputs.cache
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.dll
+C:\Users\Luis Boavida\Desktop\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.pdb
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.Win32.Primitives.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\netstandard.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.AppContext.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Concurrent.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.NonGeneric.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Specialized.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.Primitives.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.TypeConverter.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Console.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Data.Common.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Contracts.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Debug.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Process.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.StackTrace.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tools.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TraceSource.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tracing.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Drawing.Primitives.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Dynamic.Runtime.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Calendars.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Extensions.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.ZipFile.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Primitives.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Watcher.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.IsolatedStorage.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.MemoryMappedFiles.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Pipes.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Expressions.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Parallel.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Queryable.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Http.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NameResolution.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NetworkInformation.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Ping.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Primitives.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Requests.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Security.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Sockets.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebHeaderCollection.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.Client.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ObjectModel.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Extensions.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Primitives.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Reader.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.ResourceManager.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Writer.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Extensions.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Handles.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Numerics.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Formatters.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Json.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Primitives.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Xml.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Claims.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Algorithms.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Csp.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Encoding.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Primitives.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Principal.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.SecureString.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.Extensions.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.RegularExpressions.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Overlapped.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.Parallel.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Thread.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.ThreadPool.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Timer.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ValueTuple.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.ReaderWriter.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XDocument.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlDocument.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlSerializer.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.XDocument.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\RestSharp.dll
+C:\Work\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CoreCompileInputs.cache
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll.config
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.pdb
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.Win32.Primitives.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\netstandard.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.AppContext.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Concurrent.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.NonGeneric.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Specialized.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.Primitives.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Console.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Data.Common.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Contracts.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Debug.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Process.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.StackTrace.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tools.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TraceSource.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tracing.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Drawing.Primitives.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Dynamic.Runtime.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Calendars.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Extensions.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.ZipFile.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.IsolatedStorage.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Pipes.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Expressions.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Parallel.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Queryable.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Http.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NameResolution.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NetworkInformation.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Ping.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Primitives.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Requests.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Security.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Sockets.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebHeaderCollection.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.Client.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ObjectModel.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Extensions.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Primitives.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Reader.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.ResourceManager.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Writer.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Extensions.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Handles.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Numerics.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Json.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Claims.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Csp.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Principal.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.SecureString.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.Extensions.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.RegularExpressions.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Overlapped.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Thread.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.ThreadPool.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Timer.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ValueTuple.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.ReaderWriter.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XDocument.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlDocument.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlSerializer.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.XDocument.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\RestSharp.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Stripe.net.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Json.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.xml
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.xml
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.xml
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.xml
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.xml
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csprojAssemblyReference.cache
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CoreCompileInputs.cache
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CopyComplete
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.dll
+C:\Users\André Silva\Desktop\PortaldosAvaliadores\PortaldosAvaliadores\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.pdb
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll.config
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.pdb
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.Win32.Primitives.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\netstandard.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.AppContext.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Concurrent.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.NonGeneric.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Specialized.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.Primitives.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Console.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Data.Common.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Contracts.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Debug.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Process.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.StackTrace.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tools.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TraceSource.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tracing.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Drawing.Primitives.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Dynamic.Runtime.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Calendars.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Extensions.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.ZipFile.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.IsolatedStorage.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Pipes.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Expressions.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Parallel.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Queryable.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Http.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NameResolution.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NetworkInformation.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Ping.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Primitives.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Requests.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Security.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Sockets.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebHeaderCollection.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.Client.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ObjectModel.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Extensions.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Primitives.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Reader.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.ResourceManager.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Writer.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Extensions.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Handles.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Numerics.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Json.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Claims.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Csp.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Principal.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.SecureString.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.Extensions.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.RegularExpressions.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Overlapped.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Thread.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.ThreadPool.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Timer.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ValueTuple.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.ReaderWriter.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XDocument.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlDocument.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlSerializer.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.XDocument.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\RestSharp.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\Stripe.net.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Json.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.xml
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.xml
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.xml
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.xml
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.xml
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csprojAssemblyReference.cache
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CoreCompileInputs.cache
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CopyComplete
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.dll
+C:\Users\André Silva\Desktop\PORTAL DOS AVALIADORES\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.pdb
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll.config
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.pdb
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.Win32.Primitives.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\netstandard.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.AppContext.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Concurrent.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.NonGeneric.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Specialized.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.Primitives.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.TypeConverter.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Console.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Data.Common.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Contracts.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Debug.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Process.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.StackTrace.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tools.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TraceSource.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tracing.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Drawing.Primitives.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Dynamic.Runtime.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Calendars.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Extensions.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.ZipFile.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Primitives.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Watcher.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.IsolatedStorage.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.MemoryMappedFiles.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Pipes.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Expressions.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Parallel.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Queryable.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Http.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NameResolution.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NetworkInformation.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Ping.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Primitives.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Requests.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Security.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Sockets.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebHeaderCollection.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.Client.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ObjectModel.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Extensions.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Primitives.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Reader.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.ResourceManager.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Writer.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Extensions.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Handles.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Numerics.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Formatters.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Json.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Primitives.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Xml.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Claims.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Algorithms.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Csp.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Encoding.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Primitives.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Principal.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.SecureString.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.Extensions.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.RegularExpressions.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Overlapped.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.Parallel.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Thread.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.ThreadPool.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Timer.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ValueTuple.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.ReaderWriter.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XDocument.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlDocument.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlSerializer.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.XDocument.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\RestSharp.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Stripe.net.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Json.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.xml
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.xml
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.xml
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.xml
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.xml
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csprojResolveAssemblyReference.cache
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CoreCompileInputs.cache
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.dll
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.pdb
+C:\Work\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\AjaxControlToolkit.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CoreCompileInputs.cache
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.pdb
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll.config
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.pdb
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.Win32.Primitives.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\netstandard.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.AppContext.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Concurrent.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.NonGeneric.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Specialized.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.Primitives.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Console.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Data.Common.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Contracts.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Debug.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Process.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.StackTrace.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tools.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TraceSource.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tracing.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Drawing.Primitives.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Dynamic.Runtime.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Calendars.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Extensions.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.ZipFile.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.IsolatedStorage.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Pipes.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Expressions.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Parallel.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Queryable.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Http.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NameResolution.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NetworkInformation.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Ping.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Primitives.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Requests.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Security.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Sockets.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebHeaderCollection.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.Client.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ObjectModel.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Extensions.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Primitives.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Reader.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.ResourceManager.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Writer.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Extensions.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Handles.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Numerics.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Json.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Claims.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Csp.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Principal.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.SecureString.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.Extensions.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.RegularExpressions.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Overlapped.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Thread.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.ThreadPool.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Timer.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ValueTuple.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.ReaderWriter.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XDocument.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlDocument.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlSerializer.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.XDocument.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\AjaxControlToolkit.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\RestSharp.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Stripe.net.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Json.dll
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.xml
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.xml
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.xml
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.xml
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.xml
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CopyComplete
+C:\Users\André Silva\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csprojAssemblyReference.cache
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csprojAssemblyReference.cache
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CoreCompileInputs.cache
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.pdb
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll.config
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.pdb
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.Win32.Primitives.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\netstandard.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.AppContext.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Concurrent.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.NonGeneric.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Specialized.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.Primitives.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Console.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Data.Common.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Contracts.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Debug.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Process.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.StackTrace.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tools.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TraceSource.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tracing.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Drawing.Primitives.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Dynamic.Runtime.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Calendars.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Extensions.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.ZipFile.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.IsolatedStorage.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Pipes.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Expressions.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Parallel.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Queryable.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Http.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NameResolution.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NetworkInformation.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Ping.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Primitives.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Requests.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Security.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Sockets.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebHeaderCollection.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.Client.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ObjectModel.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Extensions.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Primitives.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Reader.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.ResourceManager.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Writer.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Extensions.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Handles.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Numerics.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Json.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Claims.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Csp.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Principal.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.SecureString.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.Extensions.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.RegularExpressions.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Overlapped.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Thread.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.ThreadPool.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Timer.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ValueTuple.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.ReaderWriter.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XDocument.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlDocument.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlSerializer.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.XDocument.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\AjaxControlToolkit.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\RestSharp.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Stripe.net.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Json.dll
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.xml
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.xml
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.xml
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.xml
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.xml
+C:\Users\asilva\Downloads\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CopyComplete
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll.config
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.pdb
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.Win32.Primitives.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\netstandard.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.AppContext.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Concurrent.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.NonGeneric.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Specialized.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.Primitives.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.TypeConverter.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Console.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Data.Common.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Contracts.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Debug.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Process.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.StackTrace.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tools.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TraceSource.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tracing.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Drawing.Primitives.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Dynamic.Runtime.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Calendars.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Extensions.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.ZipFile.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Primitives.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Watcher.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.IsolatedStorage.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.MemoryMappedFiles.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Pipes.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Expressions.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Parallel.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Queryable.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Http.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NameResolution.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NetworkInformation.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Ping.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Primitives.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Requests.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Security.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Sockets.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebHeaderCollection.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.Client.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ObjectModel.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Extensions.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Primitives.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Reader.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.ResourceManager.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Writer.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Extensions.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Handles.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Numerics.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Formatters.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Json.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Primitives.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Xml.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Claims.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Algorithms.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Csp.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Encoding.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Primitives.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Principal.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.SecureString.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.Extensions.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.RegularExpressions.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Overlapped.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.Parallel.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Thread.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.ThreadPool.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Timer.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ValueTuple.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.ReaderWriter.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XDocument.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlDocument.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlSerializer.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.XDocument.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\AjaxControlToolkit.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\RestSharp.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Stripe.net.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Json.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.xml
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.xml
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.xml
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.xml
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.xml
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csprojResolveAssemblyReference.cache
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CoreCompileInputs.cache
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.dll
+C:\Work\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.pdb
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll.config
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Avaliadores_Empresas.pdb
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.Win32.Primitives.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\netstandard.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.AppContext.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Concurrent.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.NonGeneric.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Collections.Specialized.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.Primitives.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Console.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Data.Common.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Contracts.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Debug.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Process.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.StackTrace.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tools.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.TraceSource.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Diagnostics.Tracing.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Drawing.Primitives.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Dynamic.Runtime.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Calendars.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Globalization.Extensions.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Compression.ZipFile.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.IsolatedStorage.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.Pipes.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Expressions.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Parallel.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Linq.Queryable.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Http.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NameResolution.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.NetworkInformation.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Ping.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Primitives.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Requests.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Security.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.Sockets.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebHeaderCollection.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.Client.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Net.WebSockets.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ObjectModel.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Extensions.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Reflection.Primitives.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Reader.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.ResourceManager.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Resources.Writer.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Extensions.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Handles.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Numerics.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Json.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Claims.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Csp.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.Principal.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Security.SecureString.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.Encoding.Extensions.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Text.RegularExpressions.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Overlapped.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Thread.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.ThreadPool.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Threading.Timer.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.ValueTuple.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.ReaderWriter.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XDocument.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlDocument.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XmlSerializer.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Xml.XPath.XDocument.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\AjaxControlToolkit.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\RestSharp.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Stripe.net.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\System.Json.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.xml
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\EntityFramework.SqlServer.xml
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Google.Protobuf.xml
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.xml
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\bin\MySql.Data.Entity.EF6.xml
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csprojAssemblyReference.cache
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CoreCompileInputs.cache
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.csproj.CopyComplete
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.dll
+C:\Users\lboavida\Desktop\NovoPortal\NovoPortal\Avaliadores_Empresas\Avaliadores_Empresas\obj\Debug\Avaliadores_Empresas.pdb
