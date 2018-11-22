@@ -202,6 +202,7 @@ namespace Avaliadores_Empresas
                   }
               }*/
             Response.Redirect("Empresa");
+            ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Avaliação Criada com sucesso')", true);
         }
 
         void FindIDpacotetotal()

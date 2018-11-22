@@ -460,9 +460,6 @@
                                     <asp:Button ID="BtnMinhasAvaliacoes" runat="server" Text="Meus Trabalhos" OnClick="BtnMinhasAvaliacoes_Click" />
                                 </li>
                                 <li>
-                                    <asp:Button ID="BtnLicenca" runat="server" Text="Licença" OnClick="BtnLicenca_Click" />
-                                </li>
-                                <li>
                                     <asp:Button ID="BtnAvaliacoes" runat="server" Text="Avaliações" OnClick="BtnAvaliacoes_Click" />
                                 </li>
                                 <li>

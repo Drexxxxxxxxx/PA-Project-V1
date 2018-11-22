@@ -100,6 +100,7 @@ namespace Avaliadores_Empresas
                 cmd.Parameters.AddWithValue("vartextotipo", TextBox1.Text.Trim());
                 cmd.ExecuteNonQuery();
                 con.Close();
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Avaliação Criada com sucesso')", true);
                 Response.Redirect("Empresa");
             }
             catch

@@ -246,7 +246,7 @@ namespace Avaliadores_Empresas
                 cmd2.ExecuteNonQuery();
                 con.Close();
             }
-
+            ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Avaliações Criadas com sucesso')", true);
             Response.Redirect("Empresa");
         }
 
