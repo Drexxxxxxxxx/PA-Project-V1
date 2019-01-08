@@ -204,10 +204,7 @@
                                             <div class="row">
                                                 <div class="col-4">
                                                     <asp:Button ID="Button6" runat="server"  CssClass="btn" OnClick="Button6_Click"
-                                                        Text="Renovar por mais 30 dias (10€)" />
-                                                    &nbsp;
-                                                    <asp:Button ID="Button16" runat="server"  CssClass="btn" OnClick="Button16_Click"
-                                                        Text="Renovar por mais 1 ano (100€)" />
+                                                        Text="Renovar" />
                                                 </div>
                                                 <div class="col">
                             

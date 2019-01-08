@@ -50,10 +50,10 @@ namespace Avaliadores_Empresas
                 adp.Fill(dt);
                 if (dt.Rows.Count > 0)
                 {
-                    DropDownList1.DataSource = dt;
-                    DropDownList1.DataTextField = "Nome";
-                    DropDownList1.DataValueField = "id";
-                    DropDownList1.DataBind();
+                    PPA3DropDownList1.DataSource = dt;
+                    PPA3DropDownList1.DataTextField = "Nome";
+                    PPA3DropDownList1.DataValueField = "id";
+                    PPA3DropDownList1.DataBind();
                 }
             }
         }
@@ -67,31 +67,31 @@ namespace Avaliadores_Empresas
                 adp.Fill(dt);
                 if (dt.Rows.Count > 0)
                 {
-                    DropDownList2.DataSource = dt;
-                    DropDownList2.DataTextField = "Nome";
-                    DropDownList2.DataValueField = "id";
-                    DropDownList2.DataBind();
+                    PPA3DropDownList2.DataSource = dt;
+                    PPA3DropDownList2.DataTextField = "Nome";
+                    PPA3DropDownList2.DataValueField = "id";
+                    PPA3DropDownList2.DataBind();
                 }
             }
         }
-        protected void Button2_Click(object sender, EventArgs e)
+        protected void PPA3Button2_Click(object sender, EventArgs e)
         {
             string rollno;
             string sname;
             OleDbConnection mycon;
-            string path = Path.GetFileName(FileUpload1.FileName);
+            string path = Path.GetFileName(PPA3FileUpload1.FileName);
             path = path.Replace(" ", "");
             try
             {
-                FileUpload1.SaveAs(Server.MapPath("~/ExcelFileEdited/") + path);
-                Label7.Text = path;
+                PPA3FileUpload1.SaveAs(Server.MapPath("~/ExcelFileEdited/") + path);
+                PPA3Label7.Text = path;
                 String ExcelPath = Server.MapPath("~/ExcelFileEdited/") + path;
                 mycon = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0; Data Source = " + ExcelPath + "; Extended Properties=Excel 8.0; Persist Security Info = False");
             }
             catch
             {
-                FileUpload1.SaveAs(Server.MapPath("~/ExcelFileEdited/") + Label7.Text);
-                String ExcelPath = Server.MapPath("~/ExcelFileEdited/") + Label7.Text;
+                PPA3FileUpload1.SaveAs(Server.MapPath("~/ExcelFileEdited/") + PPA3Label7.Text);
+                String ExcelPath = Server.MapPath("~/ExcelFileEdited/") + PPA3Label7.Text;
                 mycon = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0; Data Source = " + ExcelPath + "; Extended Properties=Excel 8.0; Persist Security Info = False");
             }
             mycon.Open();
@@ -125,25 +125,26 @@ namespace Avaliadores_Empresas
                     dr2[1] = localidade;
                     dt2.Rows.Add(dr2);
                 }
-                GridView1.DataSource = dt2;
-                GridView1.DataBind();
+                PPA3GridView1.DataSource = dt2;
+                PPA3GridView1.DataBind();
                 dr.Close();
-                Button3.Visible = true;
+                PPA3Button3.Visible = true;
             }
             else
             {
 
             }
             mycon.Close();
-            Button4.Visible = true;
-            Button2.Visible = false;
-            FileUpload1.Visible = false;
-            Button5.Visible = true;
+            PPA3Button4.Visible = true;
+            PPA3Button2.Visible = false;
+            PPA3FileUpload1.Visible = false;
+            PPA3Button5.Visible = true;
         }
+
         private void Verificacao(string rollno1, string sname)
         {
             string Tipo = rollno1.First().ToString().ToUpper() + rollno1.Substring(1);
-            if (DropDownList2.Items.FindByText(rollno1) != null)
+            if (PPA3DropDownList2.Items.FindByText(rollno1) != null)
             {
             }
             else
@@ -154,7 +155,7 @@ namespace Avaliadores_Empresas
             }
 
             string Localizacao = sname.First().ToString().ToUpper() + sname.Substring(1);
-            if (DropDownList1.Items.FindByText(sname) != null)
+            if (PPA3DropDownList1.Items.FindByText(sname) != null)
             {
             }
             else
@@ -164,14 +165,16 @@ namespace Avaliadores_Empresas
                 Label1.Text = Label1.Text + ", " + sname;
             }
         }
-        protected void Button3_Click(object sender, EventArgs e)
+
+        protected void PPA3Button3_Click(object sender, EventArgs e)
         {
             Response.ContentType = "application/octet-stream";
             Response.AppendHeader("Content-Disposition", "attachment; filename=Formulario2.xlsx");
             Response.TransmitFile(Server.MapPath("~/ExcelFileOriginal/Formulario2.xlsx"));
             Response.End();
         }
-        protected void Button4_Click(object sender, EventArgs e)
+
+        protected void PPA3Button4_Click(object sender, EventArgs e)
         {
             string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
             // Codigo para registar
@@ -180,8 +183,8 @@ namespace Avaliadores_Empresas
             MySqlCommand cmd2 = con.CreateCommand();
             cmd2.CommandText = "insertpacotetotal";
             cmd2.CommandType = CommandType.StoredProcedure;
-            cmd2.Parameters.AddWithValue("vardescricao", TextBox1.Text);
-            cmd2.Parameters.AddWithValue("vardeadline", TextBox2.Text);
+            cmd2.Parameters.AddWithValue("vardescricao", PPA3TextBox1.Text);
+            cmd2.Parameters.AddWithValue("vardeadline", PPA3TextBox2.Text);
             cmd2.Parameters.AddWithValue("varidempresa", Session["idAvaliador"].ToString());
             cmd2.ExecuteNonQuery();
             con.Close();
@@ -191,14 +194,14 @@ namespace Avaliadores_Empresas
             /*  string idlocalizacao = "";
               string idTipo = "";
 
-              for (int z = 0; z < DropDownList1.Items.Count; z++)
+              for (int z = 0; z < PPA3DropDownList1.Items.Count; z++)
               {
-                  string testao11 = HttpUtility.HtmlDecode(DropDownList1.Items[z].Text);
-                  string testao22 = HttpUtility.HtmlDecode(GridView1.Rows[i].Cells[1].Text);
+                  string testao11 = HttpUtility.HtmlDecode(PPA3DropDownList1.Items[z].Text);
+                  string testao22 = HttpUtility.HtmlDecode(PPA3GridView1.Rows[i].Cells[1].Text);
 
                   if (testao11 == testao22)
                   {
-                      idlocalizacao = DropDownList1.Items[z].Value;
+                      idlocalizacao = PPA3DropDownList1.Items[z].Value;
                   }
               }*/
             Response.Redirect("Empresa");
@@ -217,7 +220,7 @@ namespace Avaliadores_Empresas
             {
                 try
                 {
-                    comand.Parameters.AddWithValue("@Descricao", TextBox1.Text);
+                    comand.Parameters.AddWithValue("@Descricao", PPA3TextBox1.Text);
                     comand.Parameters.AddWithValue("@idEmpresa", Session["idAvaliador"].ToString());
                 }
                 catch
@@ -239,7 +242,7 @@ namespace Avaliadores_Empresas
 
         void insertpacotesindividuais()
         {
-            for (int i = 0; i < GridView1.Rows.Count; i++)
+            for (int i = 0; i < PPA3GridView1.Rows.Count; i++)
             {
                 string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
                 // Codigo para registar
@@ -248,27 +251,27 @@ namespace Avaliadores_Empresas
                 string idlocalizacao = "";
                 string idTipo = "";
 
-                for (int k = 0; k < DropDownList2.Items.Count; k++)
+                for (int k = 0; k < PPA3DropDownList2.Items.Count; k++)
                 {
-                    string testao1 = HttpUtility.HtmlDecode(DropDownList2.Items[k].Text);
-                    string testao2 = HttpUtility.HtmlDecode(GridView1.Rows[i].Cells[0].Text);
+                    string testao1 = HttpUtility.HtmlDecode(PPA3DropDownList2.Items[k].Text);
+                    string testao2 = HttpUtility.HtmlDecode(PPA3GridView1.Rows[i].Cells[0].Text);
                     if (testao1 == testao2)
                     {
-                        idTipo = DropDownList2.Items[k].Value;
+                        idTipo = PPA3DropDownList2.Items[k].Value;
                     }
                 }
 
-                 for (int z = 0; z < DropDownList1.Items.Count; z++)
+                 for (int z = 0; z < PPA3DropDownList1.Items.Count; z++)
                  {
-                     string testao11 = HttpUtility.HtmlDecode(DropDownList1.Items[z].Text);
-                     string testao22 = HttpUtility.HtmlDecode(GridView1.Rows[i].Cells[1].Text);
+                     string testao11 = HttpUtility.HtmlDecode(PPA3DropDownList1.Items[z].Text);
+                     string testao22 = HttpUtility.HtmlDecode(PPA3GridView1.Rows[i].Cells[1].Text);
 
                      if (testao11 == testao22)
                      {
-                         idlocalizacao = DropDownList1.Items[z].Value;
+                         idlocalizacao = PPA3DropDownList1.Items[z].Value;
                      }
                  }
-                string denominacao = HttpUtility.HtmlDecode(GridView1.Rows[i].Cells[1].Text);
+                string denominacao = HttpUtility.HtmlDecode(PPA3GridView1.Rows[i].Cells[1].Text);
                 MySqlCommand cmd2 = con.CreateCommand();
                 cmd2.CommandText = "insertpacoteindividual";
                 cmd2.CommandType = CommandType.StoredProcedure;
@@ -280,12 +283,12 @@ namespace Avaliadores_Empresas
             }
         }
 
-        protected void Button6_Click(object sender, EventArgs e)
+        protected void PPA3Button6_Click(object sender, EventArgs e)
         {
             Response.Redirect("Empresa");
         }
 
-        protected void Button5_Click(object sender, EventArgs e)
+        protected void PPA3Button5_Click(object sender, EventArgs e)
         {
 
         }

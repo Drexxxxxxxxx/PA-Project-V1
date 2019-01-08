@@ -10,22 +10,22 @@
 <body>
     <form id="form1" runat="server">
 <asp:Panel ID="Panel2" runat="server">
-             <asp:FileUpload ID="FileUpload1" runat="server" />
+             <asp:FileUpload ID="PPA2FileUpload1" runat="server" />
         <br />
-        <asp:Button ID="Button2" runat="server" Text="Verificar" OnClick="Button2_Click" />
-        <asp:Button ID="Button3" runat="server" Text="download form" OnClick="Button3_Click" />
-        <asp:DropDownList ID="DropDownList1" runat="server" Visible="False">
+        <asp:Button ID="PPA2Button2" runat="server" Text="Verificar" OnClick="PPA2Button2_Click" />
+        <asp:Button ID="PPA2Button3" runat="server" Text="download form" OnClick="PPA2Button3_Click" />
+        <asp:DropDownList ID="PPA2DropDownList1" runat="server" Visible="False">
         </asp:DropDownList>
-             <asp:DropDownList ID="DropDownList2" runat="server" Visible="False">
+             <asp:DropDownList ID="PPA2DropDownList2" runat="server" Visible="False">
              </asp:DropDownList>
-                <asp:Label ID="Label7" runat="server"></asp:Label>
-        <asp:GridView ID="GridView1" runat="server">
+                <asp:Label ID="PPA2Label7" runat="server"></asp:Label>
+        <asp:GridView ID="PPA2GridView1" runat="server">
         </asp:GridView>
-        <asp:Button ID="Button4" runat="server" Text="Enviar" Visible="False" OnClick="Button4_Click" />
-                <asp:Button ID="Button5" runat="server" Text="Enviar Outro" Visible="False" />
-             <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="Voltar" />
+        <asp:Button ID="PPA2Button4" runat="server" Text="Enviar" Visible="False" OnClick="PPA2Button4_Click" />
+                <asp:Button ID="PPA2Button5" runat="server" Text="Enviar Outro" Visible="False" />
+             <asp:Button ID="PPA2Button6" runat="server" OnClick="PPA2Button6_Click" Text="Voltar" />
              <br />
-             <asp:Label ID="Label1" runat="server"></asp:Label>
+             <asp:Label ID="PPA2Label1" runat="server"></asp:Label>
             </asp:Panel>
     </form>
 </body>

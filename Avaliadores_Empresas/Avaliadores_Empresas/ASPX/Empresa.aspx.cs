@@ -280,6 +280,9 @@ namespace Avaliadores_Empresas
             DivPublicarPedidoAvaliacao.Visible = false;
             DivAvaliacoes.Visible = false;
             DivRanking.Visible = false;
+            DivPublicarPedidoBtn1.Visible = false;
+            DivPublicarPedidoBtn2.Visible = false;
+            DivPublicarPedidoBtn3.Visible = false;
         }
 
         protected void BtnPerfilConfirmar_Click(object sender, EventArgs e)
@@ -314,12 +317,20 @@ namespace Avaliadores_Empresas
 
         protected void Button6_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Avaliacao1");
+            // Response.Redirect("Avaliacao1");
+            bindddl(1);
+            bindddl2(1);
+            InvisibleDiv();
+            DivPublicarPedidoBtn1.Visible = true;
         }
 
         protected void Button7_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Avaliacao2");
+            // Response.Redirect("Avaliacao2");
+            bindddl(2);
+            bindddl2(2);
+            InvisibleDiv();
+            DivPublicarPedidoBtn2.Visible = true;
         }
 
         protected void BtnMinhasAvaliacoes_Click(object sender, EventArgs e)
@@ -647,7 +658,11 @@ namespace Avaliadores_Empresas
 
         protected void Button8_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Avaliacao3");
+            // Response.Redirect("Avaliacao3");
+            bindddl(3);
+            bindddl2(3);
+            InvisibleDiv();
+            DivPublicarPedidoBtn3.Visible = true;
         }
 
         protected void GridView3_SelectedIndexChanged(object sender, EventArgs e)
@@ -729,8 +744,6 @@ namespace Avaliadores_Empresas
 
         protected void Button4_Click(object sender, EventArgs e)
         {
-            Session["PagarTipo"] = "0";
-
             Response.Redirect("Payment");
             /*string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
 
@@ -1796,30 +1809,512 @@ namespace Avaliadores_Empresas
             div6.Visible = false;
         }
 
-        protected void Button16_Click(object sender, EventArgs e)
+        //publicar pedido avaliação
+        private void bindddl(int dropdown)
         {
-            Session["PagarTipo"] = "1";
+            using (MySqlConnection conn = new MySqlConnection(ConfigurationManager.ConnectionStrings["connString"].ConnectionString))
+            using (MySqlCommand cmd = conn.CreateCommand())
+            {
+                MySqlDataAdapter adp = new MySqlDataAdapter("CALL `selectalltblareasatuacao`();", conn);
+                DataTable dt = new DataTable();
+                adp.Fill(dt);
+                if (dt.Rows.Count > 0)
+                {
+                    if (dropdown == 1)
+                    {
+                        PPA1DropDownList1.DataSource = dt;
+                        PPA1DropDownList1.DataTextField = "Nome";
+                        PPA1DropDownList1.DataValueField = "id";
+                        PPA1DropDownList1.DataBind();
+                    }
+                    if (dropdown == 2)
+                    {
+                        PPA2DropDownList1.DataSource = dt;
+                        PPA2DropDownList1.DataTextField = "Nome";
+                        PPA2DropDownList1.DataValueField = "id";
+                        PPA2DropDownList1.DataBind();
+                    }
+                    if (dropdown == 3)
+                    {
+                        PPA3DropDownList1.DataSource = dt;
+                        PPA3DropDownList1.DataTextField = "Nome";
+                        PPA3DropDownList1.DataValueField = "id";
+                        PPA3DropDownList1.DataBind();
+                    }
+                }
+            }
+        }
 
-            Response.Redirect("Payment");
-            /*  string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+        private void bindddl2(int dropdown)
+        {
+            using (MySqlConnection conn = new MySqlConnection(ConfigurationManager.ConnectionStrings["connString"].ConnectionString))
+            using (MySqlCommand cmd = conn.CreateCommand())
+            {
+                MySqlDataAdapter adp = new MySqlDataAdapter("CALL `selectalltblimovel`();", conn);
+                DataTable dt = new DataTable();
+                adp.Fill(dt);
+                if (dt.Rows.Count > 0)
+                {
+                    if (dropdown == 1)
+                    {
+                        PPA1DropDownList2.DataSource = dt;
+                        PPA1DropDownList2.DataTextField = "Nome";
+                        PPA1DropDownList2.DataValueField = "id";
+                        PPA1DropDownList2.DataBind();
+                    }
+                    if (dropdown == 2)
+                    {
+                        PPA2DropDownList2.DataSource = dt;
+                        PPA2DropDownList2.DataTextField = "Nome";
+                        PPA2DropDownList2.DataValueField = "id";
+                        PPA2DropDownList2.DataBind();
+                    }
+                    if (dropdown == 3)
+                    {
+                        PPA3DropDownList2.DataSource = dt;
+                        PPA3DropDownList2.DataTextField = "Nome";
+                        PPA3DropDownList2.DataValueField = "id";
+                        PPA3DropDownList2.DataBind();
+                    }
+                }
+            }
+        }
 
-              // Codigo para registar
-              MySqlConnection con = new MySqlConnection(constr);
-              con.Open();
+        //publicar pedido avaliação 1
+        protected void PPA1Button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+                // Codigo para registar
+                MySqlConnection con = new MySqlConnection(constr);
+                con.Open();
 
-              MySqlCommand cmd = con.CreateCommand();
-              cmd.CommandText = "alterestadotblempresa";
-              cmd.CommandType = CommandType.StoredProcedure;
-              cmd.Parameters.AddWithValue("varAtivo", 3);
-              cmd.Parameters.AddWithValue("varid", Session["idAvaliador"].ToString());
-              cmd.Parameters.AddWithValue("vardata", DateTime.Today.ToString("yyyy-MM-dd"));
-              cmd.ExecuteNonQuery();
-              con.Close();
+                MySqlCommand cmd = con.CreateCommand();
+                cmd.CommandText = "insertavaliacao";
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("vartipo", PPA1DropDownList2.SelectedValue.ToString());
+                cmd.Parameters.AddWithValue("varlocalizacao", PPA1DropDownList1.SelectedValue.ToString());
+                cmd.Parameters.AddWithValue("vardeadline", PPA1TextBox2.Text.Trim());
+                cmd.Parameters.AddWithValue("varidempresa", Session["idAvaliador"].ToString());
+                cmd.Parameters.AddWithValue("vartextotipo", PPA1TextBox1.Text.Trim());
+                cmd.ExecuteNonQuery();
+                con.Close();
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Avaliação Criada com sucesso')", true);
+                Response.Redirect("Empresa");
+            }
+            catch
+            {
+                Label5.Text = "Ocorreu um erro!";
+            }
+        }
 
-              Label5.Text = "Ativo";
-              TextBox5.Visible = true;
-              Label6.Visible = true;
-              Response.Redirect("Empresa.aspx");*/
+        protected void PPA1Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Empresa");
+        }
+
+
+        //publicar pedido avaliação 2
+        int PPA2contadorerro = 0;
+
+        protected void PPA2Button2_Click(object sender, EventArgs e)
+        {
+            string rollno;
+            string sname;
+            string fname;
+            string Denominacao;
+            OleDbConnection mycon;
+            string path = Path.GetFileName(PPA2FileUpload1.FileName);
+            path = path.Replace(" ", "");
+            try
+            {
+                PPA2FileUpload1.SaveAs(Server.MapPath("~/ExcelFileEdited/") + path);
+                PPA2Label7.Text = path;
+                String ExcelPath = Server.MapPath("~/ExcelFileEdited/") + path;
+                mycon = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0; Data Source = " + ExcelPath + "; Extended Properties=Excel 8.0; Persist Security Info = False");
+            }
+            catch
+            {
+                PPA2FileUpload1.SaveAs(Server.MapPath("~/ExcelFileEdited/") + PPA2Label7.Text);
+                String ExcelPath = Server.MapPath("~/ExcelFileEdited/") + PPA2Label7.Text;
+                mycon = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0; Data Source = " + ExcelPath + "; Extended Properties=Excel 8.0; Persist Security Info = False");
+            }
+            mycon.Open();
+            OleDbCommand cmd = new OleDbCommand("select * from [Sheet1$]", mycon);
+            OleDbDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                rollno = dr[0].ToString();
+                sname = dr[1].ToString();
+                fname = dr[2].ToString();
+                Denominacao = dr[3].ToString();
+                Verificacao(rollno, sname, fname);
+            }
+            dr.Close();
+            if (PPA2contadorerro == 0)
+            {
+                dr = cmd.ExecuteReader();
+                DataTable dt2 = new DataTable();
+                DataColumn[] columns = {
+    new DataColumn("Tipo", System.Type.GetType("System.String")),
+        new DataColumn("Localidade", System.Type.GetType("System.String")),
+        new DataColumn("Deadline", System.Type.GetType("System.String")),
+                new DataColumn("Denominação", System.Type.GetType("System.String"))
+};
+                dt2.Columns.AddRange(columns);
+                DataRow dr2;
+                while (dr.Read())
+                {
+                    rollno = dr[0].ToString();
+                    sname = dr[1].ToString();
+                    fname = dr[2].ToString();
+                    Denominacao = dr[3].ToString();
+                    string localidade = sname;
+                    string Tipo = rollno;
+                    dr2 = dt2.NewRow();
+                    dr2[0] = Tipo;
+                    dr2[1] = localidade;
+                    DateTime enteredDate = DateTime.Parse(fname);
+                    dr2[2] = enteredDate.ToString("yyyy-MM-dd");
+                    dr2[3] = Denominacao;
+                    dt2.Rows.Add(dr2);
+                }
+                PPA2GridView1.DataSource = dt2;
+                PPA2GridView1.DataBind();
+                PPA2Label1.Visible = true;
+                PPA2Label1.Text = "Data Has Been Saved Successfully";
+                dr.Close();
+                PPA2Button3.Visible = true;
+            }
+            else
+            {
+
+            }
+            mycon.Close();
+            PPA2Button4.Visible = true;
+            PPA2Button2.Visible = false;
+            PPA2FileUpload1.Visible = false;
+            PPA2Button5.Visible = true;
+        }
+
+        private void Verificacao(string rollno1, string sname1, string fname1)
+        {
+            string deadline = fname1;
+            string localidade = sname1.First().ToString().ToUpper() + sname1.Substring(1);
+            if (PPA2DropDownList1.Items.FindByText(sname1) != null)
+            {
+            }
+            else
+            {
+                PPA2contadorerro = 1;
+                PPA2Label1.Visible = true;
+                PPA2Label1.Text = PPA2Label1.Text + ", " + sname1;
+            }
+            string Tipo = rollno1.First().ToString().ToUpper() + rollno1.Substring(1);
+            if (PPA2DropDownList2.Items.FindByText(rollno1) != null)
+            {
+            }
+            else
+            {
+                PPA2contadorerro = 1;
+                PPA2Label1.Visible = true;
+                PPA2Label1.Text = PPA2Label1.Text + ", " + rollno1;
+            }
+            try
+            {
+                DateTime dt = DateTime.Parse(fname1);
+            }
+            catch
+            {
+                PPA2contadorerro = 1;
+                PPA2Label1.Text = "Um ou mais dados no campo Deadline não é uma data";
+            }
+        }
+
+        protected void PPA2Button3_Click(object sender, EventArgs e)
+        {
+            Response.ContentType = "application/octet-stream";
+            Response.AppendHeader("Content-Disposition", "attachment; filename=Formulario.xlsx");
+            Response.TransmitFile(Server.MapPath("~/ExcelFileOriginal/Formulario.xlsx"));
+            Response.End();
+        }
+
+        protected void PPA2Button4_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < PPA2GridView1.Rows.Count; i++)
+            {
+                string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+                // Codigo para registar
+                MySqlConnection con = new MySqlConnection(constr);
+                con.Open();
+                string idlocalizacao = "";
+                string idTipo = "";
+
+                for (int k = 0; k < PPA2DropDownList2.Items.Count; k++)
+                {
+                    string testao1 = HttpUtility.HtmlDecode(PPA2DropDownList2.Items[k].Text);
+                    string testao2 = HttpUtility.HtmlDecode(PPA2GridView1.Rows[i].Cells[0].Text);
+                    if (testao1 == testao2)
+                    {
+                        idTipo = PPA2DropDownList2.Items[k].Value;
+                    }
+                }
+
+                for (int z = 0; z < PPA2DropDownList1.Items.Count; z++)
+                {
+                    string testao11 = HttpUtility.HtmlDecode(PPA2DropDownList1.Items[z].Text);
+                    string testao22 = HttpUtility.HtmlDecode(PPA2GridView1.Rows[i].Cells[1].Text);
+
+                    if (testao11 == testao22)
+                    {
+                        idlocalizacao = PPA2DropDownList1.Items[z].Value;
+                    }
+                }
+
+                string Denominacao = HttpUtility.HtmlDecode(PPA2GridView1.Rows[i].Cells[3].Text);
+                MySqlCommand cmd2 = con.CreateCommand();
+                cmd2.CommandText = "insertavaliacao";
+                cmd2.CommandType = CommandType.StoredProcedure;
+                cmd2.Parameters.AddWithValue("vartipo", idTipo);
+                cmd2.Parameters.AddWithValue("varlocalizacao", idlocalizacao);
+                cmd2.Parameters.AddWithValue("vardeadline", PPA2GridView1.Rows[i].Cells[2].Text);
+                cmd2.Parameters.AddWithValue("varidempresa", Session["idAvaliador"].ToString());
+                cmd2.Parameters.AddWithValue("vartextotipo", Denominacao);
+                cmd2.ExecuteNonQuery();
+                con.Close();
+            }
+            ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Avaliações Criadas com sucesso')", true);
+            Response.Redirect("Empresa");
+        }
+
+        protected void PPA2Button6_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Empresa");
+        }
+
+
+        //publicar pedido avaliação 3
+        int PPA3contadorerro = 0;
+        int Variavelidpacotetoal = 0;
+
+        protected void PPA3Button2_Click(object sender, EventArgs e)
+        {
+            string rollno;
+            string sname;
+            OleDbConnection mycon;
+            string path = Path.GetFileName(PPA3FileUpload1.FileName);
+            path = path.Replace(" ", "");
+            try
+            {
+                PPA3FileUpload1.SaveAs(Server.MapPath("~/ExcelFileEdited/") + path);
+                PPA3Label7.Text = path;
+                String ExcelPath = Server.MapPath("~/ExcelFileEdited/") + path;
+                mycon = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0; Data Source = " + ExcelPath + "; Extended Properties=Excel 8.0; Persist Security Info = False");
+            }
+            catch
+            {
+                PPA3FileUpload1.SaveAs(Server.MapPath("~/ExcelFileEdited/") + PPA3Label7.Text);
+                String ExcelPath = Server.MapPath("~/ExcelFileEdited/") + PPA3Label7.Text;
+                mycon = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0; Data Source = " + ExcelPath + "; Extended Properties=Excel 8.0; Persist Security Info = False");
+            }
+            mycon.Open();
+            OleDbCommand cmd = new OleDbCommand("select * from [Sheet1$]", mycon);
+            OleDbDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                rollno = dr[0].ToString();
+                sname = dr[1].ToString();
+                Verificacao(rollno, sname);
+            }
+            dr.Close();
+            if (PPA3contadorerro == 0)
+            {
+                dr = cmd.ExecuteReader();
+                DataTable dt2 = new DataTable();
+                DataColumn[] columns = {
+    new DataColumn("Localização", System.Type.GetType("System.String")),
+        new DataColumn("Tipo", System.Type.GetType("System.String"))
+};
+                dt2.Columns.AddRange(columns);
+                DataRow dr2;
+                while (dr.Read())
+                {
+                    rollno = dr[0].ToString();
+                    sname = dr[1].ToString();
+                    string localidade = sname;
+                    string Tipo = rollno;
+                    dr2 = dt2.NewRow();
+                    dr2[0] = Tipo;
+                    dr2[1] = localidade;
+                    dt2.Rows.Add(dr2);
+                }
+                PPA3GridView1.DataSource = dt2;
+                PPA3GridView1.DataBind();
+                dr.Close();
+                PPA3Button3.Visible = true;
+            }
+            else
+            {
+
+            }
+            mycon.Close();
+            PPA3Button4.Visible = true;
+            PPA3Button2.Visible = false;
+            PPA3FileUpload1.Visible = false;
+            PPA3Button5.Visible = true;
+        }
+
+        private void Verificacao(string rollno1, string sname)
+        {
+            string Tipo = rollno1.First().ToString().ToUpper() + rollno1.Substring(1);
+            if (PPA3DropDownList2.Items.FindByText(rollno1) != null)
+            {
+            }
+            else
+            {
+                PPA3contadorerro = 1;
+                Label1.Visible = true;
+                Label1.Text = Label1.Text + ", " + rollno1;
+            }
+
+            string Localizacao = sname.First().ToString().ToUpper() + sname.Substring(1);
+            if (PPA3DropDownList1.Items.FindByText(sname) != null)
+            {
+            }
+            else
+            {
+                PPA3contadorerro = 1;
+                Label1.Visible = true;
+                Label1.Text = Label1.Text + ", " + sname;
+            }
+        }
+
+        protected void PPA3Button3_Click(object sender, EventArgs e)
+        {
+            Response.ContentType = "application/octet-stream";
+            Response.AppendHeader("Content-Disposition", "attachment; filename=Formulario2.xlsx");
+            Response.TransmitFile(Server.MapPath("~/ExcelFileOriginal/Formulario2.xlsx"));
+            Response.End();
+        }
+
+        protected void PPA3Button4_Click(object sender, EventArgs e)
+        {
+            string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+            // Codigo para registar
+            MySqlConnection con = new MySqlConnection(constr);
+            con.Open();
+            MySqlCommand cmd2 = con.CreateCommand();
+            cmd2.CommandText = "insertpacotetotal";
+            cmd2.CommandType = CommandType.StoredProcedure;
+            cmd2.Parameters.AddWithValue("vardescricao", PPA3TextBox1.Text);
+            cmd2.Parameters.AddWithValue("vardeadline", PPA3TextBox2.Text);
+            cmd2.Parameters.AddWithValue("varidempresa", Session["idAvaliador"].ToString());
+            cmd2.ExecuteNonQuery();
+            con.Close();
+
+            FindIDpacotetotal();
+            insertpacotesindividuais();
+            /*  string idlocalizacao = "";
+              string idTipo = "";
+
+              for (int z = 0; z < PPA3DropDownList1.Items.Count; z++)
+              {
+                  string testao11 = HttpUtility.HtmlDecode(PPA3DropDownList1.Items[z].Text);
+                  string testao22 = HttpUtility.HtmlDecode(PPA3GridView1.Rows[i].Cells[1].Text);
+
+                  if (testao11 == testao22)
+                  {
+                      idlocalizacao = PPA3DropDownList1.Items[z].Value;
+                  }
+              }*/
+            Response.Redirect("Empresa");
+            ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Avaliação Criada com sucesso')", true);
+        }
+
+        void FindIDpacotetotal()
+        {
+            string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+            // Codigo para registar
+            MySqlConnection con = new MySqlConnection(constr);
+            con.Open();
+            string N_Avaliador = "SELECT id FROM tblpacotetotal WHERE Descricao = @Descricao AND idEmpresa = @idEmpresa;";
+            MySqlCommand comand = new MySqlCommand(N_Avaliador);
+            if (Session["Tipo"].ToString() == "2")
+            {
+                try
+                {
+                    comand.Parameters.AddWithValue("@Descricao", PPA3TextBox1.Text);
+                    comand.Parameters.AddWithValue("@idEmpresa", Session["idAvaliador"].ToString());
+                }
+                catch
+                {
+                    Response.Redirect("Login");
+                }
+            }
+            comand.Connection = con;
+            comand.ExecuteNonQuery();
+
+            MySqlDataReader read = comand.ExecuteReader();
+            //SE EXISTIR ELE ENTRA NO IF
+            while (read.Read())
+            {
+                Variavelidpacotetoal = Convert.ToInt16(read[0].ToString());
+            }
+            con.Close();
+        }
+
+        void insertpacotesindividuais()
+        {
+            for (int i = 0; i < PPA3GridView1.Rows.Count; i++)
+            {
+                string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+                // Codigo para registar
+                MySqlConnection con = new MySqlConnection(constr);
+                con.Open();
+                string idlocalizacao = "";
+                string idTipo = "";
+
+                for (int k = 0; k < PPA3DropDownList2.Items.Count; k++)
+                {
+                    string testao1 = HttpUtility.HtmlDecode(PPA3DropDownList2.Items[k].Text);
+                    string testao2 = HttpUtility.HtmlDecode(PPA3GridView1.Rows[i].Cells[0].Text);
+                    if (testao1 == testao2)
+                    {
+                        idTipo = PPA3DropDownList2.Items[k].Value;
+                    }
+                }
+
+                for (int z = 0; z < PPA3DropDownList1.Items.Count; z++)
+                {
+                    string testao11 = HttpUtility.HtmlDecode(PPA3DropDownList1.Items[z].Text);
+                    string testao22 = HttpUtility.HtmlDecode(PPA3GridView1.Rows[i].Cells[1].Text);
+
+                    if (testao11 == testao22)
+                    {
+                        idlocalizacao = PPA3DropDownList1.Items[z].Value;
+                    }
+                }
+                string denominacao = HttpUtility.HtmlDecode(PPA3GridView1.Rows[i].Cells[1].Text);
+                MySqlCommand cmd2 = con.CreateCommand();
+                cmd2.CommandText = "insertpacoteindividual";
+                cmd2.CommandType = CommandType.StoredProcedure;
+                cmd2.Parameters.AddWithValue("varidTipo", idTipo);
+                cmd2.Parameters.AddWithValue("varlocalizacao", idlocalizacao);
+                cmd2.Parameters.AddWithValue("varidpacotetotal", Variavelidpacotetoal);
+                cmd2.ExecuteNonQuery();
+                con.Close();
+            }
+        }
+
+        protected void PPA3Button6_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Empresa");
+        }
+
+        protected void PPA3Button5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

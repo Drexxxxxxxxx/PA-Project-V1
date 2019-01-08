@@ -70,7 +70,6 @@ namespace Avaliadores_Empresas
                         {
                             Label5.Text = "Cancelada";
                             TextBox5.Visible = false;
-                            Label6.Visible = false;
                             BtnTrabalhosRealizados.Visible = false;
                             BtnAvaliacoesDisponiveis.Visible = false;
                             BtnAvaliacoes.Visible = false;
@@ -92,7 +91,6 @@ namespace Avaliadores_Empresas
                             {
                                 Label5.Text = "Cancelada";
                                 TextBox5.Visible = false;
-                                Label6.Visible = false;
                             }
                             if (read[6].ToString() == "3")
                             {
@@ -136,7 +134,6 @@ namespace Avaliadores_Empresas
 
             Label5.Text = "Cancelada";
             TextBox5.Visible = false;
-            Label6.Visible = false;
             BtnTrabalhosRealizados.Visible = false;
             BtnAvaliacoesDisponiveis.Visible = false;
             BtnAvaliacoes.Visible = false;
@@ -952,8 +949,6 @@ namespace Avaliadores_Empresas
 
         protected void Button6_Click(object sender, EventArgs e)
         {
-            Session["PagarTipo"] = "0";
-
             Response.Redirect("Payment");
 
             /*string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
@@ -2179,33 +2174,6 @@ namespace Avaliadores_Empresas
         protected void Button15_Click(object sender, EventArgs e)
         {
             div3.Visible = false;
-        }
-
-        protected void Button16_Click(object sender, EventArgs e)
-        {
-            Session["PagarTipo"] = "1";
-
-            Response.Redirect("Payment");
-
-            /*string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
-
-            // Codigo para registar
-            MySqlConnection con = new MySqlConnection(constr);
-            con.Open();
-
-            MySqlCommand cmd = con.CreateCommand();
-            cmd.CommandText = "alterestadotblavaliador";
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("varAtivo", 3);
-            cmd.Parameters.AddWithValue("varid", Session["idAvaliador"].ToString());
-            cmd.Parameters.AddWithValue("vardata", DateTime.Today.ToString("yyyy-MM-dd"));
-            cmd.ExecuteNonQuery();
-            con.Close();
-
-            Label5.Text = "Ativo";
-            TextBox5.Visible = true;
-            Label6.Visible = true;
-            Response.Redirect("Avaliador.aspx");*/
         }
     }
 }

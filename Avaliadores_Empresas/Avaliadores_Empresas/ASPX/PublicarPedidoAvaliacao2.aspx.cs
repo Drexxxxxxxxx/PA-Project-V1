@@ -59,10 +59,10 @@ namespace Avaliadores_Empresas
                 adp.Fill(dt);
                 if (dt.Rows.Count > 0)
                 {
-                    DropDownList1.DataSource = dt;
-                    DropDownList1.DataTextField = "Nome";
-                    DropDownList1.DataValueField = "id";
-                    DropDownList1.DataBind();
+                    PPA2DropDownList1.DataSource = dt;
+                    PPA2DropDownList1.DataTextField = "Nome";
+                    PPA2DropDownList1.DataValueField = "id";
+                    PPA2DropDownList1.DataBind();
                 }
             }
         }
@@ -76,33 +76,33 @@ namespace Avaliadores_Empresas
                 adp.Fill(dt);
                 if (dt.Rows.Count > 0)
                 {
-                    DropDownList2.DataSource = dt;
-                    DropDownList2.DataTextField = "Nome";
-                    DropDownList2.DataValueField = "id";
-                    DropDownList2.DataBind();
+                    PPA2DropDownList2.DataSource = dt;
+                    PPA2DropDownList2.DataTextField = "Nome";
+                    PPA2DropDownList2.DataValueField = "id";
+                    PPA2DropDownList2.DataBind();
                 }
             }
         }
-        protected void Button2_Click(object sender, EventArgs e)
+        protected void PPA2Button2_Click(object sender, EventArgs e)
         {
             string rollno;
             string sname;
             string fname;
             string Denominacao;
             OleDbConnection mycon;
-            string path = Path.GetFileName(FileUpload1.FileName);
+            string path = Path.GetFileName(PPA2FileUpload1.FileName);
             path = path.Replace(" ", "");
             try
             {
-                FileUpload1.SaveAs(Server.MapPath("~/ExcelFileEdited/") + path);
-                Label7.Text = path;
+                PPA2FileUpload1.SaveAs(Server.MapPath("~/ExcelFileEdited/") + path);
+                PPA2Label7.Text = path;
                 String ExcelPath = Server.MapPath("~/ExcelFileEdited/") + path;
                 mycon = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0; Data Source = " + ExcelPath + "; Extended Properties=Excel 8.0; Persist Security Info = False");
             }
             catch
             {
-                FileUpload1.SaveAs(Server.MapPath("~/ExcelFileEdited/") + Label7.Text);
-                String ExcelPath = Server.MapPath("~/ExcelFileEdited/") + Label7.Text;
+                PPA2FileUpload1.SaveAs(Server.MapPath("~/ExcelFileEdited/") + PPA2Label7.Text);
+                String ExcelPath = Server.MapPath("~/ExcelFileEdited/") + PPA2Label7.Text;
                 mycon = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0; Data Source = " + ExcelPath + "; Extended Properties=Excel 8.0; Persist Security Info = False");
             }
             mycon.Open();
@@ -145,45 +145,45 @@ namespace Avaliadores_Empresas
                     dr2[3] = Denominacao;
                     dt2.Rows.Add(dr2);
                 }
-                GridView1.DataSource = dt2;
-                GridView1.DataBind();
-                Label1.Visible = true;
-                Label1.Text = "Data Has Been Saved Successfully";
+                PPA2GridView1.DataSource = dt2;
+                PPA2GridView1.DataBind();
+                PPA2Label1.Visible = true;
+                PPA2Label1.Text = "Data Has Been Saved Successfully";
                 dr.Close();
-                Button3.Visible = true;
+                PPA2Button3.Visible = true;
             }
             else
             {
 
             }
             mycon.Close();
-            Button4.Visible = true;
-            Button2.Visible = false;
-            FileUpload1.Visible = false;
-            Button5.Visible = true;
+            PPA2Button4.Visible = true;
+            PPA2Button2.Visible = false;
+            PPA2FileUpload1.Visible = false;
+            PPA2Button5.Visible = true;
         }
         private void Verificacao(string rollno1, string sname1, string fname1)
         {
             string deadline = fname1;
             string localidade = sname1.First().ToString().ToUpper() + sname1.Substring(1);
-            if (DropDownList1.Items.FindByText(sname1) != null)
+            if (PPA2DropDownList1.Items.FindByText(sname1) != null)
             {
             }
             else
             {
                 contadorerro = 1;
-                Label1.Visible = true;
-                Label1.Text = Label1.Text + ", " + sname1;
+                PPA2Label1.Visible = true;
+                PPA2Label1.Text = PPA2Label1.Text + ", " + sname1;
             }
             string Tipo = rollno1.First().ToString().ToUpper() + rollno1.Substring(1);
-            if (DropDownList2.Items.FindByText(rollno1) != null)
+            if (PPA2DropDownList2.Items.FindByText(rollno1) != null)
             {
             }
             else
             {
                 contadorerro = 1;
-                Label1.Visible = true;
-                Label1.Text = Label1.Text + ", " + rollno1;
+                PPA2Label1.Visible = true;
+                PPA2Label1.Text = PPA2Label1.Text + ", " + rollno1;
             }
             try
             {
@@ -192,19 +192,19 @@ namespace Avaliadores_Empresas
             catch
             {
                 contadorerro = 1;
-                Label1.Text = "Um ou mais dados no campo Deadline não é uma data";
+                PPA2Label1.Text = "Um ou mais dados no campo Deadline não é uma data";
             }
         }
-        protected void Button3_Click(object sender, EventArgs e)
+        protected void PPA2Button3_Click(object sender, EventArgs e)
         {
             Response.ContentType = "application/octet-stream";
             Response.AppendHeader("Content-Disposition", "attachment; filename=Formulario.xlsx");
             Response.TransmitFile(Server.MapPath("~/ExcelFileOriginal/Formulario.xlsx"));
             Response.End();
         }
-        protected void Button4_Click(object sender, EventArgs e)
+        protected void PPA2Button4_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < GridView1.Rows.Count; i++)
+            for (int i = 0; i < PPA2GridView1.Rows.Count; i++)
             {
                 string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
                 // Codigo para registar
@@ -213,34 +213,34 @@ namespace Avaliadores_Empresas
                 string idlocalizacao = "";
                 string idTipo = "";
 
-                for (int k = 0; k < DropDownList2.Items.Count; k++)
+                for (int k = 0; k < PPA2DropDownList2.Items.Count; k++)
                 {
-                    string testao1 = HttpUtility.HtmlDecode(DropDownList2.Items[k].Text);
-                    string testao2 = HttpUtility.HtmlDecode(GridView1.Rows[i].Cells[0].Text);
+                    string testao1 = HttpUtility.HtmlDecode(PPA2DropDownList2.Items[k].Text);
+                    string testao2 = HttpUtility.HtmlDecode(PPA2GridView1.Rows[i].Cells[0].Text);
                     if (testao1 == testao2)
                     {
-                        idTipo = DropDownList2.Items[k].Value;
+                        idTipo = PPA2DropDownList2.Items[k].Value;
                     }
                 }
 
-                for (int z = 0; z < DropDownList1.Items.Count; z++)
+                for (int z = 0; z < PPA2DropDownList1.Items.Count; z++)
                 {
-                    string testao11 = HttpUtility.HtmlDecode(DropDownList1.Items[z].Text);
-                    string testao22 = HttpUtility.HtmlDecode(GridView1.Rows[i].Cells[1].Text);
+                    string testao11 = HttpUtility.HtmlDecode(PPA2DropDownList1.Items[z].Text);
+                    string testao22 = HttpUtility.HtmlDecode(PPA2GridView1.Rows[i].Cells[1].Text);
 
                     if (testao11 == testao22)
                     {
-                        idlocalizacao = DropDownList1.Items[z].Value;
+                        idlocalizacao = PPA2DropDownList1.Items[z].Value;
                     }
                 }
 
-                string Denominacao = HttpUtility.HtmlDecode(GridView1.Rows[i].Cells[3].Text);
+                string Denominacao = HttpUtility.HtmlDecode(PPA2GridView1.Rows[i].Cells[3].Text);
                 MySqlCommand cmd2 = con.CreateCommand();
                 cmd2.CommandText = "insertavaliacao";
                 cmd2.CommandType = CommandType.StoredProcedure;
                 cmd2.Parameters.AddWithValue("vartipo", idTipo);
                 cmd2.Parameters.AddWithValue("varlocalizacao", idlocalizacao);
-                cmd2.Parameters.AddWithValue("vardeadline", GridView1.Rows[i].Cells[2].Text);
+                cmd2.Parameters.AddWithValue("vardeadline", PPA2GridView1.Rows[i].Cells[2].Text);
                 cmd2.Parameters.AddWithValue("varidempresa", Session["idAvaliador"].ToString());
                 cmd2.Parameters.AddWithValue("vartextotipo", Denominacao);
                 cmd2.ExecuteNonQuery();
@@ -250,7 +250,7 @@ namespace Avaliadores_Empresas
             Response.Redirect("Empresa");
         }
 
-        protected void Button6_Click(object sender, EventArgs e)
+        protected void PPA2Button6_Click(object sender, EventArgs e)
         {
             Response.Redirect("Empresa");
         }

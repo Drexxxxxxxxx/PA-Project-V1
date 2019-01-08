@@ -56,10 +56,10 @@ namespace Avaliadores_Empresas
                 adp.Fill(dt);
                 if (dt.Rows.Count > 0)
                 {
-                    DropDownList1.DataSource = dt;
-                    DropDownList1.DataTextField = "Nome";
-                    DropDownList1.DataValueField = "id";
-                    DropDownList1.DataBind();
+                    PPA1DropDownList1.DataSource = dt;
+                    PPA1DropDownList1.DataTextField = "Nome";
+                    PPA1DropDownList1.DataValueField = "id";
+                    PPA1DropDownList1.DataBind();
                 }
             }
         }
@@ -74,14 +74,14 @@ namespace Avaliadores_Empresas
                 adp.Fill(dt);
                 if (dt.Rows.Count > 0)
                 {
-                    DropDownList2.DataSource = dt;
-                    DropDownList2.DataTextField = "Nome";
-                    DropDownList2.DataValueField = "id";
-                    DropDownList2.DataBind();
+                    PPA1DropDownList2.DataSource = dt;
+                    PPA1DropDownList2.DataTextField = "Nome";
+                    PPA1DropDownList2.DataValueField = "id";
+                    PPA1DropDownList2.DataBind();
                 }
             }
         }
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void PPA1Button1_Click(object sender, EventArgs e)
         {
             try
             {
@@ -93,11 +93,11 @@ namespace Avaliadores_Empresas
                 MySqlCommand cmd = con.CreateCommand();
                 cmd.CommandText = "insertavaliacao";
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("vartipo", DropDownList2.SelectedValue.ToString());
-                cmd.Parameters.AddWithValue("varlocalizacao", DropDownList1.SelectedValue.ToString());
-                cmd.Parameters.AddWithValue("vardeadline", TextBox2.Text.Trim());
+                cmd.Parameters.AddWithValue("vartipo", PPA1DropDownList2.SelectedValue.ToString());
+                cmd.Parameters.AddWithValue("varlocalizacao", PPA1DropDownList1.SelectedValue.ToString());
+                cmd.Parameters.AddWithValue("vardeadline", PPA1TextBox2.Text.Trim());
                 cmd.Parameters.AddWithValue("varidempresa", Session["idAvaliador"].ToString());
-                cmd.Parameters.AddWithValue("vartextotipo", TextBox1.Text.Trim());
+                cmd.Parameters.AddWithValue("vartextotipo", PPA1TextBox1.Text.Trim());
                 cmd.ExecuteNonQuery();
                 con.Close();
                 ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Avaliação Criada com sucesso')", true);
@@ -109,7 +109,7 @@ namespace Avaliadores_Empresas
             }
         }
 
-        protected void Button2_Click(object sender, EventArgs e)
+        protected void PPA1Button2_Click(object sender, EventArgs e)
         {
             Response.Redirect("Empresa");
         }
