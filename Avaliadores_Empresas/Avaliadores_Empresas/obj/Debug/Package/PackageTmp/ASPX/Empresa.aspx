@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head runat="server">
     <link runat="server" rel="icon" href="../Imagens/Logos/favicon.ico" type="image/x-icon" />
 
@@ -10,13 +11,15 @@
     <link rel="stylesheet" href="../OwlCarousel/dist/assets/owl.theme.default.min.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="../CSS/style_empresa.css" />
     <link rel="stylesheet" href="../CSS/Main.css">
     <title>Empresa</title>
 
 </head>
+
 <body>
     <form id="form1" runat="server">
         <header>
@@ -25,13 +28,15 @@
                     <img src="../images/Logos/favicon.ico" width="40" height="40" alt="">
                 </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span>Logout</asp:LinkButton>
+                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out"
+                                    style="padding-right: 2px"></span>Logout</asp:LinkButton>
                         </li>
                     </ul>
                 </div>
@@ -115,7 +120,7 @@
                                             <hr class="mt-0" />
                                         </div>
                                     </div>
-                                    
+
                                 </div>
                                 <div class="container">
                                     <div class="row">
@@ -123,7 +128,8 @@
                                             <p>nome </p>
                                         </div>
                                         <div class="col">
-                                            <asp:TextBox ID="TBoxPerfilNome" placeholder="Nome" CssClass="form-control" runat="server"></asp:TextBox>
+                                            <asp:TextBox ID="TBoxPerfilNome" placeholder="Nome" CssClass="form-control"
+                                                runat="server"></asp:TextBox>
 
                                         </div>
                                     </div>
@@ -132,7 +138,8 @@
                                             <p>e-mail </p>
                                         </div>
                                         <div class="col">
-                                            <asp:TextBox ID="TBoxPerfilEmail" placeholder="Email" CssClass="form-control" runat="server"></asp:TextBox>
+                                            <asp:TextBox ID="TBoxPerfilEmail" placeholder="Email" CssClass="form-control"
+                                                runat="server"></asp:TextBox>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -140,7 +147,8 @@
                                             <p>telemovel </p>
                                         </div>
                                         <div class="col">
-                                            <asp:TextBox ID="TBoxPerfilTelefone" placeholder="Telefone" CssClass="form-control" runat="server"></asp:TextBox>
+                                            <asp:TextBox ID="TBoxPerfilTelefone" placeholder="Telefone" CssClass="form-control"
+                                                runat="server"></asp:TextBox>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -148,7 +156,8 @@
                                             <p>Nº Registo </p>
                                         </div>
                                         <div class="col">
-                                            <asp:TextBox ID="TBoxPerfilNRegisto" placeholder="Número de Registo" CssClass="form-control" runat="server"></asp:TextBox>
+                                            <asp:TextBox ID="TBoxPerfilNRegisto" placeholder="Número de Registo"
+                                                CssClass="form-control" runat="server"></asp:TextBox>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -156,35 +165,42 @@
                                             <p>Morada </p>
                                         </div>
                                         <div class="col">
-                                            <asp:TextBox ID="TBoxPerfilMorada" placeholder="Morada" CssClass="form-control" runat="server"></asp:TextBox>
+                                            <asp:TextBox ID="TBoxPerfilMorada" placeholder="Morada" CssClass="form-control"
+                                                runat="server"></asp:TextBox>
                                         </div>
                                     </div>
-                                           <!--Parte da Licença-->
                                     <div class="row">
-                                        <div class="col-12">
+                                        <div class="col-3">
                                             <asp:Label ID="Label4" runat="server">Estado de Licenciamento:</asp:Label>
-                                            <br />
+                                        </div>
+                                        <div class="col">
                                             <asp:Label ID="Label5" runat="server"></asp:Label>
-                                            <br />
-                                            <br />
-                                            <asp:Label ID="Label6" runat="server">Final da Licença:</asp:Label>
-                                            <br />
-                                            <asp:TextBox ID="TextBox5" runat="server" ReadOnly="True" TextMode="Date"></asp:TextBox>
-                                            <br />
-                                            <asp:TextBox ID="TextBox6" runat="server" ReadOnly="True" TextMode="Date" Visible="False"></asp:TextBox>
-                                            <br />
-                                            <br />
-                                            <asp:Button ID="Button4" runat="server" Text="Renovar por mais 30 dias (10€)" OnClick="Button4_Click" />
-                                            &nbsp;
-                                            <asp:Button ID="Button16" runat="server" OnClick="Button16_Click" Text="Renovar por mais 1 ano (100€)" />
                                         </div>
                                     </div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <asp:Label ID="Label6" runat="server">Final da Licença:</asp:Label>
+                                        </div>
+                                        <div class="col">
+                                            <asp:TextBox ID="TextBox5" runat="server" ReadOnly="True" TextMode="Date"></asp:TextBox>
+                                            <asp:TextBox ID="TextBox6" runat="server" ReadOnly="True" TextMode="Date"
+                                                Visible="False"></asp:TextBox>
+                                        </div>
+                                    </div>
+
                                     <div class="row">
                                         <div class="col-9 offset-3 text-right">
-                                            <asp:Button ID="Button1" runat="server" CssClass="btn" Text="Mudar Password" OnClick="Button1_Click1" />
+                                            <asp:Button ID="Button4" runat="server" CssClass="btn" Text="Renovar"
+                                                OnClick="Button4_Click" />
+
+                                            <br>
+
+                                            <asp:Button ID="Button1" runat="server" CssClass="btn  mt-1" Text="Mudar Password"
+                                                OnClick="Button1_Click1" />
 
                                             <br />
-                                            <asp:Button ID="BtnPerfilConfirmar" CssClass="btn mt-1" runat="server" Text="Confirmar" OnClick="BtnPerfilConfirmar_Click" />
+                                            <asp:Button ID="BtnPerfilConfirmar" CssClass="btn mt-1" runat="server" Text="Confirmar"
+                                                OnClick="BtnPerfilConfirmar_Click" />
 
                                         </div>
 
@@ -197,7 +213,8 @@
                                         <asp:Label ID="lblmessage" runat="server">Password Antiga</asp:Label>
                                         <asp:TextBox ID="TextBox3" runat="server" TextMode="Password"></asp:TextBox>
                                     </p>
-                                    <asp:Button ID="Button3" CssClass="butoespopup" Width="25%" runat="server" Text="Ok" OnClick="Button3_Click" />
+                                    <asp:Button ID="Button3" CssClass="butoespopup" Width="25%" runat="server" Text="Ok"
+                                        OnClick="Button3_Click" />
                                     <asp:Button ID="Button14" runat="server" Text="Voltar" OnClick="Button14_Click" />
                                 </div>
                                 <div class="custompopup" id="divNovaPass" runat="server" visible="false">
@@ -208,7 +225,8 @@
                                         <asp:Label ID="Label3" runat="server" Text="Confirmar Password"></asp:Label>
                                         <asp:TextBox ID="TextBox4" runat="server" TextMode="Password"></asp:TextBox>
                                     </p>
-                                    <asp:Button ID="Button2" CssClass="butoespopup" Width="25%" runat="server" Text="Ok" OnClick="Button2_Click" />
+                                    <asp:Button ID="Button2" CssClass="butoespopup" Width="25%" runat="server" Text="Ok"
+                                        OnClick="Button2_Click" />
                                 </div>
 
                                 <br />
@@ -221,6 +239,7 @@
                         </div>
 
                     </asp:Panel>
+
                     <asp:Panel ID="DivPesquisaAvaliacoes" CssClass="DivBtn" runat="server" Visible="False">
 
                         <input id="LatitudeDragend" type="hidden" value="0" runat="server" />
@@ -234,7 +253,8 @@
 
                         <asp:TextBox ID="TextBox1" runat="server" placeholder="Introduza uma localização" onkeydown="return (event.keyCode!=13);"></asp:TextBox>
 
-                        <asp:TextBox runat="server" ID="pacinput" class="form-control" type="text" placeholder="Find Address of conflict &#xF002;" Style="display: none" AutoPostBack="True"></asp:TextBox>
+                        <asp:TextBox runat="server" ID="pacinput" class="form-control" type="text" placeholder="Find Address of conflict &#xF002;"
+                            Style="display: none" AutoPostBack="True"></asp:TextBox>
                         <div id="googleMapZOOM" style="width: 100%; height: 300px;"></div>
 
 
@@ -259,53 +279,67 @@
 
 
                     </asp:Panel>
+
                     <asp:Panel ID="DivPublicarPedidoAvaliacao" CssClass="DivBtn" runat="server" Visible="False">
 
                         <asp:Panel ID="Panel2" runat="server">
                             <div class="row">
-                                <div class="col-sm-12">
-                                    <div class="col-sm-4">
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <asp:Button ID="Button6" CssClass="btn_numeros btn btn-dark" runat="server" Text="1" OnClick="Button6_Click" />
-
-                                            </div>
+                                <div class="col-sm-4">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <asp:Button ID="Button6" CssClass="btn_numeros btn btn-dark" runat="server"
+                                                Text="1" OnClick="Button6_Click" />
 
                                         </div>
-                                        <div class="row" style="padding: 20px;">
-                                            <div class="speech-bubble">
-                                                <p>Inserir </p>
-                                                <p>uma </p>
-                                                <p>avaliação </p>
-                                            </div>
+
+                                    </div>
+                                    <div class="row text-center w-100" style="padding: 20px;">
+                                        <div>
+                                            <p>
+                                                Inserir
+                                                <br>
+                                                uma
+                                                <br>
+                                                avaliação
+                                            </p>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <asp:Button ID="Button7" CssClass="btn_numeros btn btn-dark" runat="server" Text="2" OnClick="Button7_Click" />
-                                            </div>
-                                        </div>
-                                        <div class="row" style="padding: 20px;">
-                                            <div class="speech-bubble">
-                                                <p>Importar </p>
-                                                <p>várias </p>
-                                                <p>avaliações </p>
-                                            </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <asp:Button ID="Button7" CssClass="btn_numeros btn btn-dark" runat="server"
+                                                Text="2" OnClick="Button7_Click" />
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <asp:Button ID="Button8" CssClass="btn_numeros btn btn-dark" runat="server" Text="3" OnClick="Button8_Click" />
-                                            </div>
+                                    <div class="row text-center w-100" style="padding: 20px;">
+                                        <div class="">
+                                            <p>
+                                                Importar
+                                                <br>
+                                                várias
+                                                <br>
+                                                avaliações
+                                            </p>
                                         </div>
-                                        <div class="row" style="padding: 20px;">
-                                            <div class="speech-bubble">
-                                                <p>Importar </p>
-                                                <p>pacote de  </p>
-                                                <p>avaliações </p>
-                                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <asp:Button ID="Button8" CssClass="btn_numeros btn btn-dark" runat="server"
+                                                Text="3" OnClick="Button8_Click" />
+                                        </div>
+                                    </div>
+                                    <div class="row text-center w-100" style="padding: 20px;">
+                                        <div class="">
+                                            <p>
+                                                Importar
+                                                <br>
+                                                pacote de
+                                                <br>
+                                                avaliações
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -331,11 +365,13 @@
                                     </Columns>
                                 </asp:GridView>
                             </p>
-                            <asp:Button ID="Button9" CssClass="butoespopup" Width="25%" runat="server" Text="Voltar" OnClick="Button9_Click" />
+                            <asp:Button ID="Button9" CssClass="butoespopup" Width="25%" runat="server" Text="Voltar"
+                                OnClick="Button9_Click" />
                         </div>
 
                         <br />
-                        <asp:GridView ID="GridView3" runat="server" OnSelectedIndexChanged="GridView3_SelectedIndexChanged" OnRowCommand="GridView3_RowCommand">
+                        <asp:GridView ID="GridView3" runat="server" OnSelectedIndexChanged="GridView3_SelectedIndexChanged"
+                            OnRowCommand="GridView3_RowCommand">
                             <Columns>
                                 <asp:CommandField SelectText="Ver Avaliações" ShowSelectButton="True" />
                                 <asp:ButtonField CommandName="Select2" Text="Ver Avaliadores" />
@@ -366,7 +402,8 @@
                             <p>
                                 <asp:GridView ID="GridView4" runat="server"></asp:GridView>
                             </p>
-                            <asp:Button ID="Button5" CssClass="butoespopup" Width="25%" runat="server" Text="Voltar" OnClick="Button5_Click" />
+                            <asp:Button ID="Button5" CssClass="butoespopup" Width="25%" runat="server" Text="Voltar"
+                                OnClick="Button5_Click" />
                         </div>
                         <asp:ListBox ID="ListBox3" runat="server" Visible="False"></asp:ListBox>
                         <asp:ListBox ID="ListBox7" runat="server" Visible="False"></asp:ListBox>
@@ -387,22 +424,27 @@
                             <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                                 <ContentTemplate>
                                     <asp:Label ID="Label8" runat="server" Text="Trato"></asp:Label>
-                                    <ajaxToolkit:Rating ID="Rating1" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars" FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
+                                    <ajaxToolkit:Rating ID="Rating1" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars"
+                                        FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
                                     </ajaxToolkit:Rating>
                                     <asp:Label ID="Label9" runat="server" Text="Qualidade"></asp:Label>
-                                    <ajaxToolkit:Rating ID="Rating2" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars" FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
+                                    <ajaxToolkit:Rating ID="Rating2" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars"
+                                        FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
                                     </ajaxToolkit:Rating>
                                     <asp:Label ID="Label10" runat="server" Text="Cumprimento de prazo"></asp:Label>
-                                    <ajaxToolkit:Rating ID="Rating3" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars" FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
+                                    <ajaxToolkit:Rating ID="Rating3" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars"
+                                        FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
                                     </ajaxToolkit:Rating>
                                     <asp:Label ID="Label11" runat="server" Text="Outro"></asp:Label>
-                                    <ajaxToolkit:Rating ID="Rating4" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars" FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
+                                    <ajaxToolkit:Rating ID="Rating4" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars"
+                                        FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
                                     </ajaxToolkit:Rating>
                                 </ContentTemplate>
                             </asp:UpdatePanel>
                             <p>
                             </p>
-                            <asp:Button ID="Button13" runat="server" CssClass="butoespopup" OnClick="Button13_Click" Text="Avaliar" />
+                            <asp:Button ID="Button13" runat="server" CssClass="butoespopup" OnClick="Button13_Click"
+                                Text="Avaliar" />
                             <asp:Button ID="Button15" runat="server" Text="Voltar" OnClick="Button15_Click" />
                             <p>
                             </p>
@@ -412,7 +454,8 @@
                             </p>
                         </div>
                         <br />
-                        <asp:GridView ID="GridView9" runat="server" OnRowCommand="GridView5_RowCommand" OnSelectedIndexChanged="GridView9_SelectedIndexChanged">
+                        <asp:GridView ID="GridView9" runat="server" OnRowCommand="GridView5_RowCommand"
+                            OnSelectedIndexChanged="GridView9_SelectedIndexChanged">
                             <Columns>
                                 <asp:ButtonField CommandName="Select2" Text="Ver avaliações" />
                                 <asp:CommandField SelectText="Avaliar" ShowSelectButton="True" />
@@ -423,13 +466,15 @@
                             <p>
                                 <asp:GridView ID="GridView10" runat="server"></asp:GridView>
                             </p>
-                            <asp:Button ID="Button12" CssClass="butoespopup" Width="25%" runat="server" Text="Voltar" OnClick="Button12_Click" />
+                            <asp:Button ID="Button12" CssClass="butoespopup" Width="25%" runat="server" Text="Voltar"
+                                OnClick="Button12_Click" />
                         </div>
                         <asp:ListBox ID="ListBox11" runat="server"></asp:ListBox>
                         <asp:ListBox ID="ListBox12" runat="server" Visible="False"></asp:ListBox>
                         <asp:ListBox ID="ListBox13" runat="server"></asp:ListBox>
                         <asp:ListBox ID="ListBox14" runat="server"></asp:ListBox>
                     </asp:Panel>
+
                     <asp:Panel ID="DivRanking" CssClass="DivBtn" runat="server" Visible="False">
                         <asp:Label ID="Label12" runat="server" Text="Empresa"></asp:Label>
                         <br />
@@ -442,6 +487,81 @@
 
                     </asp:Panel>
 
+                    <asp:Panel ID="DivPublicarPedidoBtn1" CssClass="DivBtn" runat="server" Visible="False">
+                        <asp:Panel ID="Panel3" runat="server">
+                            <asp:Label ID="Label14" runat="server" Text="Denominação"></asp:Label>
+                            <asp:TextBox ID="PPA1TextBox1" runat="server"></asp:TextBox>
+                            <br />
+                            <asp:Label ID="Label15" runat="server" Text="Tipo"></asp:Label>
+                            <asp:DropDownList ID="PPA1DropDownList2" runat="server">
+                            </asp:DropDownList>
+                            <br />
+                            <asp:Label ID="Label16" runat="server" Text="Localidade"></asp:Label>
+                            <asp:DropDownList ID="PPA1DropDownList1" runat="server">
+                            </asp:DropDownList>
+                            <br />
+                            <asp:Label ID="Label17" runat="server" Text="Deadline"></asp:Label>
+                            <asp:TextBox ID="PPA1TextBox2" runat="server" TextMode="Date"></asp:TextBox>
+                            <br />
+
+                            <asp:Button ID="PPA1Button1" runat="server" Text="Registar" OnClick="PPA1Button1_Click" />
+                            <asp:Button ID="Button16" runat="server" OnClick="PPA1Button2_Click" Text="Voltar" />
+                            <asp:Label ID="Label18" runat="server"></asp:Label>
+                        </asp:Panel>
+                    </asp:Panel>
+
+                    <asp:Panel ID="DivPublicarPedidoBtn2" CssClass="DivBtn" runat="server" Visible="False">
+                        <asp:Panel ID="Panel1" runat="server">
+                            <asp:FileUpload ID="PPA2FileUpload1" runat="server" />
+                            <br />
+                            <asp:Button ID="PPA2Button2" runat="server" Text="Verificar" OnClick="PPA2Button2_Click" />
+                            <asp:Button ID="PPA2Button3" runat="server" Text="download form" OnClick="PPA2Button3_Click" />
+                            <asp:DropDownList ID="PPA2DropDownList1" runat="server" Visible="False">
+                            </asp:DropDownList>
+                            <asp:DropDownList ID="PPA2DropDownList2" runat="server" Visible="False">
+                            </asp:DropDownList>
+                            <asp:Label ID="PPA2Label7" runat="server"></asp:Label>
+                            <asp:GridView ID="PPA2GridView1" runat="server">
+                            </asp:GridView>
+                            <asp:Button ID="PPA2Button4" runat="server" Text="Enviar" Visible="False" OnClick="PPA2Button4_Click" />
+                            <asp:Button ID="PPA2Button5" runat="server" Text="Enviar Outro" Visible="False" />
+                            <asp:Button ID="PPA2Button6" runat="server" OnClick="PPA2Button6_Click" Text="Voltar" />
+                            <br />
+                            <asp:Label ID="PPA2Label1" runat="server"></asp:Label>
+                        </asp:Panel>
+                    </asp:Panel>
+
+                    <asp:Panel ID="DivPublicarPedidoBtn3" CssClass="DivBtn" runat="server" Visible="False">
+                        <asp:Panel ID="Panel4" runat="server">
+                            <asp:FileUpload ID="PPA3FileUpload1" runat="server" />
+                            <br />
+                            <asp:Button ID="PPA3Button2" runat="server" Text="Verificar" OnClick="PPA3Button2_Click" Style="height: 26px" />
+                            <asp:Button ID="PPA3Button3" runat="server" Text="download form" OnClick="PPA3Button3_Click" />
+                            <asp:DropDownList ID="PPA3DropDownList2" runat="server" Visible="False">
+                            </asp:DropDownList>
+                            <asp:Label ID="PPA3Label7" runat="server"></asp:Label>
+                            <br />
+                            <asp:Label ID="Label19" runat="server" Text="Descrição do pacote"></asp:Label>
+                            <br />
+                            <asp:TextBox ID="PPA3TextBox1" runat="server"></asp:TextBox>
+                            <br />
+                            <br />
+                            <asp:DropDownList ID="PPA3DropDownList1" runat="server" Visible="False">
+                            </asp:DropDownList>
+                            <br />
+                            <asp:Label ID="Label20" runat="server" Text="Deadline"></asp:Label>
+                            <br />
+                            <asp:TextBox ID="PPA3TextBox2" runat="server" TextMode="Date"></asp:TextBox>
+                            <asp:GridView ID="PPA3GridView1" runat="server">
+                            </asp:GridView>
+                            <asp:Button ID="PPA3Button4" runat="server" Text="Enviar" Visible="False" OnClick="PPA3Button4_Click" />
+                            <asp:Button ID="PPA3Button5" runat="server" Text="Enviar Outro" Visible="False" OnClick="PPA3Button5_Click" />
+                            <asp:Button ID="PPA3Button6" runat="server" OnClick="PPA3Button6_Click" Text="Voltar" />
+                            <br />
+                            <asp:Label ID="Label21" runat="server"></asp:Label>
+                        </asp:Panel>
+                    </asp:Panel>
+
                 </div>
                 <div class="col-3">
                     <div class="Emp_div">
@@ -451,10 +571,12 @@
                                     <asp:Button ID="BtnPerfil" runat="server" Text="Perfil" OnClick="BtnPerfil_Click" />
                                 </li>
                                 <li>
-                                    <asp:Button ID="BtnPesquisaAvaliacoes" runat="server" Text="Pesquisa Avaliadores" OnClick="BtnPesquisaAvaliacoes_Click" />
+                                    <asp:Button ID="BtnPesquisaAvaliacoes" runat="server" Text="Pesquisa Avaliadores"
+                                        OnClick="BtnPesquisaAvaliacoes_Click" />
                                 </li>
                                 <li>
-                                    <asp:Button ID="BtnPublicarPedidoAvaliacao" runat="server" Text="Publicar Pedido Avaliacao" OnClick="BtnPublicarPedidoAvaliacao_Click" />
+                                    <asp:Button ID="BtnPublicarPedidoAvaliacao" runat="server" Text="Publicar Pedido Avaliacao"
+                                        OnClick="BtnPublicarPedidoAvaliacao_Click" />
                                 </li>
                                 <li>
                                     <asp:Button ID="BtnMinhasAvaliacoes" runat="server" Text="Meus Trabalhos" OnClick="BtnMinhasAvaliacoes_Click" />
@@ -484,9 +606,12 @@
     </form>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 <script src="../OwlCarousel/dist/owl.carousel.min.js"></script>
 <script src="../JS/carrousels.js"></script>
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
@@ -501,20 +626,20 @@
             <asp:Repeater ID="rptMarkers" runat="server">
                 <ItemTemplate>
                     {
-                                "id": '<%# Eval("id") %>',
-                                "lat": '<%# Eval("Longitude") %>',
+                        "id": '<%# Eval("id") %>',
+                            "lat": '<%# Eval("Longitude") %>',
                                 "lng": '<%# Eval("Latitude") %>',
 							    "NomeCidade": '<%# Eval("Nome") %>',
                                 "NomeAvaliador": '<%# Eval("Nome2") %>',
                                 "Email": '<%# Eval("Email") %>',
                                 "Telemovel": '<%# Eval("Telemovel") %>',
                                 "idAvaliador": '<%# Eval("idAvaliador") %>',
-                    }
+}
                  </ItemTemplate>
-                 <SeparatorTemplate>
+                <SeparatorTemplate>
                     ,
                  </SeparatorTemplate>
-            </asp:Repeater>
+            </asp:Repeater >
                                            
                     ];
         var myLatlng = "";
@@ -552,11 +677,11 @@
         map.addListener('bounds_changed', function () {
 
             var LatitudeDragendvar = <%=LatitudeDragend.ClientID %>;
-    LatitudeDragendvar.value = map.getCenter().lat();
+            LatitudeDragendvar.value = map.getCenter().lat();
 
-    var LongitudeDragendvar = <%=LongitudeDragend.ClientID %>;
-    LongitudeDragendvar.value = map.getCenter().lng();
-    var ZoomDragendvar = <%=ZoomDragend.ClientID %>;
+            var LongitudeDragendvar = <%=LongitudeDragend.ClientID %>;
+            LongitudeDragendvar.value = map.getCenter().lng();
+            var ZoomDragendvar = <%=ZoomDragend.ClientID %>;
             ZoomDragendvar.value = map.getZoom();
         });
         // Add some markers to the map.
@@ -605,9 +730,9 @@
                     Nomevariavelinc += data.NomeAvaliador;
 
                     var hidden1 = <%=Hidden2.ClientID %>;
-            hidden1.value = idvariavelinc;
+                    hidden1.value = idvariavelinc;
 
-            var hidden2 = <%=Hidden1.ClientID %>;
+                    var hidden2 = <%=Hidden1.ClientID %>;
                     hidden2.value = Nomevariavelinc;
                 });
             })(i, data);
@@ -692,9 +817,9 @@
                         }
                     }
                     var hidden1 = <%=Hidden2.ClientID %>;
-            hidden1.value = idvariavelinc;
+                    hidden1.value = idvariavelinc;
 
-            var hidden2 = <%=Hidden1.ClientID %>;
+                    var hidden2 = <%=Hidden1.ClientID %>;
                     hidden2.value = Nomevariavelinc;
                 }
 
@@ -714,7 +839,7 @@
 
         google.maps.event.addListener(map, 'tilesloaded', function () {
             var lat2 = '<%= Latlnglat.ClientID %>';
-    var lng2 = '<%= Latlnglng.ClientID %>';
+            var lng2 = '<%= Latlnglng.ClientID %>';
             if (document.getElementById(lat2).value != "" && document.getElementById(lng2).value != "") {
                 var myLatlng = new google.maps.LatLng(document.getElementById(lat2).value, document.getElementById(lng2).value);
                 markers2.forEach(function (marker2) {
@@ -769,8 +894,8 @@
                     return;
                 }
                 var lat = '<%= Latlnglat.ClientID %>';
-        document.getElementById(lat).value = place.geometry.location.lat();
-        var lng = '<%= Latlnglng.ClientID %>';
+                document.getElementById(lat).value = place.geometry.location.lat();
+                var lng = '<%= Latlnglng.ClientID %>';
                 document.getElementById(lng).value = place.geometry.location.lng();
                 // Create a marker for each place.                     
 

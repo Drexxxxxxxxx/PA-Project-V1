@@ -193,7 +193,7 @@
                                 <asp:DropDownList CssClass="buttonsobrenos" ID="dp_area" runat="server"></asp:DropDownList>
                                 <asp:Button ID="AddtoListbox" runat="server" OnClick="AddtoListbox_Click" CssClass="btn-light" Text="Adiciona" />
                             </div>
-                            <div class="col-sm-6">
+                            <div>
                                 <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Visible="true" CssClass="btn-light" Text="Remover Área Selecionada" />
 
                             </div>

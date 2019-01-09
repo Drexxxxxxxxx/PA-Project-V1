@@ -492,7 +492,7 @@ namespace Avaliadores_Empresas
             if (e.CommandName == "Select2")
             {
                 div3.Visible = true;
-                DeleteEmpresaIndex = Convert.ToInt32(e.CommandArgument);
+                Label13.Text = Convert.ToString(e.CommandArgument);
             }
         }
 
@@ -505,7 +505,7 @@ namespace Avaliadores_Empresas
             con.Open();
             string AllAvaliacoes = "DELETE FROM tblempresa WHERE id = @id";
             MySqlCommand comand = new MySqlCommand(AllAvaliacoes);
-            comand.Parameters.AddWithValue("@id", ListBox2.Items[DeleteEmpresaIndex].ToString());
+            comand.Parameters.AddWithValue("@id", ListBox2.Items[Convert.ToInt16(Label13.Text)].ToString());
             comand.Connection = con;
             comand.ExecuteNonQuery();
             
@@ -523,7 +523,7 @@ namespace Avaliadores_Empresas
             if (e.CommandName == "Select2")
             {
                 div4.Visible = true;
-                DeleteAvalIndex = Convert.ToInt32(e.CommandArgument);
+                Label12.Text = Convert.ToString(e.CommandArgument);
             }
         }
 
@@ -536,7 +536,7 @@ namespace Avaliadores_Empresas
             con.Open();
             string AllAvaliacoes = "DELETE FROM tblavaliador WHERE id = @id";
             MySqlCommand comand = new MySqlCommand(AllAvaliacoes);
-            comand.Parameters.AddWithValue("@id", ListBox1.Items[DeleteAvalIndex].ToString());
+            comand.Parameters.AddWithValue("@id", ListBox1.Items[Convert.ToInt16(Label12.Text)].ToString());
             comand.Connection = con;
             comand.ExecuteNonQuery();
 
