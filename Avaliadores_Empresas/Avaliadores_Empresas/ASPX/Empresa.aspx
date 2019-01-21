@@ -481,13 +481,18 @@
                         <asp:GridView ID="GridView11" runat="server" AllowPaging="True" OnPageIndexChanging="GridView11_PageIndexChanging" PageSize="2">
                             <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
                         </asp:GridView>
-                        <br />
-                        <br />
                         <asp:Label ID="Label13" runat="server" Text="Avaliador"></asp:Label>
                         <br />
                         <asp:GridView ID="GridView12" runat="server" AllowPaging="True" OnPageIndexChanging="GridView12_PageIndexChanging" PageSize="2">
                             <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
                         </asp:GridView>
+
+                         <asp:DropDownList ID="DropDownList1" CssClass="btn dropdown-toggle" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                            <asp:ListItem>10</asp:ListItem>
+                            <asp:ListItem Selected="True">20</asp:ListItem>
+                            <asp:ListItem>50</asp:ListItem>
+                            <asp:ListItem>100</asp:ListItem>
+                        </asp:DropDownList>
 
                     </asp:Panel>
 

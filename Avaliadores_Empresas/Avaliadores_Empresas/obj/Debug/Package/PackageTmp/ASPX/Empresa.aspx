@@ -478,12 +478,16 @@
                     <asp:Panel ID="DivRanking" CssClass="DivBtn" runat="server" Visible="False">
                         <asp:Label ID="Label12" runat="server" Text="Empresa"></asp:Label>
                         <br />
-                        <asp:ListBox ID="ListBox9" runat="server"></asp:ListBox>
+                        <asp:GridView ID="GridView11" runat="server" AllowPaging="True" OnPageIndexChanging="GridView11_PageIndexChanging" PageSize="2">
+                            <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
+                        </asp:GridView>
                         <br />
                         <br />
                         <asp:Label ID="Label13" runat="server" Text="Avaliador"></asp:Label>
                         <br />
-                        <asp:ListBox ID="ListBox10" runat="server"></asp:ListBox>
+                        <asp:GridView ID="GridView12" runat="server" AllowPaging="True" OnPageIndexChanging="GridView12_PageIndexChanging" PageSize="2">
+                            <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
+                        </asp:GridView>
 
                     </asp:Panel>
 
