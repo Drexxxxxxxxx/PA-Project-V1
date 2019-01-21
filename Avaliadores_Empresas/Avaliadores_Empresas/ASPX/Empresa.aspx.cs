@@ -1748,8 +1748,12 @@ namespace Avaliadores_Empresas
         {
             InvisibleDiv();
             DivRanking.Visible = true;
+            RankingEmpresa();
+            RankingAval();
+        }
+        void RankingEmpresa()
+        {
             int Contador = 1;
-
             // Saber se é Avaliador ?
             string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
             // Codigo para registar
@@ -1762,16 +1766,23 @@ namespace Avaliadores_Empresas
 
             MySqlDataReader read = comand.ExecuteReader();
 
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Nome");
+
             //SE EXISTIR ELE ENTRA NO IF
             while (read.Read())
             {
-               ListBox9.Items.Add(Convert.ToString(Contador) + "º " + read[1].ToString());
+                DataRow dr = dt.NewRow();
+                dr["Nome"] = Convert.ToString(Contador) + "º " + read[1].ToString();
                 Contador = Contador + 1;
+                dt.Rows.Add(dr);
             }
+
+            GridView11.DataSource = dt;
+            GridView11.DataBind();
 
             con.Close();
             read.Close();
-            RankingAval();
         }
         void RankingAval()
         {
@@ -1788,13 +1799,20 @@ namespace Avaliadores_Empresas
 
             MySqlDataReader read = comand.ExecuteReader();
 
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Nome");
+
             //SE EXISTIR ELE ENTRA NO IF
             while (read.Read())
             {
-                ListBox10.Items.Add(Convert.ToString(Contador) + "º " + read[1].ToString());
+                DataRow dr = dt.NewRow();
+                dr["Nome"] = Convert.ToString(Contador) + "º " + read[1].ToString();
                 Contador = Contador + 1;
+                dt.Rows.Add(dr);
             }
 
+            GridView12.DataSource = dt;
+            GridView12.DataBind();
             con.Close();
             read.Close();
         }
@@ -2316,6 +2334,21 @@ namespace Avaliadores_Empresas
         {
 
         }
+
+
+        //Gridview12 pagination
+        protected void GridView12_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            GridView12.PageIndex = e.NewPageIndex;
+            RankingAval();
+        }
+        //Gridview11 pagination
+        protected void GridView11_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            GridView11.PageIndex = e.NewPageIndex;
+            RankingEmpresa();
+        }
+        
     }
 }
 
