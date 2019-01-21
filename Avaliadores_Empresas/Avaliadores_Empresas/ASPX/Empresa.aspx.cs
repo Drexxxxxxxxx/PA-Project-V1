@@ -2348,12 +2348,7 @@ namespace Avaliadores_Empresas
             GridView11.PageIndex = e.NewPageIndex;
             RankingEmpresa();
         }
-
-        //Dropdown List OnChange
-        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-         //   DropDownList1.sele
-        }
+        
     }
 }
 
