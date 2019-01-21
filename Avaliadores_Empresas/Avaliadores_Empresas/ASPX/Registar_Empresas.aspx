@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <titleRegistar Empresa</title>
+    <title>Portal dos Avaliadores - Registo de Empresas</title>
     <meta charset="utf-8">
     <link runat="server" rel="icon" href="../Imagens/Logos/favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1">

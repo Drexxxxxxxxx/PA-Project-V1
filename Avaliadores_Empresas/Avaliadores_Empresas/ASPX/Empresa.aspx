@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" type="text/css" href="../CSS/style_empresa.css" />
     <link rel="stylesheet" href="../CSS/Main.css">
-    <title>Empresa</title>
+    <title>Portal dos Avaliadores - Empresa</title>
 
 </head>
 

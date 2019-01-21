@@ -9,11 +9,12 @@
 }
 
 .somosNos_innerDiv {
-    min-height: 290px;
     background-color: rgba(161, 206, 221, 0.88);
-    display: table;
+    display: inline-block;
     margin: 0 auto;
     text-align: right;
+    overflow-y: scroll;
+    height: 389px;
 }
 
 .div_texto {
@@ -52,7 +53,6 @@
 
 @media only screen and (max-height: 662px) {
     .somosNos_div {
-        overflow: scroll;
         height: 100%;
         padding-bottom: 160px;
     }
