@@ -9,11 +9,12 @@
 }
 
 .rAval_innerDiv{
-    min-height: 290px;
+    height: 515px;
     background-color: rgba(161, 206, 221, 0.88);
-    display: table;
+    display: inline-block;
     margin: 0 auto;
     text-align: left;
+    overflow-y: scroll;
     padding: 15px 40px 18px 10px; 
  
 }
