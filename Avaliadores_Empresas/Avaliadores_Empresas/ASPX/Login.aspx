@@ -55,7 +55,7 @@
             </div>
         </nav>
 
-        <div class="row slider">
+        <div class="position-relative slider">
             <div class="owl-carousel owl-theme" id="owl">
                 <div class="item">
                     <img src="../images/imagens_em_azul/1.jpg" alt="">
@@ -117,76 +117,73 @@
 
             </div>
 
+            <div class="main_div mr-0 ml-0">
+                <div class="login_innerDiv">
+                    <div class="col-xl-12" style="text-align: center">
+                        <h1>Login</h1>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <p>E-mail </p>
+                                </div>
+                                <div class="col-lg">
+                                    <asp:TextBox runat="server" ID="txt_email" TextMode="SingleLine" placeholder="e-mail"></asp:TextBox>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <p>Password </p>
+                                </div>
+                                <div class="col-lg">
+                                    <asp:TextBox runat="server" ID="txt_pass" TextMode="Password" placeholder="password"></asp:TextBox>
 
-        </div>
-        <div class="login_div">
-            <div class="login_innerDiv">
-                <div class="col-xl-12" style="text-align: center">
-                    <h1>Login</h1>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <p>E-mail </p>
+                                </div>
                             </div>
-                            <div class="col-lg">
-                                <asp:TextBox runat="server" ID="txt_email" TextMode="SingleLine" placeholder="e-mail"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <p>Password </p>
-                            </div>
-                            <div class="col-lg">
-                                <asp:TextBox runat="server" ID="txt_pass" TextMode="Password" placeholder="password"></asp:TextBox>
 
-                            </div>
                         </div>
 
                     </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-5 offset-3">
+                                    <asp:Button ID="btn_entrar" runat="server" CssClass="btn-entrar" Text="Login" OnClick="btn_entrar_Click" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-9 offset-3">
+                                    <asp:LinkButton CssClass="color_white" ID="LinkButton3" runat="server" OnClick="LinkButton2_Click">Esqueceu-se da Palavra Passe ?</asp:LinkButton>
+                                </div>
 
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="row">
-                            <div class="col-lg-5 offset-3">
-                                <asp:Button ID="btn_entrar" runat="server" CssClass="btn-entrar" Text="Login" OnClick="btn_entrar_Click" />
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-9 offset-3">
-                                <asp:LinkButton CssClass="color_white" ID="LinkButton3" runat="server" OnClick="LinkButton2_Click">Esqueceu-se da Palavra Passe ?</asp:LinkButton>
+                            <div class="row">
+                                <div class="col-lg-9 offset-3">
+                                    <asp:Label ID="lbl_msg" runat="server" Font-Size="Medium" ForeColor="Red"></asp:Label>
+                                </div>
                             </div>
 
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-9 offset-3">
-                                <asp:Label ID="lbl_msg" runat="server" Font-Size="Medium" ForeColor="Red"></asp:Label>
-                            </div>
                         </div>
 
                     </div>
-
+                    <br>
+                    &nbsp;
                 </div>
-                <br>
-                &nbsp;
-            </div>
-
-            <div class="custompopup" id="div1" runat="server" visible="false">
-                <p>
-                    <asp:TextBox ID="TextBox1" runat="server" CssClass="borders" placeholder="Email"></asp:TextBox>
-                </p>
-                <asp:Button ID="Button2" CssClass="borders" Width="25%" runat="server" Text="Ok" OnClick="Button5_Click" />
-                &nbsp;
+                <div class="custompopup" id="div1" runat="server" visible="false">
+                    <p>
+                        <asp:TextBox ID="TextBox1" runat="server" CssClass="borders" placeholder="Email"></asp:TextBox>
+                    </p>
+                    <asp:Button ID="Button2" CssClass="borders" Width="25%" runat="server" Text="Ok" OnClick="Button5_Click" />
+                    &nbsp;
                <asp:Button ID="Button3" runat="server" CssClass="borders" Text="Voltar" OnClick="Button1_Click" />
+                </div>
             </div>
 
 
         </div>
-
 
 
         <footer class="footer">

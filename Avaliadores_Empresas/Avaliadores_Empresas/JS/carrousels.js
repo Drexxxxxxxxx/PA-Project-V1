@@ -13,6 +13,6 @@ $('#owl').owlCarousel({
     responsive: {
         0: {
             items: 1
-        },
+        }
     }
 });

@@ -51,7 +51,7 @@
             </div>
         </nav>
 
-           <div class="row slider">
+           <div class="position-realtive slider">
             <div class="owl-carousel owl-theme" id="owl">
                 <div class="item">
                     <img src="../images/imagens_em_azul/1.jpg" alt="">
@@ -116,7 +116,7 @@
 
         </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid container-fluid2">
             <div class="somosNos_div">
                 <div class="somosNos_innerDiv">
                     <div class="col-xl-12" style="text-align: left">

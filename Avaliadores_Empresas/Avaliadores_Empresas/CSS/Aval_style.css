@@ -1,7 +1,7 @@
 
 .main_div {
-    position: absolute;
-    top: 171px;
+    position: relative;
+    padding-top: 100px;
     width: 100%;
 }
 
@@ -13,6 +13,7 @@
     background-color: rgba(161, 206, 221, 0.88);
     display: block;
     margin: 0 auto;
+    padding:10px;
 }
 
 #DivTrabalhosRealizados {
@@ -27,8 +28,14 @@
     background-color: rgba(161, 206, 221, 0.88);
 }
 
+#DivAvaliacoesDisponiveis {
+    background-color: rgba(161, 206, 221, 0.88);
+    padding:20px;
+}
+
 #DivRanking {
     background-color: rgba(161, 206, 221, 0.88);
+    padding:20px;
 }
 
 #DivPerfil h1 {
@@ -73,7 +80,6 @@
 }
 
 .Aval_innerDiv {
-    min-height: 290px;
     background-color: transparent;
     display: -webkit-box;
     margin: 0 auto;

@@ -13,9 +13,10 @@
 .texto {
     position: absolute;
     text-align: center;
-    margin-top: 171px;
+    top: 171px;
     width: 100%;
     background-color: rgba(34,34,34,0.69);
+    padding-top:45px !important;
     padding: 45px;
     right: 0;
 }
@@ -44,4 +45,14 @@
     height: 35px;
 }
 
-  
+@media (max-width:991px) {
+    .slider {
+        height: 100vh;
+    }
+    body {
+        overflow-y:hidden;
+    }
+
+
+
+}

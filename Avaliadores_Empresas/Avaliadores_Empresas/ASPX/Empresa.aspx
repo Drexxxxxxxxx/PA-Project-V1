@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link runat="server" rel="icon" href="../Imagens/Logos/favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="../OwlCarousel/dist/assets/owl.carousel.css" />
@@ -23,589 +24,615 @@
 <body>
     <form id="form1" runat="server">
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-                <a class="navbar-brand" href="../HomePage">
-                    <img src="../images/Logos/favicon.ico" width="40" height="40" alt="">
-                </a>
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                    <a class="navbar-brand" href="../HomePage">
+                        <img src="../images/Logos/favicon.ico" width="40" height="40" alt="">
+                    </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out"
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out"
                                     style="padding-right: 2px"></span>Logout</asp:LinkButton>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        <div class="position-relative slider">
+                <div class="owl-carousel owl-theme" id="owl">
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/1.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/2.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/3.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/4.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/5.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/6.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/7.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/8.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/9.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/10.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/11.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/12.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/13.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/14.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/15.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/16.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/17.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/18.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="../images/imagens_em_azul/19.jpg" alt="">
+                    </div>
                 </div>
-            </nav>
-        </header>
+            
 
-        <div class="row slider">
-            <div class="owl-carousel owl-theme" id="owl">
-                <div class="item">
-                    <img src="../images/imagens_em_azul/1.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/2.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/3.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/4.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/5.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/6.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/7.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/8.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/9.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/10.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/11.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/12.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/13.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/14.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/15.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/16.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/17.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/18.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="../images/imagens_em_azul/19.jpg" alt="">
-                </div>
-            </div>
-        </div>
+            <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 
-        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+            <div class="container-fluid">
+                <div class="row ml-0 mr-0 main_div">
+                    <div class="col-12 col-md-8 col-lg-9 order-1 order-md-0">
+                        <asp:Panel ID="DivPerfil" CssClass="DivBtn" runat="server" Visible="False">
+                            <div class="">
+                                <div class="divPerfil_inner">
+                                    <div class="row">
+                                        <div class="w-100">
+                                            <div class="col-xl-12">
+                                                <h1>Perfil </h1>
+                                                <hr class="mt-0" />
+                                            </div>
+                                        </div>
 
-        <div class="container-fluid">
-            <div class="row main_div">
-                <div class="col-9">
-                    <asp:Panel ID="DivPerfil" CssClass="DivBtn" runat="server" Visible="False">
-                        <div class="">
-                            <div class="divPerfil_inner">
-                                <div class="row">
+                                    </div>
                                     <div class="container">
-                                        <div class="col-xl-12">
-                                            <h1>Perfil </h1>
-                                            <hr class="mt-0" />
+                                        <div class="row">
+                                            <div class="col-12 col-md-3">
+                                                <p>nome </p>
+                                            </div>
+                                            <div class="col-12 col-md">
+                                                <asp:TextBox ID="TBoxPerfilNome" placeholder="Nome" CssClass="form-control"
+                                                    runat="server"></asp:TextBox>
+
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-md-3">
+                                                <p>e-mail </p>
+                                            </div>
+                                            <div class="col-12 col-md">
+                                                <asp:TextBox ID="TBoxPerfilEmail" placeholder="Email" CssClass="form-control"
+                                                    runat="server"></asp:TextBox>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-md-3">
+                                                <p>telemovel </p>
+                                            </div>
+                                            <div class="col-12 col-md">
+                                                <asp:TextBox ID="TBoxPerfilTelefone" placeholder="Telefone" CssClass="form-control"
+                                                    runat="server"></asp:TextBox>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-md-3">
+                                                <p>Nº Registo </p>
+                                            </div>
+                                            <div class="col-12 col-md">
+                                                <asp:TextBox ID="TBoxPerfilNRegisto" placeholder="Número de Registo"
+                                                    CssClass="form-control" runat="server"></asp:TextBox>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-md-3">
+                                                <p>Morada </p>
+                                            </div>
+                                            <div class="col-12 col-md">
+                                                <asp:TextBox ID="TBoxPerfilMorada" placeholder="Morada" CssClass="form-control"
+                                                    runat="server"></asp:TextBox>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-md-3">
+                                                <asp:Label ID="Label4" runat="server">Estado de Licenciamento:</asp:Label>
+                                            </div>
+                                            <div class="col-12 col-md">
+                                                <asp:Label ID="Label5" runat="server"></asp:Label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-md-3">
+                                                <asp:Label ID="Label6" runat="server">Final da Licença:</asp:Label>
+                                            </div>
+                                            <div class="col-12 col-md">
+                                                <asp:TextBox ID="TextBox5" runat="server" ReadOnly="True" TextMode="Date"></asp:TextBox>
+                                                <asp:TextBox ID="TextBox6" runat="server" ReadOnly="True" TextMode="Date"
+                                                    Visible="False"></asp:TextBox>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-9 offset-3 text-right">
+                                                <asp:Button ID="Button4" runat="server" CssClass="btn" Text="Renovar"
+                                                    OnClick="Button4_Click" />
+
+                                                <br>
+
+                                                <asp:Button ID="Button1" runat="server" CssClass="btn  mt-1" Text="Mudar Password"
+                                                    OnClick="Button1_Click1" />
+
+                                                <br />
+                                                <asp:Button ID="BtnPerfilConfirmar" CssClass="btn mt-1" runat="server" Text="Confirmar"
+                                                    OnClick="BtnPerfilConfirmar_Click" />
+
+                                            </div>
+
                                         </div>
                                     </div>
 
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <p>nome </p>
-                                        </div>
-                                        <div class="col">
-                                            <asp:TextBox ID="TBoxPerfilNome" placeholder="Nome" CssClass="form-control"
-                                                runat="server"></asp:TextBox>
-
-                                        </div>
+                                    <br />
+                                    <div class="custompopup" id="divThankYou" runat="server" visible="false">
+                                        <p>
+                                            <asp:Label ID="lblmessage" runat="server">Password Antiga</asp:Label>
+                                            <asp:TextBox ID="TextBox3" runat="server" TextMode="Password"></asp:TextBox>
+                                        </p>
+                                        <asp:Button ID="Button3" CssClass="butoespopup" Width="25%" runat="server" Text="Ok"
+                                            OnClick="Button3_Click" />
+                                        <asp:Button ID="Button14" runat="server" Text="Voltar" OnClick="Button14_Click" />
                                     </div>
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <p>e-mail </p>
-                                        </div>
-                                        <div class="col">
-                                            <asp:TextBox ID="TBoxPerfilEmail" placeholder="Email" CssClass="form-control"
-                                                runat="server"></asp:TextBox>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <p>telemovel </p>
-                                        </div>
-                                        <div class="col">
-                                            <asp:TextBox ID="TBoxPerfilTelefone" placeholder="Telefone" CssClass="form-control"
-                                                runat="server"></asp:TextBox>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <p>Nº Registo </p>
-                                        </div>
-                                        <div class="col">
-                                            <asp:TextBox ID="TBoxPerfilNRegisto" placeholder="Número de Registo"
-                                                CssClass="form-control" runat="server"></asp:TextBox>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <p>Morada </p>
-                                        </div>
-                                        <div class="col">
-                                            <asp:TextBox ID="TBoxPerfilMorada" placeholder="Morada" CssClass="form-control"
-                                                runat="server"></asp:TextBox>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <asp:Label ID="Label4" runat="server">Estado de Licenciamento:</asp:Label>
-                                        </div>
-                                        <div class="col">
-                                            <asp:Label ID="Label5" runat="server"></asp:Label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <asp:Label ID="Label6" runat="server">Final da Licença:</asp:Label>
-                                        </div>
-                                        <div class="col">
-                                            <asp:TextBox ID="TextBox5" runat="server" ReadOnly="True" TextMode="Date"></asp:TextBox>
-                                            <asp:TextBox ID="TextBox6" runat="server" ReadOnly="True" TextMode="Date"
-                                                Visible="False"></asp:TextBox>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-9 offset-3 text-right">
-                                            <asp:Button ID="Button4" runat="server" CssClass="btn" Text="Renovar"
-                                                OnClick="Button4_Click" />
-
-                                            <br>
-
-                                            <asp:Button ID="Button1" runat="server" CssClass="btn  mt-1" Text="Mudar Password"
-                                                OnClick="Button1_Click1" />
-
+                                    <div class="custompopup" id="divNovaPass" runat="server" visible="false">
+                                        <p>
+                                            <asp:Label ID="Label2" runat="server" Text="Nova Password"></asp:Label>
+                                            <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
                                             <br />
-                                            <asp:Button ID="BtnPerfilConfirmar" CssClass="btn mt-1" runat="server" Text="Confirmar"
-                                                OnClick="BtnPerfilConfirmar_Click" />
-
-                                        </div>
-
+                                            <asp:Label ID="Label3" runat="server" Text="Confirmar Password"></asp:Label>
+                                            <asp:TextBox ID="TextBox4" runat="server" TextMode="Password"></asp:TextBox>
+                                        </p>
+                                        <asp:Button ID="Button2" CssClass="butoespopup" Width="25%" runat="server" Text="Ok"
+                                            OnClick="Button2_Click" />
                                     </div>
+
+                                    <br />
+
+                                    <br />
+                                    <br />
+
+                                    <asp:Label ID="Label1" runat="server"></asp:Label>
                                 </div>
-
-                                <br />
-                                <div class="custompopup" id="divThankYou" runat="server" visible="false">
-                                    <p>
-                                        <asp:Label ID="lblmessage" runat="server">Password Antiga</asp:Label>
-                                        <asp:TextBox ID="TextBox3" runat="server" TextMode="Password"></asp:TextBox>
-                                    </p>
-                                    <asp:Button ID="Button3" CssClass="butoespopup" Width="25%" runat="server" Text="Ok"
-                                        OnClick="Button3_Click" />
-                                    <asp:Button ID="Button14" runat="server" Text="Voltar" OnClick="Button14_Click" />
-                                </div>
-                                <div class="custompopup" id="divNovaPass" runat="server" visible="false">
-                                    <p>
-                                        <asp:Label ID="Label2" runat="server" Text="Nova Password"></asp:Label>
-                                        <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
-                                        <br />
-                                        <asp:Label ID="Label3" runat="server" Text="Confirmar Password"></asp:Label>
-                                        <asp:TextBox ID="TextBox4" runat="server" TextMode="Password"></asp:TextBox>
-                                    </p>
-                                    <asp:Button ID="Button2" CssClass="butoespopup" Width="25%" runat="server" Text="Ok"
-                                        OnClick="Button2_Click" />
-                                </div>
-
-                                <br />
-
-                                <br />
-                                <br />
-
-                                <asp:Label ID="Label1" runat="server"></asp:Label>
                             </div>
-                        </div>
 
-                    </asp:Panel>
+                        </asp:Panel>
 
-                    <asp:Panel ID="DivPesquisaAvaliacoes" CssClass="DivBtn" runat="server" Visible="False">
+                        <asp:Panel ID="DivPesquisaAvaliacoes" CssClass="DivBtn" runat="server" Visible="False">
 
-                        <input id="LatitudeDragend" type="hidden" value="0" runat="server" />
-                        <input id="LongitudeDragend" type="hidden" value="0" runat="server" />
-                        <input id="ZoomDragend" type="hidden" value="0" runat="server" />
-                        <input id="Latlnglat" type="hidden" runat="server" />
-                        <input id="Latlnglng" type="hidden" runat="server" />
-                        <input id="Hidden1" type="hidden" runat="server" />
-                        <input id="Hidden2" type="hidden" runat="server" />
-                        <input id="Hidden3" type="hidden" runat="server" />
+                            <input id="LatitudeDragend" type="hidden" value="0" runat="server" />
+                            <input id="LongitudeDragend" type="hidden" value="0" runat="server" />
+                            <input id="ZoomDragend" type="hidden" value="0" runat="server" />
+                            <input id="Latlnglat" type="hidden" runat="server" />
+                            <input id="Latlnglng" type="hidden" runat="server" />
+                            <input id="Hidden1" type="hidden" runat="server" />
+                            <input id="Hidden2" type="hidden" runat="server" />
+                            <input id="Hidden3" type="hidden" runat="server" />
 
-                        <asp:TextBox ID="TextBox1" runat="server" placeholder="Introduza uma localização" onkeydown="return (event.keyCode!=13);"></asp:TextBox>
+                            <asp:TextBox ID="TextBox1" runat="server" placeholder="Introduza uma localização" onkeydown="return (event.keyCode!=13);"></asp:TextBox>
 
-                        <asp:TextBox runat="server" ID="pacinput" class="form-control" type="text" placeholder="Find Address of conflict &#xF002;"
-                            Style="display: none" AutoPostBack="True"></asp:TextBox>
-                        <div id="googleMapZOOM" style="width: 100%; height: 300px;"></div>
-
+                            <asp:TextBox runat="server" ID="pacinput" class="form-control" type="text" placeholder="Find Address of conflict &#xF002;"
+                                Style="display: none" AutoPostBack="True"></asp:TextBox>
+                            <div id="googleMapZOOM" style="width: 100%; height: 300px;"></div>
 
 
 
-                        <asp:GridView ID="GridView1" runat="server">
-                        </asp:GridView>
-                        &nbsp;
+
+                            <asp:GridView ID="GridView1" runat="server">
+                            </asp:GridView>
+                            &nbsp;
 
                         <table id="tbl" width="60%" style="visibility: hidden;">
                             <tr>
                                 <td>Nome</td>
                             </tr>
                         </table>
-                        <table id="tblcontatos" style="visibility: hidden;" width="60%">
-                            <tr>
-                                <td>Nome</td>
-                                <td>Contatos</td>
-                                <td>Password</td>
-                            </tr>
-                        </table>
+                            <table id="tblcontatos" style="visibility: hidden;" width="60%">
+                                <tr>
+                                    <td>Nome</td>
+                                    <td>Contatos</td>
+                                    <td>Password</td>
+                                </tr>
+                            </table>
 
 
-                    </asp:Panel>
+                        </asp:Panel>
 
-                    <asp:Panel ID="DivPublicarPedidoAvaliacao" CssClass="DivBtn" runat="server" Visible="False">
+                        <asp:Panel ID="DivPublicarPedidoAvaliacao" CssClass="DivBtn" runat="server" Visible="False">
 
-                        <asp:Panel ID="Panel2" runat="server">
+                            <asp:Panel ID="Panel2" runat="server">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <asp:Button ID="Button6" CssClass="btn_numeros btn btn-dark" runat="server"
+                                                    Text="1" OnClick="Button6_Click" />
+
+                                            </div>
+
+                                        </div>
+                                        <div class="row text-center w-100" style="padding: 20px;">
+                                            <div>
+                                                <p>
+                                                    Inserir
+                                                <br>
+                                                    uma
+                                                <br>
+                                                    avaliação
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <asp:Button ID="Button7" CssClass="btn_numeros btn btn-dark" runat="server"
+                                                    Text="2" OnClick="Button7_Click" />
+                                            </div>
+                                        </div>
+                                        <div class="row text-center w-100" style="padding: 20px;">
+                                            <div class="">
+                                                <p>
+                                                    Importar
+                                                <br>
+                                                    várias
+                                                <br>
+                                                    avaliações
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <asp:Button ID="Button8" CssClass="btn_numeros btn btn-dark" runat="server"
+                                                    Text="3" OnClick="Button8_Click" />
+                                            </div>
+                                        </div>
+                                        <div class="row text-center w-100" style="padding: 20px;">
+                                            <div class="">
+                                                <p>
+                                                    Importar
+                                                <br>
+                                                    pacote de
+                                                <br>
+                                                    avaliações
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </asp:Panel>
+
+                        </asp:Panel>
+
+                        <asp:Panel ID="DivMinhasAvaliacoes" CssClass="DivBtn" runat="server" Visible="False">
+                            <asp:GridView ID="GridView2" runat="server" OnSelectedIndexChanged="GridView2_SelectedIndexChanged">
+                                <Columns>
+                                    <asp:CommandField SelectText="Ver Avaliadores" ShowSelectButton="True" />
+                                </Columns>
+                            </asp:GridView>
+
+                            <div class="custompopup" id="div2" runat="server" visible="false">
+                                <p>
+                                    <asp:ListBox ID="ListBox5" runat="server" Visible="False"></asp:ListBox>
+                                    <asp:ListBox ID="ListBox6" runat="server" Visible="False"></asp:ListBox>
+                                    <asp:GridView ID="GridView5" runat="server" OnSelectedIndexChanged="GridView5_SelectedIndexChanged">
+                                        <Columns>
+                                            <asp:CommandField SelectText="Escolher" ShowSelectButton="True" />
+                                        </Columns>
+                                    </asp:GridView>
+                                </p>
+                                <asp:Button ID="Button9" CssClass="butoespopup" Width="25%" runat="server" Text="Voltar"
+                                    OnClick="Button9_Click" />
+                            </div>
+
+                            <br />
+                            <asp:GridView ID="GridView3" runat="server" OnSelectedIndexChanged="GridView3_SelectedIndexChanged"
+                                OnRowCommand="GridView3_RowCommand">
+                                <Columns>
+                                    <asp:CommandField SelectText="Ver Avaliações" ShowSelectButton="True" />
+                                    <asp:ButtonField CommandName="Select2" Text="Ver Avaliadores" />
+                                </Columns>
+                            </asp:GridView>
+                            <div class="custompopup" id="div3" runat="server" visible="false">
+                                <p>
+                                    <asp:ListBox ID="ListBox1" runat="server" Visible="False"></asp:ListBox>
+                                    <asp:ListBox ID="ListBox4" runat="server" Visible="False"></asp:ListBox>
+                                    <asp:GridView ID="GridView6" runat="server" OnSelectedIndexChanged="GridView6_SelectedIndexChanged">
+                                        <Columns>
+                                            <asp:CommandField SelectText="Escolher" ShowSelectButton="True" />
+                                        </Columns>
+                                    </asp:GridView>
+                                </p>
+                                <asp:Button ID="Button10" CssClass="butoespopup" runat="server" Text="Voltar" OnClick="Button10_Click" />
+                            </div>
+                            <div class="custompopup" id="div4" runat="server" visible="false">
+                                <p>
+                                    <asp:Label ID="Label7" runat="server" Text="Escolheu com sucesso o avaliador"></asp:Label>
+                                    <asp:GridView ID="GridView7" runat="server"></asp:GridView>
+                                </p>
+                                <asp:Button ID="Button11" CssClass="butoespopup" runat="server" Text="Voltar" OnClick="Button11_Click" />
+                            </div>
+                            <br />
+                            <asp:ListBox ID="ListBox2" runat="server" Visible="false"></asp:ListBox>
+                            <div class="custompopup" id="div1" runat="server" visible="false">
+                                <p>
+                                    <asp:GridView ID="GridView4" runat="server"></asp:GridView>
+                                </p>
+                                <asp:Button ID="Button5" CssClass="butoespopup" Width="25%" runat="server" Text="Voltar"
+                                    OnClick="Button5_Click" />
+                            </div>
+                            <asp:ListBox ID="ListBox3" runat="server" Visible="False"></asp:ListBox>
+                            <asp:ListBox ID="ListBox7" runat="server" Visible="False"></asp:ListBox>
+                            <asp:Timer ID="Timer1" runat="server" Interval="30000" OnTick="Timer1_Tick1">
+                            </asp:Timer>
+                        </asp:Panel>
+
+                        <asp:Panel ID="DivAvaliacoes" CssClass="DivBtn" runat="server" Visible="False">
+                            <asp:GridView ID="GridView8" runat="server" OnSelectedIndexChanged="GridView8_SelectedIndexChanged">
+                                <Columns>
+                                    <asp:CommandField SelectText="Avaliar" ShowSelectButton="True" />
+                                </Columns>
+                            </asp:GridView>
+
+                            <div class="custompopup" id="div6" runat="server" visible="false">
+                                <p>
+                                </p>
+                                <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                                    <ContentTemplate>
+                                        <asp:Label ID="Label8" runat="server" Text="Trato"></asp:Label>
+                                        <ajaxToolkit:Rating ID="Rating1" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars"
+                                            FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
+                                        </ajaxToolkit:Rating>
+                                        <asp:Label ID="Label9" runat="server" Text="Qualidade"></asp:Label>
+                                        <ajaxToolkit:Rating ID="Rating2" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars"
+                                            FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
+                                        </ajaxToolkit:Rating>
+                                        <asp:Label ID="Label10" runat="server" Text="Cumprimento de prazo"></asp:Label>
+                                        <ajaxToolkit:Rating ID="Rating3" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars"
+                                            FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
+                                        </ajaxToolkit:Rating>
+                                        <asp:Label ID="Label11" runat="server" Text="Outro"></asp:Label>
+                                        <ajaxToolkit:Rating ID="Rating4" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars"
+                                            FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
+                                        </ajaxToolkit:Rating>
+                                    </ContentTemplate>
+                                </asp:UpdatePanel>
+                                <p>
+                                </p>
+                                <asp:Button ID="Button13" runat="server" CssClass="butoespopup" OnClick="Button13_Click"
+                                    Text="Avaliar" />
+                                <asp:Button ID="Button15" runat="server" Text="Voltar" OnClick="Button15_Click" />
+                                <p>
+                                </p>
+                                <p>
+                                </p>
+                                <p>
+                                </p>
+                            </div>
+                            <br />
+                            <asp:GridView ID="GridView9" runat="server" OnRowCommand="GridView5_RowCommand"
+                                OnSelectedIndexChanged="GridView9_SelectedIndexChanged">
+                                <Columns>
+                                    <asp:ButtonField CommandName="Select2" Text="Ver avaliações" />
+                                    <asp:CommandField SelectText="Avaliar" ShowSelectButton="True" />
+                                </Columns>
+                            </asp:GridView>
+                            <asp:ListBox ID="ListBox8" runat="server" Visible="False"></asp:ListBox>
+                            <div class="custompopup" id="div5" runat="server" visible="false">
+                                <p>
+                                    <asp:GridView ID="GridView10" runat="server"></asp:GridView>
+                                </p>
+                                <asp:Button ID="Button12" CssClass="butoespopup" Width="25%" runat="server" Text="Voltar"
+                                    OnClick="Button12_Click" />
+                            </div>
+                            <asp:ListBox ID="ListBox11" runat="server"></asp:ListBox>
+                            <asp:ListBox ID="ListBox12" runat="server" Visible="False"></asp:ListBox>
+                            <asp:ListBox ID="ListBox13" runat="server"></asp:ListBox>
+                            <asp:ListBox ID="ListBox14" runat="server"></asp:ListBox>
+                        </asp:Panel>
+
+                        <asp:Panel ID="DivRanking" CssClass="DivBtn" runat="server" Visible="False">
                             <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <asp:Button ID="Button6" CssClass="btn_numeros btn btn-dark" runat="server"
-                                                Text="1" OnClick="Button6_Click" />
+                                <div class="col-12 col-md-6">
+                                    <h2>
+                                        <asp:Label ID="Label12" runat="server" Text="Empresa"></asp:Label></h2>
+                                    <div class="table-responsive">
+                                        <asp:GridView ID="GridView11" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView11_PageIndexChanging" PageSize="20">
+                                            <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
+                                        </asp:GridView>
+                                    </div>
 
-                                        </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <h2>
+                                        <asp:Label ID="Label13" runat="server" Text="Avaliador"></asp:Label></h2>
+                                    <div class="table-responsive">
+                                        <asp:GridView ID="GridView12" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView12_PageIndexChanging" PageSize="20">
+                                            <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
+                                        </asp:GridView>
+                                    </div>
 
-                                    </div>
-                                    <div class="row text-center w-100" style="padding: 20px;">
-                                        <div>
-                                            <p>
-                                                Inserir
-                                                <br>
-                                                uma
-                                                <br>
-                                                avaliação
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <asp:Button ID="Button7" CssClass="btn_numeros btn btn-dark" runat="server"
-                                                Text="2" OnClick="Button7_Click" />
-                                        </div>
-                                    </div>
-                                    <div class="row text-center w-100" style="padding: 20px;">
-                                        <div class="">
-                                            <p>
-                                                Importar
-                                                <br>
-                                                várias
-                                                <br>
-                                                avaliações
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <asp:Button ID="Button8" CssClass="btn_numeros btn btn-dark" runat="server"
-                                                Text="3" OnClick="Button8_Click" />
-                                        </div>
-                                    </div>
-                                    <div class="row text-center w-100" style="padding: 20px;">
-                                        <div class="">
-                                            <p>
-                                                Importar
-                                                <br>
-                                                pacote de
-                                                <br>
-                                                avaliações
-                                            </p>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
+
+                            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                                <asp:ListItem>10</asp:ListItem>
+                                <asp:ListItem Selected="True">20</asp:ListItem>
+                                <asp:ListItem>50</asp:ListItem>
+                                <asp:ListItem>100</asp:ListItem>
+                            </asp:DropDownList>
+
                         </asp:Panel>
 
-                    </asp:Panel>
+                        <asp:Panel ID="DivPublicarPedidoBtn1" CssClass="DivBtn" runat="server" Visible="False">
+                            <asp:Panel ID="Panel3" runat="server">
+                                <asp:Label ID="Label14" runat="server" Text="Denominação"></asp:Label>
+                                <asp:TextBox ID="PPA1TextBox1" runat="server"></asp:TextBox>
+                                <br />
+                                <asp:Label ID="Label15" runat="server" Text="Tipo"></asp:Label>
+                                <asp:DropDownList ID="PPA1DropDownList2" runat="server">
+                                </asp:DropDownList>
+                                <br />
+                                <asp:Label ID="Label16" runat="server" Text="Localidade"></asp:Label>
+                                <asp:DropDownList ID="PPA1DropDownList1" runat="server">
+                                </asp:DropDownList>
+                                <br />
+                                <asp:Label ID="Label17" runat="server" Text="Deadline"></asp:Label>
+                                <asp:TextBox ID="PPA1TextBox2" runat="server" TextMode="Date"></asp:TextBox>
+                                <br />
 
-                    <asp:Panel ID="DivMinhasAvaliacoes" CssClass="DivBtn" runat="server" Visible="False">
-                        <asp:GridView ID="GridView2" runat="server" OnSelectedIndexChanged="GridView2_SelectedIndexChanged">
-                            <Columns>
-                                <asp:CommandField SelectText="Ver Avaliadores" ShowSelectButton="True" />
-                            </Columns>
-                        </asp:GridView>
+                                <asp:Button ID="PPA1Button1" runat="server" Text="Registar" OnClick="PPA1Button1_Click" />
+                                <asp:Button ID="Button16" runat="server" OnClick="PPA1Button2_Click" Text="Voltar" />
+                                <asp:Label ID="Label18" runat="server"></asp:Label>
+                            </asp:Panel>
+                        </asp:Panel>
 
-                        <div class="custompopup" id="div2" runat="server" visible="false">
-                            <p>
-                                <asp:ListBox ID="ListBox5" runat="server" Visible="False"></asp:ListBox>
-                                <asp:ListBox ID="ListBox6" runat="server" Visible="False"></asp:ListBox>
-                                <asp:GridView ID="GridView5" runat="server" OnSelectedIndexChanged="GridView5_SelectedIndexChanged">
-                                    <Columns>
-                                        <asp:CommandField SelectText="Escolher" ShowSelectButton="True" />
-                                    </Columns>
+                        <asp:Panel ID="DivPublicarPedidoBtn2" CssClass="DivBtn" runat="server" Visible="False">
+                            <asp:Panel ID="Panel1" runat="server">
+                                <asp:FileUpload ID="PPA2FileUpload1" runat="server" />
+                                <br />
+                                <asp:Button ID="PPA2Button2" runat="server" Text="Verificar" OnClick="PPA2Button2_Click" />
+                                <asp:Button ID="PPA2Button3" runat="server" Text="download form" OnClick="PPA2Button3_Click" />
+                                <asp:DropDownList ID="PPA2DropDownList1" runat="server" Visible="False">
+                                </asp:DropDownList>
+                                <asp:DropDownList ID="PPA2DropDownList2" runat="server" Visible="False">
+                                </asp:DropDownList>
+                                <asp:Label ID="PPA2Label7" runat="server"></asp:Label>
+                                <asp:GridView ID="PPA2GridView1" runat="server">
                                 </asp:GridView>
-                            </p>
-                            <asp:Button ID="Button9" CssClass="butoespopup" Width="25%" runat="server" Text="Voltar"
-                                OnClick="Button9_Click" />
-                        </div>
+                                <asp:Button ID="PPA2Button4" runat="server" Text="Enviar" Visible="False" OnClick="PPA2Button4_Click" />
+                                <asp:Button ID="PPA2Button5" runat="server" Text="Enviar Outro" Visible="False" />
+                                <asp:Button ID="PPA2Button6" runat="server" OnClick="PPA2Button6_Click" Text="Voltar" />
+                                <br />
+                                <asp:Label ID="PPA2Label1" runat="server"></asp:Label>
+                            </asp:Panel>
+                        </asp:Panel>
 
-                        <br />
-                        <asp:GridView ID="GridView3" runat="server" OnSelectedIndexChanged="GridView3_SelectedIndexChanged"
-                            OnRowCommand="GridView3_RowCommand">
-                            <Columns>
-                                <asp:CommandField SelectText="Ver Avaliações" ShowSelectButton="True" />
-                                <asp:ButtonField CommandName="Select2" Text="Ver Avaliadores" />
-                            </Columns>
-                        </asp:GridView>
-                        <div class="custompopup" id="div3" runat="server" visible="false">
-                            <p>
-                                <asp:ListBox ID="ListBox1" runat="server" Visible="False"></asp:ListBox>
-                                <asp:ListBox ID="ListBox4" runat="server" Visible="False"></asp:ListBox>
-                                <asp:GridView ID="GridView6" runat="server" OnSelectedIndexChanged="GridView6_SelectedIndexChanged">
-                                    <Columns>
-                                        <asp:CommandField SelectText="Escolher" ShowSelectButton="True" />
-                                    </Columns>
+                        <asp:Panel ID="DivPublicarPedidoBtn3" CssClass="DivBtn" runat="server" Visible="False">
+                            <asp:Panel ID="Panel4" runat="server">
+                                <asp:FileUpload ID="PPA3FileUpload1" runat="server" />
+                                <br />
+                                <asp:Button ID="PPA3Button2" runat="server" Text="Verificar" OnClick="PPA3Button2_Click" Style="height: 26px" />
+                                <asp:Button ID="PPA3Button3" runat="server" Text="download form" OnClick="PPA3Button3_Click" />
+                                <asp:DropDownList ID="PPA3DropDownList2" runat="server" Visible="False">
+                                </asp:DropDownList>
+                                <asp:Label ID="PPA3Label7" runat="server"></asp:Label>
+                                <br />
+                                <asp:Label ID="Label19" runat="server" Text="Descrição do pacote"></asp:Label>
+                                <br />
+                                <asp:TextBox ID="PPA3TextBox1" runat="server"></asp:TextBox>
+                                <br />
+                                <br />
+                                <asp:DropDownList ID="PPA3DropDownList1" runat="server" Visible="False">
+                                </asp:DropDownList>
+                                <br />
+                                <asp:Label ID="Label20" runat="server" Text="Deadline"></asp:Label>
+                                <br />
+                                <asp:TextBox ID="PPA3TextBox2" runat="server" TextMode="Date"></asp:TextBox>
+                                <asp:GridView ID="PPA3GridView1" runat="server">
                                 </asp:GridView>
-                            </p>
-                            <asp:Button ID="Button10" CssClass="butoespopup" runat="server" Text="Voltar" OnClick="Button10_Click" />
-                        </div>
-                        <div class="custompopup" id="div4" runat="server" visible="false">
-                            <p>
-                                <asp:Label ID="Label7" runat="server" Text="Escolheu com sucesso o avaliador"></asp:Label>
-                                <asp:GridView ID="GridView7" runat="server"></asp:GridView>
-                            </p>
-                            <asp:Button ID="Button11" CssClass="butoespopup" runat="server" Text="Voltar" OnClick="Button11_Click" />
-                        </div>
-                        <br />
-                        <asp:ListBox ID="ListBox2" runat="server" Visible="false"></asp:ListBox>
-                        <div class="custompopup" id="div1" runat="server" visible="false">
-                            <p>
-                                <asp:GridView ID="GridView4" runat="server"></asp:GridView>
-                            </p>
-                            <asp:Button ID="Button5" CssClass="butoespopup" Width="25%" runat="server" Text="Voltar"
-                                OnClick="Button5_Click" />
-                        </div>
-                        <asp:ListBox ID="ListBox3" runat="server" Visible="False"></asp:ListBox>
-                        <asp:ListBox ID="ListBox7" runat="server" Visible="False"></asp:ListBox>
-                        <asp:Timer ID="Timer1" runat="server" Interval="30000" OnTick="Timer1_Tick1">
-                        </asp:Timer>
-                    </asp:Panel>
-
-                    <asp:Panel ID="DivAvaliacoes" CssClass="DivBtn" runat="server" Visible="False">
-                        <asp:GridView ID="GridView8" runat="server" OnSelectedIndexChanged="GridView8_SelectedIndexChanged">
-                            <Columns>
-                                <asp:CommandField SelectText="Avaliar" ShowSelectButton="True" />
-                            </Columns>
-                        </asp:GridView>
-
-                        <div class="custompopup" id="div6" runat="server" visible="false">
-                            <p>
-                            </p>
-                            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
-                                <ContentTemplate>
-                                    <asp:Label ID="Label8" runat="server" Text="Trato"></asp:Label>
-                                    <ajaxToolkit:Rating ID="Rating1" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars"
-                                        FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
-                                    </ajaxToolkit:Rating>
-                                    <asp:Label ID="Label9" runat="server" Text="Qualidade"></asp:Label>
-                                    <ajaxToolkit:Rating ID="Rating2" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars"
-                                        FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
-                                    </ajaxToolkit:Rating>
-                                    <asp:Label ID="Label10" runat="server" Text="Cumprimento de prazo"></asp:Label>
-                                    <ajaxToolkit:Rating ID="Rating3" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars"
-                                        FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
-                                    </ajaxToolkit:Rating>
-                                    <asp:Label ID="Label11" runat="server" Text="Outro"></asp:Label>
-                                    <ajaxToolkit:Rating ID="Rating4" runat="server" CurrentRating="3" EmptyStarCssClass="EmptyStars"
-                                        FilledStarCssClass="FilledStars" StarCssClass="starRating" WaitingStarCssClass="WatingStars">
-                                    </ajaxToolkit:Rating>
-                                </ContentTemplate>
-                            </asp:UpdatePanel>
-                            <p>
-                            </p>
-                            <asp:Button ID="Button13" runat="server" CssClass="butoespopup" OnClick="Button13_Click"
-                                Text="Avaliar" />
-                            <asp:Button ID="Button15" runat="server" Text="Voltar" OnClick="Button15_Click" />
-                            <p>
-                            </p>
-                            <p>
-                            </p>
-                            <p>
-                            </p>
-                        </div>
-                        <br />
-                        <asp:GridView ID="GridView9" runat="server" OnRowCommand="GridView5_RowCommand"
-                            OnSelectedIndexChanged="GridView9_SelectedIndexChanged">
-                            <Columns>
-                                <asp:ButtonField CommandName="Select2" Text="Ver avaliações" />
-                                <asp:CommandField SelectText="Avaliar" ShowSelectButton="True" />
-                            </Columns>
-                        </asp:GridView>
-                        <asp:ListBox ID="ListBox8" runat="server" Visible="False"></asp:ListBox>
-                        <div class="custompopup" id="div5" runat="server" visible="false">
-                            <p>
-                                <asp:GridView ID="GridView10" runat="server"></asp:GridView>
-                            </p>
-                            <asp:Button ID="Button12" CssClass="butoespopup" Width="25%" runat="server" Text="Voltar"
-                                OnClick="Button12_Click" />
-                        </div>
-                        <asp:ListBox ID="ListBox11" runat="server"></asp:ListBox>
-                        <asp:ListBox ID="ListBox12" runat="server" Visible="False"></asp:ListBox>
-                        <asp:ListBox ID="ListBox13" runat="server"></asp:ListBox>
-                        <asp:ListBox ID="ListBox14" runat="server"></asp:ListBox>
-                    </asp:Panel>
-
-                    <asp:Panel ID="DivRanking" CssClass="DivBtn" runat="server" Visible="False">
-                        <asp:Label ID="Label12" runat="server" Text="Empresa"></asp:Label>
-                        <br />
-                        <asp:GridView ID="GridView11" runat="server" AllowPaging="True" OnPageIndexChanging="GridView11_PageIndexChanging" PageSize="2">
-                            <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
-                        </asp:GridView>
-                        <br />
-                        <br />
-                        <asp:Label ID="Label13" runat="server" Text="Avaliador"></asp:Label>
-                        <br />
-                        <asp:GridView ID="GridView12" runat="server" AllowPaging="True" OnPageIndexChanging="GridView12_PageIndexChanging" PageSize="2">
-                            <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
-                        </asp:GridView>
-
-                    </asp:Panel>
-
-                    <asp:Panel ID="DivPublicarPedidoBtn1" CssClass="DivBtn" runat="server" Visible="False">
-                        <asp:Panel ID="Panel3" runat="server">
-                            <asp:Label ID="Label14" runat="server" Text="Denominação"></asp:Label>
-                            <asp:TextBox ID="PPA1TextBox1" runat="server"></asp:TextBox>
-                            <br />
-                            <asp:Label ID="Label15" runat="server" Text="Tipo"></asp:Label>
-                            <asp:DropDownList ID="PPA1DropDownList2" runat="server">
-                            </asp:DropDownList>
-                            <br />
-                            <asp:Label ID="Label16" runat="server" Text="Localidade"></asp:Label>
-                            <asp:DropDownList ID="PPA1DropDownList1" runat="server">
-                            </asp:DropDownList>
-                            <br />
-                            <asp:Label ID="Label17" runat="server" Text="Deadline"></asp:Label>
-                            <asp:TextBox ID="PPA1TextBox2" runat="server" TextMode="Date"></asp:TextBox>
-                            <br />
-
-                            <asp:Button ID="PPA1Button1" runat="server" Text="Registar" OnClick="PPA1Button1_Click" />
-                            <asp:Button ID="Button16" runat="server" OnClick="PPA1Button2_Click" Text="Voltar" />
-                            <asp:Label ID="Label18" runat="server"></asp:Label>
+                                <asp:Button ID="PPA3Button4" runat="server" Text="Enviar" Visible="False" OnClick="PPA3Button4_Click" />
+                                <asp:Button ID="PPA3Button5" runat="server" Text="Enviar Outro" Visible="False" OnClick="PPA3Button5_Click" />
+                                <asp:Button ID="PPA3Button6" runat="server" OnClick="PPA3Button6_Click" Text="Voltar" />
+                                <br />
+                                <asp:Label ID="Label21" runat="server"></asp:Label>
+                            </asp:Panel>
                         </asp:Panel>
-                    </asp:Panel>
 
-                    <asp:Panel ID="DivPublicarPedidoBtn2" CssClass="DivBtn" runat="server" Visible="False">
-                        <asp:Panel ID="Panel1" runat="server">
-                            <asp:FileUpload ID="PPA2FileUpload1" runat="server" />
-                            <br />
-                            <asp:Button ID="PPA2Button2" runat="server" Text="Verificar" OnClick="PPA2Button2_Click" />
-                            <asp:Button ID="PPA2Button3" runat="server" Text="download form" OnClick="PPA2Button3_Click" />
-                            <asp:DropDownList ID="PPA2DropDownList1" runat="server" Visible="False">
-                            </asp:DropDownList>
-                            <asp:DropDownList ID="PPA2DropDownList2" runat="server" Visible="False">
-                            </asp:DropDownList>
-                            <asp:Label ID="PPA2Label7" runat="server"></asp:Label>
-                            <asp:GridView ID="PPA2GridView1" runat="server">
-                            </asp:GridView>
-                            <asp:Button ID="PPA2Button4" runat="server" Text="Enviar" Visible="False" OnClick="PPA2Button4_Click" />
-                            <asp:Button ID="PPA2Button5" runat="server" Text="Enviar Outro" Visible="False" />
-                            <asp:Button ID="PPA2Button6" runat="server" OnClick="PPA2Button6_Click" Text="Voltar" />
-                            <br />
-                            <asp:Label ID="PPA2Label1" runat="server"></asp:Label>
-                        </asp:Panel>
-                    </asp:Panel>
+                    </div>
+                    <div class="col-12 col-md-3 order-0 order-md-1">
+                        <div class="Emp_div">
+                            <div class="Emp_innerDiv">
+                                <ul class="p-0 h-100" style="list-style-type: none;">
+                                    <li>
+                                        <asp:Button ID="BtnPerfil" runat="server" Text="Perfil" OnClick="BtnPerfil_Click" />
+                                    </li>
+                                    <li>
+                                        <asp:Button ID="BtnPesquisaAvaliacoes" runat="server" Text="Pesquisa Avaliadores"
+                                            OnClick="BtnPesquisaAvaliacoes_Click" />
+                                    </li>
+                                    <li>
+                                        <asp:Button ID="BtnPublicarPedidoAvaliacao" runat="server" Text="Publicar Pedido Avaliacao"
+                                            OnClick="BtnPublicarPedidoAvaliacao_Click" />
+                                    </li>
+                                    <li>
+                                        <asp:Button ID="BtnMinhasAvaliacoes" runat="server" Text="Meus Trabalhos" OnClick="BtnMinhasAvaliacoes_Click" />
+                                    </li>
+                                    <li>
+                                        <asp:Button ID="BtnAvaliacoes" runat="server" Text="Avaliações" OnClick="BtnAvaliacoes_Click" />
+                                    </li>
+                                    <li>
+                                        <asp:Button ID="BtnRanking" runat="server" Text="Ranking" OnClick="BtnRanking_Click" />
+                                    </li>
+                                </ul>
 
-                    <asp:Panel ID="DivPublicarPedidoBtn3" CssClass="DivBtn" runat="server" Visible="False">
-                        <asp:Panel ID="Panel4" runat="server">
-                            <asp:FileUpload ID="PPA3FileUpload1" runat="server" />
-                            <br />
-                            <asp:Button ID="PPA3Button2" runat="server" Text="Verificar" OnClick="PPA3Button2_Click" Style="height: 26px" />
-                            <asp:Button ID="PPA3Button3" runat="server" Text="download form" OnClick="PPA3Button3_Click" />
-                            <asp:DropDownList ID="PPA3DropDownList2" runat="server" Visible="False">
-                            </asp:DropDownList>
-                            <asp:Label ID="PPA3Label7" runat="server"></asp:Label>
-                            <br />
-                            <asp:Label ID="Label19" runat="server" Text="Descrição do pacote"></asp:Label>
-                            <br />
-                            <asp:TextBox ID="PPA3TextBox1" runat="server"></asp:TextBox>
-                            <br />
-                            <br />
-                            <asp:DropDownList ID="PPA3DropDownList1" runat="server" Visible="False">
-                            </asp:DropDownList>
-                            <br />
-                            <asp:Label ID="Label20" runat="server" Text="Deadline"></asp:Label>
-                            <br />
-                            <asp:TextBox ID="PPA3TextBox2" runat="server" TextMode="Date"></asp:TextBox>
-                            <asp:GridView ID="PPA3GridView1" runat="server">
-                            </asp:GridView>
-                            <asp:Button ID="PPA3Button4" runat="server" Text="Enviar" Visible="False" OnClick="PPA3Button4_Click" />
-                            <asp:Button ID="PPA3Button5" runat="server" Text="Enviar Outro" Visible="False" OnClick="PPA3Button5_Click" />
-                            <asp:Button ID="PPA3Button6" runat="server" OnClick="PPA3Button6_Click" Text="Voltar" />
-                            <br />
-                            <asp:Label ID="Label21" runat="server"></asp:Label>
-                        </asp:Panel>
-                    </asp:Panel>
 
-                </div>
-                <div class="col-3">
-                    <div class="Emp_div">
-                        <div class="Emp_innerDiv">
-                            <ul style="list-style-type: none;">
-                                <li>
-                                    <asp:Button ID="BtnPerfil" runat="server" Text="Perfil" OnClick="BtnPerfil_Click" />
-                                </li>
-                                <li>
-                                    <asp:Button ID="BtnPesquisaAvaliacoes" runat="server" Text="Pesquisa Avaliadores"
-                                        OnClick="BtnPesquisaAvaliacoes_Click" />
-                                </li>
-                                <li>
-                                    <asp:Button ID="BtnPublicarPedidoAvaliacao" runat="server" Text="Publicar Pedido Avaliacao"
-                                        OnClick="BtnPublicarPedidoAvaliacao_Click" />
-                                </li>
-                                <li>
-                                    <asp:Button ID="BtnMinhasAvaliacoes" runat="server" Text="Meus Trabalhos" OnClick="BtnMinhasAvaliacoes_Click" />
-                                </li>
-                                <li>
-                                    <asp:Button ID="BtnAvaliacoes" runat="server" Text="Avaliações" OnClick="BtnAvaliacoes_Click" />
-                                </li>
-                                <li>
-                                    <asp:Button ID="BtnRanking" runat="server" Text="Ranking" OnClick="BtnRanking_Click" />
-                                </li>
-                            </ul>
-
+                            </div>
 
                         </div>
-
                     </div>
                 </div>
             </div>
+
+         
         </div>
 
-        <footer class="footer">
-            <div class="container-fluid">
-                <span class="">@Copyright</span>
-            </div>
-        </footer>
+           <footer class="footer">
+                <div class="container-fluid">
+                    <span class="">@Copyright</span>
+                </div>
+            </footer>
+
+
+
+
+
+
+
 
     </form>
 </body>
@@ -631,7 +658,7 @@
                 <ItemTemplate>
                     {
                         "id": '<%# Eval("id") %>',
-                            "lat": '<%# Eval("Longitude") %>',
+        "lat": '<%# Eval("Longitude") %>',
                                 "lng": '<%# Eval("Latitude") %>',
 							    "NomeCidade": '<%# Eval("Nome") %>',
                                 "NomeAvaliador": '<%# Eval("Nome2") %>',

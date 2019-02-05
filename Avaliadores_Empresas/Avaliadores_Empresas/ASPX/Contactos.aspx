@@ -51,7 +51,7 @@
             </div>
         </nav>
 
-        <div class="row slider">
+        <div class="position-relative slider">
             <div class="owl-carousel owl-theme" id="owl">
                 <div class="item">
                     <img src="../images/imagens_em_azul/1.jpg" alt="">
@@ -113,13 +113,8 @@
 
             </div>
 
-
-
-
-
-        </div>
-        <div class="contactos_div">
-            <div class="contactos_innerDiv">
+            <div class="main_div ml-0 mr-0 text-center">
+                 <div class="contactos_innerDiv">
                 <div class="col-xl-12" style="text-align: left">
                     <h1>Contactos</h1>
                 </div>
@@ -163,10 +158,13 @@
                     </div>
                 </div>
             </div>
+            </div>
+
+
+
+
 
         </div>
-
-
 
         <footer class="footer">
             <div class="container-fluid">

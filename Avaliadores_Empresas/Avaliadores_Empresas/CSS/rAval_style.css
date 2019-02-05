@@ -1,4 +1,5 @@
 
+
 .rAval_div{
     position: absolute; 
     text-align: center; 
@@ -8,15 +9,12 @@
     background-color: transparent;
 }
 
-.rAval_innerDiv{
-    height: 515px;
+.rAval_innerDiv {
     background-color: rgba(161, 206, 221, 0.88);
     display: inline-block;
     margin: 0 auto;
     text-align: left;
-    overflow-y: scroll;
-    padding: 15px 40px 18px 10px; 
- 
+    padding: 20px;
 }
 
 .div_texto{
@@ -43,7 +41,6 @@
 
 .btn-registar {
     background-color: white;
-    width: 25%;
     font-weight: 600;
     border: none;
 }
@@ -146,12 +143,4 @@ hr{
     font-family: 'Montserrat';
     font-size: 12pt;
     border: none;
-}
-
-@media only screen and (max-height: 662px) {
-    .rAval_div {
-        overflow: scroll;
-        height: 100%;
-        padding-bottom: 160px;
-    }
 }

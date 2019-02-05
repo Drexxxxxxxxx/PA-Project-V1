@@ -33,36 +33,39 @@
             <asp:Button ID="Button3" runat="server" Text="Anual" OnClick="Button3_Click" />
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <a class="navbar-brand" href="../HomePage">
-                <img src="../images/Logos/favicon.ico" width="40" height="40" alt="">
-            </a>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <a class="navbar-brand" href="../HomePage">
+                    <img src="../images/Logos/favicon.ico" width="40" height="40" alt="">
+                </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link " href="SobreNos">Somos Nos</a>
-                    </li>
-                    <li class="nav-item">
-                        <asp:LinkButton ID="LinkButton2" runat="server" Text="Avaliador" OnClick="LinkButton2_Click"></asp:LinkButton>
-                    </li>
-                    <li class="nav-item">
-                        <asp:LinkButton ID="LinkButton3" runat="server" Text="Empresa" OnClick="LinkButton3_Click"></asp:LinkButton>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="Contactos">Contactos</a>
-                    </li>
-                    <li class="nav-item">
-                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link " href="SobreNos">Somos Nos</a>
+                        </li>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="LinkButton2" runat="server" Text="Avaliador" OnClick="LinkButton2_Click"></asp:LinkButton>
+                        </li>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="LinkButton3" runat="server" Text="Empresa" OnClick="LinkButton3_Click"></asp:LinkButton>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="Contactos">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-        <div class="row slider">
+
+        <div class="position-relative slider">
             <div class="owl-carousel owl-theme" id="owl">
                 <div class="item">
                     <img src="../images/imagens_em_azul/1.jpg" alt="">
@@ -124,65 +127,65 @@
 
             </div>
 
-        </div>
-        <div class="rEmp_div">
-            <div class="rEmp_innerDiv">
-                <div class="col-xl-12" style="text-align: left">
-                    <h1>Registar Empresa</h1>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-lg-6">
+            <div class="container">
+                <div class="main_div row ml-0 mr-0">
+                    <div class="rEmp_innerDiv">
+                        <div class="w-100" style="text-align: left">
+                            <h1>Registar Empresa</h1>
+                        </div>
+                        <hr>
                         <div class="row">
-                            <div class="col-lg-3">
-                                <p>nome </p>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p>nome </p>
+                                    </div>
+                                    <div class="col-lg">
+                                        <asp:TextBox ID="nome_emp" placeholder="nome" Width="100%" CssClass="textboxContactos" runat="server"></asp:TextBox>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p>e-mail </p>
+                                    </div>
+                                    <div class="col-lg">
+                                        <asp:TextBox ID="email_emp" placeholder="email" Width="100%" CssClass="textboxContactos" runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p>telefone </p>
+                                    </div>
+                                    <div class="col-lg">
+                                        <asp:TextBox ID="mobile_emp" placeholder="telefone" Width="100%" CssClass="textboxContactos" MaxLength="9" runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p>morada </p>
+                                    </div>
+                                    <div class="col-lg">
+                                        <asp:TextBox ID="morada_emp" placeholder="morada" Width="100%" CssClass="textboxContactos" runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+
                             </div>
-                            <div class="col-lg">
-                                <asp:TextBox ID="nome_emp" placeholder="nome" Width="100%" CssClass="textboxContactos" runat="server"></asp:TextBox>
+                            <div class="col-lg-6">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <p>nº registo CMVM </p>
+                                    </div>
+                                    <div class="col-lg">
+                                        <asp:TextBox ID="nregisto_emp" Width="100%" placeholder="CMVM" CssClass="textboxContactos" runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+
 
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <p>e-mail </p>
-                            </div>
-                            <div class="col-lg">
-                                <asp:TextBox ID="email_emp" placeholder="email" Width="100%" CssClass="textboxContactos" runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <p>telefone </p>
-                            </div>
-                            <div class="col-lg">
-                                <asp:TextBox ID="mobile_emp" placeholder="telefone" Width="100%" CssClass="textboxContactos" MaxLength="9" runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <p>morada </p>
-                            </div>
-                            <div class="col-lg">
-                                <asp:TextBox ID="morada_emp" placeholder="morada" Width="100%" CssClass="textboxContactos" runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <p>nº registo CMVM </p>
-                            </div>
-                            <div class="col-lg">
-                                <asp:TextBox ID="nregisto_emp" Width="100%" placeholder="CMVM" CssClass="textboxContactos" runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-                <br>
-                &nbsp;
+                        <br>
+                        &nbsp;
 
                             <div class="row">
                                 <div class="col-xl-6">
@@ -215,6 +218,10 @@
 
 
                             </div>
+
+
+                    </div>
+                </div>
 
 
             </div>

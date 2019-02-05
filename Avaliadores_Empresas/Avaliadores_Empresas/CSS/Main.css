@@ -1,12 +1,11 @@
 ﻿body {
     /* Margin bottom by footer height */
     margin-bottom: 38px;
-    overflow-y: hidden;
+    overflow-y:hidden;
+ 
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
+
 
 .navbar {
     background-color: #222022 !important;
@@ -31,8 +30,15 @@ nav li a {
     margin: 0px 10px;
 }
 
+.main_div {
+    position: relative;
+    padding-top: 100px;
+    width: 100%;
+}
+
+
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
@@ -56,6 +62,19 @@ input:not([type='checkbox']):not([type='submit']) {
     width: 100%;
 }
 
+.slider{
+    height:100vh;
+}
+
+@media (max-width:991px){
+    body {
+        overflow-y:auto;
+    }
+    .slider {
+        height: unset;
+    }
+}
+
 
 .owl-carousel {
     position: absolute;
@@ -64,29 +83,29 @@ input:not([type='checkbox']):not([type='submit']) {
     bottom: 0;
     top: 0;
     z-index: -1;
-    height: 100vh;
 }
 
-.owl-carousel .owl-stage-outer {
-    height: 100vh;
-}
-
-.owl-carousel .owl-stage {
-    height: 100vh;
-}
-
-    .owl-carousel .owl-stage .owl-item {
-        height: 100vh;
+    .owl-carousel .owl-stage-outer {
+        height: 100%;
     }
 
-        .owl-carousel .owl-stage .owl-item .item {
-            height: 100vh;
+    .owl-carousel .owl-stage {
+        height: 100%;
+    }
+
+        .owl-carousel .owl-stage .owl-item {
+            height: 100%;
         }
 
-        .owl-carousel .owl-stage .owl-item .item {
-            height: 100vh;
-        }
-
-            .owl-carousel .owl-stage .owl-item .item img {
-                height: 100vh;
+            .owl-carousel .owl-stage .owl-item .item {
+                height: 100%;
             }
+
+            .owl-carousel .owl-stage .owl-item .item {
+                height: 100%;
+            }
+
+                .owl-carousel .owl-stage .owl-item .item img {
+                    height: 100%;
+                    object-fit:cover;
+                }

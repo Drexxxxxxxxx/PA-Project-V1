@@ -15,121 +15,124 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="CSS/Hp_style.css">
+    
     <link rel="stylesheet" href="CSS/Main.css">
+    <link rel="stylesheet" href="CSS/Hp_style.css">
 </head>
 
 <body>
     <form runat="server">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <a class="navbar-brand" href="#">
-                <img src="images/Logos/favicon.ico" width="40" height="40" alt="">
-            </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="SobreNos">Somos Nos</a>
-                    </li>
-                    <li class="nav-item">
-                        <asp:LinkButton ID="LinkButton2" runat="server" Text="Avaliador" OnClick="LinkButton2_Click"></asp:LinkButton>
-                    </li>
-                    <li class="nav-item">
-                        <asp:LinkButton ID="LinkButton3" runat="server" Text="Empresa" OnClick="LinkButton3_Click"></asp:LinkButton>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Contactos">Contactos</a>
-                    </li>
-                    <li class="nav-item">
-                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <a class="navbar-brand" href="#">
+                    <img src="images/Logos/favicon.ico" width="40" height="40" alt="">
+                </a>
 
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="SobreNos">Somos Nos</a>
+                        </li>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="LinkButton2" runat="server" Text="Avaliador" OnClick="LinkButton2_Click"></asp:LinkButton>
+                        </li>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="LinkButton3" runat="server" Text="Empresa" OnClick="LinkButton3_Click"></asp:LinkButton>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contactos">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
+
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
 
-        <div class="row slider">
-            <div class="container-fluid">
-                <div class="row slider">
-                    <div class="owl-carousel owl-theme" id="owl">
-                        <div class="item">
-                            <img src="images/imagens_em_azul/1.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/2.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/3.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/4.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/5.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/6.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/7.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/8.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/9.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/10.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/11.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/12.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/13.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/14.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/15.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/16.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/17.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/18.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/imagens_em_azul/19.jpg" alt="">
-                        </div>
-
+        <div class="position-relative slider">
+            <div class="">
+                <div class="owl-carousel owl-theme" id="owl">
+                    <div class="item">
+                        <img src="images/imagens_em_azul/1.jpg" alt="">
                     </div>
-
-
-                    <div class="texto">
-                        <div>
-                            <h1 class="sub_tit">Bem Vindo ao teu </h1>
-                            <h1 class="titulo">Portal do Avaliador </h1>
-                            <asp:Button runat="server" ID="button2" CssClass="hp_button" OnClick="Button1_Click" Text="Somos Nos" />
-                        </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/2.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/3.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/4.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/5.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/6.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/7.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/8.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/9.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/10.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/11.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/12.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/13.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/14.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/15.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/16.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/17.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/18.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/imagens_em_azul/19.jpg" alt="">
                     </div>
 
                 </div>
 
+
+                <div class="main_div texto ">
+                    <div>
+                        <h1 class="sub_tit">Bem Vindo ao teu </h1>
+                        <h1 class="titulo">Portal do Avaliador </h1>
+                        <asp:Button runat="server" ID="button2" CssClass="hp_button" OnClick="Button1_Click" Text="Somos Nos" />
+                    </div>
+                </div>
+
+
+
             </div>
 
-          
+
 
         </div>
 
