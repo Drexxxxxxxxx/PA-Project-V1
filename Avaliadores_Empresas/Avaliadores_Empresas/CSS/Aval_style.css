@@ -18,14 +18,17 @@
 
 #DivTrabalhosRealizados {
     background-color: rgba(161, 206, 221, 0.88);
+    padding: 20px;
 }
 
 #DivLicenca {
     background-color: rgba(161, 206, 221, 0.88);
+    padding: 20px;
 }
 
 #DivAvaliacoes {
     background-color: rgba(161, 206, 221, 0.88);
+    padding: 20px;
 }
 
 #DivAvaliacoesDisponiveis {
@@ -61,15 +64,8 @@
     color: white;
 }
 
-#BtnPerfilConfirmar {
-    background-color: white;
-    color: black;
-    width: 100%;
-    margin-top: 1vmin;
-    margin-bottom: 1vmin;
-}
 
-.btn-change-pswd {
+.btn {
     background-color: white;
     color: black;
 }
@@ -125,11 +121,6 @@
     color: white;
 }
 
-
-
-.ativo {
-    border: 1px solid white;
-}
 
 input[type=text] {
     width: 100%;

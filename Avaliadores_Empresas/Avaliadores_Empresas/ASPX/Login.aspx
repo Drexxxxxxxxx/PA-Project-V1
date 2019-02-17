@@ -31,13 +31,25 @@
                 <img src="../images/Logos/favicon.ico" width="40" height="40" alt="">
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+             <div class="dropdown dp-nav">
+                <button class="btn" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="../images/Logos/favicon.ico" width="40" height="40" alt="">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <a href="HomePage" class="dropdown-item ">Home Page</a>
+                    <a href="SobreNos" class="dropdown-item">Somos Nos</a>
+                    <a href="Registar_Avaliadores" class="dropdown-item">Avaliador</a>
+                    <a href="Registar_Empresas" class="dropdown-item">Empresa</a>
+                    <a href="Contactos" class="dropdown-item ">Contactos</a>
+                    <asp:LinkButton ID="LinkButton2" CssClass="ativo" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
+
+                </div>
+            </div>
+
             <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link " href="SobreNos">Somos Nos</a>
+                        <a class=" " href="SobreNos">Somos Nos</a>
                     </li>
                     <li class="nav-item">
                         <asp:LinkButton ID="LinkButton5" runat="server" Text="Avaliador" OnClick="LinkButton5_Click"></asp:LinkButton>
@@ -46,7 +58,7 @@
                         <asp:LinkButton ID="LinkButton4" runat="server" Text="Empresa" OnClick="LinkButton4_Click"></asp:LinkButton>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="Contactos">Contactos</a>
+                        <a class="" href="Contactos">Contactos</a>
                     </li>
                     <li class="nav-item active">
                         <asp:LinkButton ID="LinkButton1" CssClass="ativo" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
@@ -119,25 +131,25 @@
 
             <div class="main_div mr-0 ml-0">
                 <div class="login_innerDiv">
-                    <div class="col-xl-12" style="text-align: center">
+                    <div class="col-12 text-center"  >
                         <h1>Login</h1>
                     </div>
                     <br>
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="row">
-                                <div class="col-lg-3">
+                                <div class="col-12 col-md">
                                     <p>E-mail </p>
                                 </div>
-                                <div class="col-lg">
+                                <div class="col-12 col-md-8">
                                     <asp:TextBox runat="server" ID="txt_email" TextMode="SingleLine" placeholder="e-mail"></asp:TextBox>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-3">
+                                <div class="col-12 col-md">
                                     <p>Password </p>
                                 </div>
-                                <div class="col-lg">
+                                <div class="col-12 col-md-8">
                                     <asp:TextBox runat="server" ID="txt_pass" TextMode="Password" placeholder="password"></asp:TextBox>
 
                                 </div>
@@ -148,20 +160,20 @@
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-12  offset-md-4">
                             <div class="row">
-                                <div class="col-lg-5 offset-3">
-                                    <asp:Button ID="btn_entrar" runat="server" CssClass="btn-entrar" Text="Login" OnClick="btn_entrar_Click" />
+                                <div class="col">
+                                    <asp:Button ID="btn_entrar" runat="server" CssClass="btn-entrar" Text="Entrar" OnClick="btn_entrar_Click" />
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-9 offset-3">
+                                <div class="col">
                                     <asp:LinkButton CssClass="color_white" ID="LinkButton3" runat="server" OnClick="LinkButton2_Click">Esqueceu-se da Palavra Passe ?</asp:LinkButton>
                                 </div>
 
                             </div>
                             <div class="row">
-                                <div class="col-lg-9 offset-3">
+                                <div class="col">
                                     <asp:Label ID="lbl_msg" runat="server" Font-Size="Medium" ForeColor="Red"></asp:Label>
                                 </div>
                             </div>

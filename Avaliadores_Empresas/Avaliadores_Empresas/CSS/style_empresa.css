@@ -45,22 +45,27 @@
 
 #DivPesquisaAvaliacoes {
     background-color: rgba(161, 206, 221, 0.88);
+    padding: 20px;
 }
 
 #DivPublicarPedidoAvaliacao {
     background-color: rgba(161, 206, 221, 0.88);
+    padding: 20px;
 }
 
 #DivMinhasAvaliacoes {
     background-color: rgba(161, 206, 221, 0.88);
+    padding: 20px;
 }
 
 #DivLicenca {
     background-color: rgba(161, 206, 221, 0.88);
+    padding: 20px;
 }
 
 #DivAvaliacoes {
     background-color: rgba(161, 206, 221, 0.88);
+    padding: 20px;
 }
 
 #DivRanking {

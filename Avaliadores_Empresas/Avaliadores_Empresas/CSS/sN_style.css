@@ -7,6 +7,10 @@
     background-color: transparent;
 }
 
+div[class^="col"] {
+    display:grid;
+}
+
 .somosNos_innerDiv {
     background-color: rgba(161, 206, 221, 0.88);
     display: inline-block;
@@ -38,11 +42,6 @@
     color: white;
 }
 
-
-
-.ativo {
-    border: 1px solid white;
-}
 
 
 .container-fluid2 {

@@ -78,11 +78,13 @@ namespace Avaliadores_Empresas
             {
                 string sessaostrng = Session["idAvaliador"].ToString();
                 LinkButton1.Text = "Logout";
+                LinkButton2.Text = "Logout";
 
             }
             catch
             {
                 LinkButton1.Text = "Login";
+                LinkButton2.Text = "Login";
             }
 
         }

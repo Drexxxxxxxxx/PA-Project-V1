@@ -1,9 +1,9 @@
 ﻿body {
 }
 
-.main-div {
-    position: absolute;
-    top: 171px;
+.main_div {
+    position: relative;
+    padding-top: 100px;
     width: 100%;
 }
 
@@ -46,7 +46,6 @@ hr {
 }
 
 .admin-innerDiv {
-    min-height: 290px;
     background-color: transparent;
     display: -webkit-box;
     margin: 0 auto;
@@ -127,4 +126,10 @@ hr {
 
 .butoespopup {
     height: 26px;
+}
+
+@media (max-width:991px) {
+    .slider {
+        height: 100vh;
+    }
 }

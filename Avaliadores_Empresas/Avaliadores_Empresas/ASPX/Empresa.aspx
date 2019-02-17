@@ -24,93 +24,99 @@
 <body>
     <form id="form1" runat="server">
         <header>
-                <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-                    <a class="navbar-brand" href="../HomePage">
-                        <img src="../images/Logos/favicon.ico" width="40" height="40" alt="">
-                    </a>
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <a class="navbar-brand" href="../HomePage">
+                    <img src="../images/Logos/favicon.ico" width="40" height="40" alt="">
+                </a>
 
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2"
-                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                <div class="dropdown dp-nav">
+                    <button class="btn" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="../images/Logos/favicon.ico" width="40" height="40" alt="">
                     </button>
-                    <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out"
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out"
                                     style="padding-right: 2px"></span>Logout</asp:LinkButton>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-        <div class="position-relative slider">
-                <div class="owl-carousel owl-theme" id="owl">
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/1.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/2.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/3.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/4.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/5.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/6.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/7.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/8.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/9.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/10.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/11.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/12.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/13.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/14.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/15.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/16.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/17.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/18.jpg" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="../images/imagens_em_azul/19.jpg" alt="">
                     </div>
                 </div>
-            
+
+                <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out"
+                                    style="padding-right: 2px"></span>Logout</asp:LinkButton>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="position-relative slider">
+            <div class="owl-carousel owl-theme" id="owl">
+                <div class="item">
+                    <img src="../images/imagens_em_azul/1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/5.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/6.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/7.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/8.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/9.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/10.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/11.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/12.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/13.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/14.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/15.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/16.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/17.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/18.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="../images/imagens_em_azul/19.jpg" alt="">
+                </div>
+            </div>
+
 
             <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 
             <div class="container-fluid">
                 <div class="row ml-0 mr-0 main_div">
                     <div class="col-12 col-md-8 col-lg-9 order-1 order-md-0">
-                        <asp:Panel ID="DivPerfil" CssClass="DivBtn" runat="server" Visible="False">
+                        <asp:Panel ID="DivPerfil" CssClass="DivBtn" runat="server" Visible="True">
                             <div class="">
                                 <div class="divPerfil_inner">
                                     <div class="row">
@@ -171,7 +177,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-12 col-md-3">
-                                                <asp:Label ID="Label4" runat="server">Estado de Licenciamento:</asp:Label>
+                                                 <p><asp:Label ID="Label4" runat="server">Estado de Licenciamento</asp:Label> </p>
                                             </div>
                                             <div class="col-12 col-md">
                                                 <asp:Label ID="Label5" runat="server"></asp:Label>
@@ -179,7 +185,8 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-12 col-md-3">
-                                                <asp:Label ID="Label6" runat="server">Final da Licença:</asp:Label>
+                                                <p><asp:Label ID="Label6" runat="server">Final da Licença</asp:Label> </p>
+                                                
                                             </div>
                                             <div class="col-12 col-md">
                                                 <asp:TextBox ID="TextBox5" runat="server" ReadOnly="True" TextMode="Date"></asp:TextBox>
@@ -189,17 +196,17 @@
                                         </div>
 
                                         <div class="row">
-                                            <div class="col-9 offset-3 text-right">
-                                                <asp:Button ID="Button4" runat="server" CssClass="btn" Text="Renovar"
+                                            <div class="col-12 col-md-9 offset-md-3 text-right">
+                                                <asp:Button ID="Button4" runat="server" CssClass="btn w-100 mt-2" Text="Renovar Licença"
                                                     OnClick="Button4_Click" />
 
                                                 <br>
 
-                                                <asp:Button ID="Button1" runat="server" CssClass="btn  mt-1" Text="Mudar Password"
+                                                <asp:Button ID="Button1" runat="server" CssClass="btn  mt-1 w-100" Text="Mudar Password"
                                                     OnClick="Button1_Click1" />
 
                                                 <br />
-                                                <asp:Button ID="BtnPerfilConfirmar" CssClass="btn mt-1" runat="server" Text="Confirmar"
+                                                <asp:Button ID="BtnPerfilConfirmar" CssClass="btn mt-1 w-100" runat="server" Text="Confirmar"
                                                     OnClick="BtnPerfilConfirmar_Click" />
 
                                             </div>
@@ -241,6 +248,15 @@
                         </asp:Panel>
 
                         <asp:Panel ID="DivPesquisaAvaliacoes" CssClass="DivBtn" runat="server" Visible="False">
+                            <div class="row">
+                                <div class="w-100">
+                                    <div class="col-xl-12">
+                                        <h1>Pesquisar Avaliadores </h1>
+                                        <hr class="mt-0" />
+                                    </div>
+                                </div>
+
+                            </div>
 
                             <input id="LatitudeDragend" type="hidden" value="0" runat="server" />
                             <input id="LongitudeDragend" type="hidden" value="0" runat="server" />
@@ -283,6 +299,15 @@
                         <asp:Panel ID="DivPublicarPedidoAvaliacao" CssClass="DivBtn" runat="server" Visible="False">
 
                             <asp:Panel ID="Panel2" runat="server">
+                                <div class="row">
+                                    <div class="w-100">
+                                        <div class="col-xl-12">
+                                            <h1>Publicar Pedido de Avaliação </h1>
+                                            <hr class="mt-0" />
+                                        </div>
+                                    </div>
+
+                                </div>
                                 <div class="row">
                                     <div class="col-sm-4">
                                         <div class="row">
@@ -349,6 +374,15 @@
                         </asp:Panel>
 
                         <asp:Panel ID="DivMinhasAvaliacoes" CssClass="DivBtn" runat="server" Visible="False">
+                            <div class="row">
+                                <div class="w-100">
+                                    <div class="col-xl-12">
+                                        <h1>Minhas Avaliações </h1>
+                                        <hr class="mt-0" />
+                                    </div>
+                                </div>
+
+                            </div>
                             <asp:GridView ID="GridView2" runat="server" OnSelectedIndexChanged="GridView2_SelectedIndexChanged">
                                 <Columns>
                                     <asp:CommandField SelectText="Ver Avaliadores" ShowSelectButton="True" />
@@ -412,6 +446,15 @@
                         </asp:Panel>
 
                         <asp:Panel ID="DivAvaliacoes" CssClass="DivBtn" runat="server" Visible="False">
+                            <div class="row">
+                                <div class="w-100">
+                                    <div class="col-xl-12">
+                                        <h1>Avaliações </h1>
+                                        <hr class="mt-0" />
+                                    </div>
+                                </div>
+
+                            </div>
                             <asp:GridView ID="GridView8" runat="server" OnSelectedIndexChanged="GridView8_SelectedIndexChanged">
                                 <Columns>
                                     <asp:CommandField SelectText="Avaliar" ShowSelectButton="True" />
@@ -476,6 +519,15 @@
                         </asp:Panel>
 
                         <asp:Panel ID="DivRanking" CssClass="DivBtn" runat="server" Visible="False">
+                            <div class="row">
+                                <div class="w-100">
+                                    <div class="col-xl-12">
+                                        <h1>Ranking </h1>
+                                        <hr class="mt-0" />
+                                    </div>
+                                </div>
+
+                            </div>
                             <div class="row">
                                 <div class="col-12 col-md-6">
                                     <h2>
@@ -618,14 +670,14 @@
                 </div>
             </div>
 
-         
+
         </div>
 
-           <footer class="footer">
-                <div class="container-fluid">
-                    <span class="">@Copyright</span>
-                </div>
-            </footer>
+        <footer class="footer">
+            <div class="container-fluid">
+                <span class="">@Copyright</span>
+            </div>
+        </footer>
 
 
 
@@ -658,7 +710,7 @@
                 <ItemTemplate>
                     {
                         "id": '<%# Eval("id") %>',
-        "lat": '<%# Eval("Longitude") %>',
+"lat": '<%# Eval("Longitude") %>',
                                 "lng": '<%# Eval("Latitude") %>',
 							    "NomeCidade": '<%# Eval("Nome") %>',
                                 "NomeAvaliador": '<%# Eval("Nome2") %>',
