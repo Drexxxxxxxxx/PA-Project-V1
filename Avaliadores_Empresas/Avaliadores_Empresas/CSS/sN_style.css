@@ -1,12 +1,4 @@
 
-
-.somosNos_div {
-    text-align: center;
-    width: 100%;
-    top: 0;
-    background-color: transparent;
-}
-
 div[class^="col"] {
     display:grid;
 }
@@ -17,7 +9,7 @@ div[class^="col"] {
     margin: 0 auto;
     text-align: right;
     overflow-y: auto;
-    height: 389px;
+    padding:20px;
 }
 
 .div_texto {

@@ -116,7 +116,7 @@
             <div class="container-fluid">
                 <div class="row ml-0 mr-0 main_div">
                     <div class="col-12 col-md-8 col-lg-9 order-1 order-md-0">
-                        <asp:Panel ID="DivPerfil" CssClass="DivBtn" runat="server" Visible="True">
+                        <asp:Panel ID="DivPerfil" CssClass="" runat="server" Visible="True">
                             <div class="">
                                 <div class="divPerfil_inner">
                                     <div class="row">

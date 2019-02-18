@@ -194,12 +194,12 @@
                                 </div>
 
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-6">
                                 <div class="row">
-                                    <div class="col-lg-6">
+                                    <div class="col-4">
                                         <p>área de atuação </p>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col">
                                         <asp:DropDownList CssClass="buttonsobrenos" ID="dp_area" runat="server"></asp:DropDownList>
                                         <asp:Button ID="AddtoListbox" runat="server" OnClick="AddtoListbox_Click" CssClass="btn-light" Text="Adiciona" />
                                     </div>
@@ -207,8 +207,8 @@
                                         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Visible="true" Style="display: none" CssClass="btn-light" Text="Remover Área Selecionada" />
 
                                     </div>
-                                    <div class="col-12">
-                                        <asp:ListBox ID="ListBox1" runat="server" Height="59px" CssClass="listboxcss" Width="86%"></asp:ListBox>
+                                    <div class="col-12 col-md-8 offset-md-4">
+                                        <asp:ListBox ID="ListBox1" runat="server" Height="59px" CssClass="listboxcss" Width="100%"></asp:ListBox>
                                         <script>
                                             $("#ListBox1").keyup(function (e) {
                                                 if (e.which == 46) {

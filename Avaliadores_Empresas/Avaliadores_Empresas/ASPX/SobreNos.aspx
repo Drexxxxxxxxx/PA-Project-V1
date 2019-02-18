@@ -62,7 +62,7 @@
             </div>
         </nav>
 
-        <div class="position-realtive slider">
+        <div class="position-relative slider">
             <div class="owl-carousel owl-theme" id="owl">
                 <div class="item">
                     <img src="../images/imagens_em_azul/1.jpg" alt="">
@@ -123,19 +123,13 @@
                 </div>
 
             </div>
-
-
-        </div>
-
-        <div class="container-fluid container-fluid2">
-            <div class="somosNos_div">
-                <div class="somosNos_innerDiv">
-                    <div class="col-xl-12" style="text-align: left">
-                        <h1>Sobre Nós</h1>
-                    </div>
-                    <hr>
-
-                    <div class="container">
+            <div class="container">
+                <div class="row main_div mr-0 ml-0">
+                    <div class="somosNos_innerDiv">
+                        <div class="w-100" style="text-align: left">
+                            <h1>Sobre Nós</h1>
+                        </div>
+                        <hr>
                         <div class="row">
                             <div class="col-6 col-lg-6">
                                 <div class="div_texto bg_escura color_white">
@@ -197,16 +191,14 @@
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
-
                 </div>
-
             </div>
+
+
         </div>
-
-
-
 
         <footer class="footer">
             <div class="container-fluid">
