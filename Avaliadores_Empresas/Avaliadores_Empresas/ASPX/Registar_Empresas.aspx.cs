@@ -104,9 +104,16 @@ namespace Avaliadores_Empresas
         protected void btn_regist_emp_Click(object sender, EventArgs e)
         {
             // Registar Empresa
-            if (nome_emp.Text == "" || pass_emp.Text == "" || !email_emp.Text.Contains("@") || nregisto_emp.Text == "" || mobile_emp.Text.Length != 9 || morada_emp.Text == "" || pass_emp.Text != confpass_emp.Text)
+            if (mobile_emp.Text.Length != 9 || pass_emp.Text != confpass_emp.Text)
             {
-                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Erro')", true);
+                if (mobile_emp.Text.Length != 9)
+                {
+                    ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('O numero de telemóvel tem que ter 9 digitos')", true);
+                }
+                if (pass_emp.Text != confpass_emp.Text)
+                {
+                    ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('As palavras passes estão diferentes')", true);
+                }
             }
             else
             {

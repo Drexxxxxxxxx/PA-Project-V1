@@ -2103,59 +2103,6 @@ namespace Avaliadores_Empresas
             ListBox11.Items.Add("1");
         }
 
-        protected void BtnRanking_Click(object sender, EventArgs e)
-        {
-            InvisibleDiv();
-            DivRanking.Visible = true;
-            int Contador = 1;
-            // Saber se é Avaliador ?
-            string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
-            // Codigo para registar
-            MySqlConnection con = new MySqlConnection(constr);
-            con.Open();
-            string AllAvaliacoes = "SELECT * FROM tblempresa ORDER BY ranking DESC";
-            MySqlCommand comand = new MySqlCommand(AllAvaliacoes);
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
-
-            MySqlDataReader read = comand.ExecuteReader();
-
-            //SE EXISTIR ELE ENTRA NO IF
-            while (read.Read())
-            {
-                ListBox8.Items.Add(Convert.ToString(Contador) + "º " + read[1].ToString());
-                Contador = Contador + 1;
-            }
-            con.Close();
-            read.Close();
-            RankingAval();
-        }
-        void RankingAval()
-        {
-            int Contador = 1;
-            // Saber se é Avaliador ?
-            string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
-            // Codigo para registar
-            MySqlConnection con = new MySqlConnection(constr);
-            con.Open();
-            string AllAvaliacoes = "SELECT * FROM tblavaliador ORDER BY ranking DESC";
-            MySqlCommand comand = new MySqlCommand(AllAvaliacoes);
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
-
-            MySqlDataReader read = comand.ExecuteReader();
-
-            //SE EXISTIR ELE ENTRA NO IF
-            while (read.Read())
-            {
-                ListBox9.Items.Add(Convert.ToString(Contador) + "º " + read[1].ToString());
-                Contador = Contador + 1;
-            }
-
-            con.Close();
-            read.Close();
-        }
-
         protected void Button12_Click(object sender, EventArgs e)
         {
             divThankYou.Visible = false;
@@ -2175,5 +2122,93 @@ namespace Avaliadores_Empresas
         {
             div3.Visible = false;
         }
+
+
+        protected void BtnRanking_Click(object sender, EventArgs e)
+        {
+            InvisibleDiv();
+            DivRanking.Visible = true;
+            RankingEmpresa();
+            RankingAval();
+        }
+        void RankingEmpresa()
+        {
+            int Contador = 1;
+            // Saber se é Avaliador ?
+            string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+            // Codigo para registar
+            MySqlConnection con = new MySqlConnection(constr);
+            con.Open();
+            string AllAvaliacoes = "SELECT * FROM tblempresa ORDER BY ranking DESC";
+            MySqlCommand comand = new MySqlCommand(AllAvaliacoes);
+            comand.Connection = con;
+            comand.ExecuteNonQuery();
+
+            MySqlDataReader read = comand.ExecuteReader();
+
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Nome");
+
+            //SE EXISTIR ELE ENTRA NO IF
+            while (read.Read())
+            {
+                DataRow dr = dt.NewRow();
+                dr["Nome"] = Convert.ToString(Contador) + "º " + read[1].ToString();
+                Contador = Contador + 1;
+                dt.Rows.Add(dr);
+            }
+
+            GridView11.DataSource = dt;
+            GridView11.DataBind();
+
+            con.Close();
+            read.Close();
+        }
+        void RankingAval()
+        {
+            int Contador = 1;
+            // Saber se é Avaliador ?
+            string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+            // Codigo para registar
+            MySqlConnection con = new MySqlConnection(constr);
+            con.Open();
+            string AllAvaliacoes = "SELECT * FROM tblavaliador ORDER BY ranking DESC";
+            MySqlCommand comand = new MySqlCommand(AllAvaliacoes);
+            comand.Connection = con;
+            comand.ExecuteNonQuery();
+
+            MySqlDataReader read = comand.ExecuteReader();
+
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Nome");
+
+            //SE EXISTIR ELE ENTRA NO IF
+            while (read.Read())
+            {
+                DataRow dr = dt.NewRow();
+                dr["Nome"] = Convert.ToString(Contador) + "º " + read[1].ToString();
+                Contador = Contador + 1;
+                dt.Rows.Add(dr);
+            }
+
+            GridView12.DataSource = dt;
+            GridView12.DataBind();
+            con.Close();
+            read.Close();
+        }
+
+        //Gridview12 pagination
+        protected void GridView12_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            GridView12.PageIndex = e.NewPageIndex;
+            RankingAval();
+        }
+        //Gridview11 pagination
+        protected void GridView11_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            GridView11.PageIndex = e.NewPageIndex;
+            RankingEmpresa();
+        }
+
     }
 }

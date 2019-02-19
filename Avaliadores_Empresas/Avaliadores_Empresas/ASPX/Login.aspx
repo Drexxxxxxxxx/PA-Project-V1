@@ -55,7 +55,7 @@
                         <asp:LinkButton ID="LinkButton5" runat="server" Text="Avaliador" OnClick="LinkButton5_Click"></asp:LinkButton>
                     </li>
                     <li class="nav-item">
-                        <asp:LinkButton ID="LinkButton4" runat="server" Text="Empresa" OnClick="LinkButton4_Click"></asp:LinkButton>
+                        <asp:LinkButton id="LinkButton4" runat="server" Text="Empresa" OnClick="LinkButton4_Click"></asp:LinkButton>
                     </li>
                     <li class="nav-item ">
                         <a class="" href="Contactos">Contactos</a>

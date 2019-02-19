@@ -417,10 +417,10 @@
                                 <div class="row">
                                     <div class="col-12 col-md-6">
                                         <h2>
-                                            <asp:Label ID="Label11" runat="server" Text="Empresa"></asp:Label></h2>
+                                            <asp:Label ID="Label12" runat="server" Text="Empresa"></asp:Label></h2>
                                         <br />
                                         <div class="table-responsive">
-                                            <asp:GridView ID="GridView10" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView10_PageIndexChanging" PageSize="1">
+                                            <asp:GridView ID="GridView11" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView11_PageIndexChanging" PageSize="20">
                                                 <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
                                             </asp:GridView>
                                         </div>
@@ -430,10 +430,10 @@
                                     </div>
                                     <div class="col-12 col-md-6">
                                         <h2>
-                                            <asp:Label ID="Label12" runat="server" Text="Avaliador"></asp:Label></h2>
+                                           <asp:Label ID="Label13" runat="server" Text="Avaliador"></asp:Label></h2>
                                         <br />
                                         <div class="table-responsive">
-                                            <asp:GridView ID="GridView11" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView11_PageIndexChanging" PageSize="1">
+                                            <asp:GridView ID="GridView12" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView12_PageIndexChanging" PageSize="20">
                                                 <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
                                             </asp:GridView>
                                         </div>
@@ -443,8 +443,8 @@
 
 
 
-                                <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
-                                    <asp:ListItem>1</asp:ListItem>
+                                <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True">
+                                    <asp:ListItem>10</asp:ListItem>
                                     <asp:ListItem Selected="True">20</asp:ListItem>
                                     <asp:ListItem>50</asp:ListItem>
                                     <asp:ListItem>100</asp:ListItem>

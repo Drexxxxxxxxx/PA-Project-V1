@@ -3,22 +3,19 @@
 .login_div{
     position: absolute; 
     text-align: center; 
-    margin-top: 171px;
     width: 100%;
     top: 0;
     background-color: transparent;
 }
 
-.login_innerDiv{
-    
+.login_innerDiv {
     min-height: 235px;
     border-radius: 4px;
     background-color: rgba(34,34,34,0.69);
     display: table;
     margin: 0 auto;
     text-align: left;
-    padding: 50px 60px 0px 60px;
- 
+    padding: 25px 60px 0px 60px;
 }
 
 .div_texto{
@@ -41,6 +38,9 @@
 .color_white{
     color:white;
 }
+    .color_white:hover {
+        color: white;
+    }
 
 .borders{
     border: 1px solid black;
@@ -48,21 +48,18 @@
 
 
 
-.ativo{
-    border: 1px solid white ;
-}
+
 
 p{
     font-family: 'Montserrat';
     font-size: 12pt;
     color: white;
+    text-align:right;
 }   
 
 h1{
-    font-family: 'Montserrat' !important;
-    font-size: 29pt !important;
-    font-weight: 100 !important;
     color: white !important;
+    margin-bottom:20px;
 }
 
 hr{
@@ -127,3 +124,14 @@ hr{
             border-color: #555 #888 #888;
         }
 
+@media (max-width:991px) {
+    .slider {
+        height: 100vh;
+    }
+}
+
+@media (max-width:426px) {
+    .login_innerDiv {
+        padding: 20px;
+    }
+}

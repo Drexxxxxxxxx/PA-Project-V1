@@ -40,7 +40,7 @@
                         <a href="Registar_Avaliadores" class="dropdown-item">Avaliador</a>
                         <a href="Registar_Empresas" class="dropdown-item">Empresa</a>
                         <a href="Contactos" class="dropdown-item ">Contactos</a>
-                        <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
+                        <asp:LinkButton id="LinkButton4" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
 
                     </div>
                 </div>

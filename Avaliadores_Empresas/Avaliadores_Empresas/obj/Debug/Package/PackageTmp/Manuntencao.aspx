@@ -24,7 +24,7 @@
 
 <body>
     <form runat="server">
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
             <a class="navbar-brand">
                 <img src="images/Logos/favicon.ico" width="40" height="40" alt="">
             </a>
@@ -32,7 +32,7 @@
         </nav>
 
 
-        <div class="row slider">
+        <div class="position-relative slider">
             <div class="container-fluid">
                 <div class="row slider">
                     <div class="owl-carousel owl-theme" id="owl">
@@ -97,7 +97,7 @@
                     </div>
 
 
-                    <div class="texto">
+                    <div class="main-div texto">
                         <div class="inner">
                             <asp:Image ID="spinner" runat="server" ImageUrl="~/Imagens/Logos/lg_branco.png" Width="200px" />
                             <asp:Label ID="Label2" runat="server" Text="BREVEMENTE" CssClass="LabelPortal mb-1 ml-4 mr-4"></asp:Label><br />

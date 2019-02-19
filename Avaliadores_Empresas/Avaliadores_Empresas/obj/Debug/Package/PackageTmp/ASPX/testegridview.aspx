@@ -86,38 +86,6 @@
 <body>
     <form id="form1" runat="server">
         <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
-        <br />
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateSelectButton="True" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" OnRowCommand="GridView1_RowCommand" >
-              <Columns>
-            <asp:ButtonField CommandName="Select2" Text="Ok" />
-            </Columns>
-        </asp:GridView>
-
-
-        <br />
-        <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox>
-
-
-        <br />
-        <br />
-
-
-        <asp:ScriptManager ID="ScriptManager1" runat="server">
-        </asp:ScriptManager>
-        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
-            <ContentTemplate>
-                <ajaxToolkit:Rating ID="Rating1" runat="server" StarCssClass="starRating" FilledStarCssClass="FilledStars" EmptyStarCssClass="EmptyStars" WaitingStarCssClass="WatingStars" ></ajaxToolkit:Rating>
-            </ContentTemplate>
-        </asp:UpdatePanel>
-
-        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Ok" />
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-
-
-        <br />
-
-
-
     </form>
 </body>
 </html>

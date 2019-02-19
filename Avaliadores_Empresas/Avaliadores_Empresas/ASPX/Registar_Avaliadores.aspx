@@ -50,7 +50,8 @@
                         <a href="Registar_Avaliadores" class="dropdown-item ativo">Avaliador</a>
                         <a href="Registar_Empresas" class="dropdown-item">Empresa</a>
                         <a href="Contactos" class="dropdown-item ">Contactos</a>
-                        <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
+                        <asp:LinkButton id="LinkButton4" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
+
 
                     </div>
                 </div>
@@ -155,24 +156,24 @@
                                         <p>nome </p>
                                     </div>
                                     <div class="col-lg">
-                                        <asp:TextBox ID="nome_aval" placeholder="nome" CssClass="textboxContactos" Width="100%" runat="server"></asp:TextBox>
+                                        <asp:TextBox ID="nome_aval" placeholder="nome" CssClass="textboxContactos" Width="100%" runat="server" required></asp:TextBox>
 
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-3">
-                                        <p>e-mail </p>
+                                        <pe-mail </p>
                                     </div>
                                     <div class="col-lg">
-                                        <asp:TextBox ID="email_aval" CssClass="textboxContactos" placeholder="e-mail" Width="100%" runat="server"></asp:TextBox>
+                                        <asp:TextBox ID="email_aval" CssClass="textboxContactos" placeholder="e-mail" Width="100%" runat="server" required TextMode="Email"></asp:TextBox>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-3">
-                                        <p>telefone </p>
+                                        <p>telefone  </p>
                                     </div>
                                     <div class="col-lg">
-                                        <asp:TextBox ID="mobile_aval" CssClass="textboxContactos" placeholder="telefone" Width="100%" MaxLength="9" runat="server"></asp:TextBox>
+                                        <asp:TextBox ID="mobile_aval" CssClass="textboxContactos" placeholder="telefone" Width="100%" MaxLength="9" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" runat="server"></asp:TextBox>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -180,7 +181,7 @@
                                         <p>morada </p>
                                     </div>
                                     <div class="col-lg">
-                                        <asp:TextBox ID="morada_aval" CssClass="textboxContactos" placeholder="morada" Width="100%" runat="server"></asp:TextBox>
+                                        <asp:TextBox ID="morada_aval" CssClass="textboxContactos" placeholder="morada" Width="100%" runat="server" required></asp:TextBox>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -188,7 +189,7 @@
                                         <p>nº registo CMVM </p>
                                     </div>
                                     <div class="col-lg">
-                                        <asp:TextBox ID="nregisto_aval" placeholder="CMVM" CssClass="textboxContactos" Width="100%" runat="server"></asp:TextBox>
+                                        <asp:TextBox ID="nregisto_aval" placeholder="CMVM" CssClass="textboxContactos" Width="100%" runat="server" required></asp:TextBox>
 
                                     </div>
                                 </div>
@@ -230,8 +231,7 @@
                                         <p>password </p>
                                     </div>
                                     <div class="col-lg">
-                                        <asp:TextBox ID="pass_aval" runat="server" placeholder="password" CssClass="textboxContactos" Width="100%" TextMode="Password"></asp:TextBox>
-
+                                        <asp:TextBox ID="pass_aval" runat="server" placeholder="password" CssClass="textboxContactos" Width="100%" TextMode="Password" required></asp:TextBox>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -239,7 +239,7 @@
                                         <p>confirmar password </p>
                                     </div>
                                     <div class="col-lg">
-                                        <asp:TextBox ID="confpass_aval" placeholder="confirmar password" runat="server" CssClass="textboxContactos" Width="100%" TextMode="Password"></asp:TextBox>
+                                       <asp:TextBox ID="confpass_aval" placeholder="confirmar password" runat="server" CssClass="textboxContactos" Width="100%" TextMode="Password" required></asp:TextBox>
 
                                         <br>
                                     </div>

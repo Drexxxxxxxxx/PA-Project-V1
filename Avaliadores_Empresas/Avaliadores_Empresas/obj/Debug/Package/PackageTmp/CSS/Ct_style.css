@@ -14,15 +14,13 @@
     background-color: transparent;
 }
 
-.contactos_innerDiv{
+.contactos_innerDiv {
     width: 500px;
-    min-height: 290px;
     background-color: rgba(161, 206, 221, 0.88);
-    display: table;
+    display: inline-block;
     margin: 0 auto;
     text-align: right;
-    padding: 15px 40px 18px 10px;   
- 
+    padding: 20px;
 }
 
 textarea{
@@ -32,10 +30,6 @@ textarea{
     font-family: 'Montserrat';
     font-size: 12pt;
     border: none;
-}
-
-.ativo{
-    border: 1px solid white ;
 }
 
 
@@ -52,4 +46,12 @@ textarea{
         height: 100%;
         padding-bottom: 160px;
     }
+}
+
+
+@media (max-width:991px) {
+    .slider {
+        height: 100vh;
+    }
+
 }

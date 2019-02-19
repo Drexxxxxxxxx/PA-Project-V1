@@ -1,7 +1,7 @@
 
 .main_div {
-    position: absolute;
-    top: 171px;
+    position: relative;
+    padding-top: 100px;
     width: 100%;
 }
 
@@ -13,22 +13,32 @@
     background-color: rgba(161, 206, 221, 0.88);
     display: block;
     margin: 0 auto;
+    padding:10px;
 }
 
 #DivTrabalhosRealizados {
     background-color: rgba(161, 206, 221, 0.88);
+    padding: 20px;
 }
 
 #DivLicenca {
     background-color: rgba(161, 206, 221, 0.88);
+    padding: 20px;
 }
 
 #DivAvaliacoes {
     background-color: rgba(161, 206, 221, 0.88);
+    padding: 20px;
+}
+
+#DivAvaliacoesDisponiveis {
+    background-color: rgba(161, 206, 221, 0.88);
+    padding:20px;
 }
 
 #DivRanking {
     background-color: rgba(161, 206, 221, 0.88);
+    padding:20px;
 }
 
 #DivPerfil h1 {
@@ -54,15 +64,8 @@
     color: white;
 }
 
-#BtnPerfilConfirmar {
-    background-color: white;
-    color: black;
-    width: 100%;
-    margin-top: 1vmin;
-    margin-bottom: 1vmin;
-}
 
-.btn-change-pswd {
+.btn {
     background-color: white;
     color: black;
 }
@@ -73,7 +76,6 @@
 }
 
 .Aval_innerDiv {
-    min-height: 290px;
     background-color: transparent;
     display: -webkit-box;
     margin: 0 auto;
@@ -119,11 +121,6 @@
     color: white;
 }
 
-
-
-.ativo {
-    border: 1px solid white;
-}
 
 input[type=text] {
     width: 100%;
@@ -234,4 +231,9 @@ hr {
 
 .EmptyStars {
     background-image: url(../Imagens/Estrelas/EstrelaCinzenta.png);
+}
+
+.btn-perfil:hover {
+    background-color: rgb(23,82,102);
+    color: white;
 }

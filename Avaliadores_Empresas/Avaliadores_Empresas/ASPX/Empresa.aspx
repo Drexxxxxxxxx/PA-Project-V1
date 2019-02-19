@@ -533,7 +533,7 @@
                                     <h2>
                                         <asp:Label ID="Label12" runat="server" Text="Empresa"></asp:Label></h2>
                                     <div class="table-responsive">
-                                        <asp:GridView ID="GridView11" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView11_PageIndexChanging" PageSize="20">
+                                        <asp:GridView id="GridView11" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView11_PageIndexChanging" PageSize="20">
                                             <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
                                         </asp:GridView>
                                     </div>
@@ -551,7 +551,7 @@
                                 </div>
                             </div>
 
-                            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True">
                                 <asp:ListItem>10</asp:ListItem>
                                 <asp:ListItem Selected="True">20</asp:ListItem>
                                 <asp:ListItem>50</asp:ListItem>

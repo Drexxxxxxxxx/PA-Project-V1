@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Registar Avaliador</title>
+    <title>Portal dos Avaliadores - Registo de Avaliadores</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link runat="server" rel="icon" href="../Imagens/Logos/favicon.ico" type="image/x-icon" />
@@ -34,37 +34,53 @@
             <asp:Button ID="Button3" runat="server" Text="Anual" OnClick="Button3_Click" />
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <a class="navbar-brand" href="../HomePage">
-                <img src="../images/Logos/favicon.ico" width="40" height="40" alt="">
-            </a>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+                <a class="navbar-brand" href="../HomePage">
+                    <img src="../images/Logos/favicon.ico" width="40" height="40" alt="">
+                </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link " href="SobreNos">Somos Nos</a>
-                    </li>
-                    <li class="nav-item">
-                        <asp:LinkButton ID="LinkButton2" runat="server" Text="Avaliador" OnClick="LinkButton2_Click"></asp:LinkButton>
-                    </li>
-                    <li class="nav-item">
-                        <asp:LinkButton ID="LinkButton3" runat="server" Text="Empresa" OnClick="LinkButton3_Click"></asp:LinkButton>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="Contactos">Contactos</a>
-                    </li>
-                    <li class="nav-item">
-                        <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
+                <div class="dropdown dp-nav">
+                    <button class="btn" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="../images/Logos/favicon.ico" width="40" height="40" alt="">
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <a href="HomePage" class="dropdown-item ">Home Page</a>
+                        <a href="SobreNos" class="dropdown-item">Somos Nos</a>
+                        <a href="Registar_Avaliadores" class="dropdown-item ativo">Avaliador</a>
+                        <a href="Registar_Empresas" class="dropdown-item">Empresa</a>
+                        <a href="Contactos" class="dropdown-item ">Contactos</a>
+                        <asp:LinkButton id="LinkButton4" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
 
-                    </li>
-                </ul>
-            </div>
-        </nav>
 
-        <div class="row slider">
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class=" " href="SobreNos">Somos Nos</a>
+                        </li>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="LinkButton2" CssClass="ativo" runat="server" Text="Avaliador" OnClick="LinkButton2_Click"></asp:LinkButton>
+                        </li>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="LinkButton3" runat="server" Text="Empresa" OnClick="LinkButton3_Click"></asp:LinkButton>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="" href="Contactos">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
+
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+
+        <div class="position-relative slider">
             <div class="owl-carousel owl-theme" id="owl">
                 <div class="item">
                     <img src="../images/imagens_em_azul/1.jpg" alt="">
@@ -126,127 +142,124 @@
 
             </div>
 
-
-
-
-
-
-        </div>
-        <div class="rAval_div">
-            <div class="rAval_innerDiv">
-                <div class="col-xl-12" style="text-align: left">
-                    <h1>Registar Avaliador</h1>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <p>nome </p>
-                            </div>
-                            <div class="col-lg">
-                                <asp:TextBox ID="nome_aval" placeholder="nome" CssClass="textboxContactos" Width="100%" runat="server"></asp:TextBox>
-
-                            </div>
+            <div class="container">
+                <div class="row main_div mr-0 ml-0">
+                    <div class="rAval_innerDiv">
+                        <div class="w-100" style="text-align: left">
+                            <h1>Registar Avaliador</h1>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <p>e-mail </p>
-                            </div>
-                            <div class="col-lg">
-                                <asp:TextBox ID="email_aval" CssClass="textboxContactos" placeholder="e-mail" Width="100%" runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <p>telefone </p>
-                            </div>
-                            <div class="col-lg">
-                                <asp:TextBox ID="mobile_aval" CssClass="textboxContactos" placeholder="telefone" Width="100%" MaxLength="9" runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <p>morada </p>
-                            </div>
-                            <div class="col-lg">
-                                <asp:TextBox ID="morada_aval" CssClass="textboxContactos" placeholder="morada" Width="100%" runat="server"></asp:TextBox>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <p>nº registo CMVM </p>
-                            </div>
-                            <div class="col-lg">
-                                <asp:TextBox ID="nregisto_aval" placeholder="CMVM" CssClass="textboxContactos" Width="100%" runat="server"></asp:TextBox>
-
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-6">
+                        <hr>
                         <div class="row">
                             <div class="col-lg-6">
-                                <p>área de atuação </p>
-                            </div>
-                            <div class="col-lg-6">
-                                <asp:DropDownList CssClass="buttonsobrenos" ID="dp_area" runat="server"></asp:DropDownList>
-                                <asp:Button ID="AddtoListbox" runat="server" OnClick="AddtoListbox_Click" CssClass="btn-light" Text="Adiciona" />
-                            </div>
-                            <div>
-                                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Visible="true" CssClass="btn-light" Text="Remover Área Selecionada" />
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p>nome </p>
+                                    </div>
+                                    <div class="col-lg">
+                                        <asp:TextBox ID="nome_aval" placeholder="nome" CssClass="textboxContactos" Width="100%" runat="server" required></asp:TextBox>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <pe-mail </p>
+                                    </div>
+                                    <div class="col-lg">
+                                        <asp:TextBox ID="email_aval" CssClass="textboxContactos" placeholder="e-mail" Width="100%" runat="server" required TextMode="Email"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p>telefone  </p>
+                                    </div>
+                                    <div class="col-lg">
+                                        <asp:TextBox ID="mobile_aval" CssClass="textboxContactos" placeholder="telefone" Width="100%" MaxLength="9" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" runat="server"></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p>morada </p>
+                                    </div>
+                                    <div class="col-lg">
+                                        <asp:TextBox ID="morada_aval" CssClass="textboxContactos" placeholder="morada" Width="100%" runat="server" required></asp:TextBox>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p>nº registo CMVM </p>
+                                    </div>
+                                    <div class="col-lg">
+                                        <asp:TextBox ID="nregisto_aval" placeholder="CMVM" CssClass="textboxContactos" Width="100%" runat="server" required></asp:TextBox>
+
+                                    </div>
+                                </div>
 
                             </div>
-                            <div class="col-sm-6">
-                                <asp:ListBox ID="ListBox1" runat="server" Height="59px" CssClass="listboxcss" Width="86%"></asp:ListBox>
-                                <script>
-                                    $("#ListBox1").keyup(function (e) {
-                                        if (e.which == 46) {
-                                            $("#Button1").click();
-                                        }
-                                    });
-                                </script>
+                            <div class="col-12 col-lg-6">
+                                <div class="row">
+                                    <div class="col-12 col-lg-4">
+                                        <p>área de atuação </p>
+                                    </div>
+                                    <div class="col">
+                                        <asp:DropDownList CssClass="buttonsobrenos" ID="dp_area" runat="server"></asp:DropDownList>
+                                        <asp:Button ID="AddtoListbox" runat="server" OnClick="AddtoListbox_Click" CssClass="btn-light" Text="Adiciona" />
+                                        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Visible="true" Style="display: none" CssClass="btn-light" Text="Remover Área Selecionada" />
+
+                                    </div>
+
+                                    <div class="col-12 col-lg-8 offset-lg-4">
+                                        <asp:ListBox ID="ListBox1" runat="server" Height="59px" CssClass="listboxcss mt-1" Width="100%"></asp:ListBox>
+                                        <script>
+                                            $("#ListBox1").keyup(function (e) {
+                                                if (e.which == 46) {
+                                                    $("#Button1").click();
+                                                }
+                                            });
+                                        </script>
+                                    </div>
+                                </div>
+
+
                             </div>
                         </div>
+                        <br/>
 
-
-                    </div>
-                </div>
-                <br>
-                &nbsp;
-
-                            <div class="row">
-                                <div class="col-xl-6">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <p>password </p>
-                                        </div>
-                                        <div class="col-lg">
-                                            <asp:TextBox ID="pass_aval" runat="server" placeholder="password" CssClass="textboxContactos" Width="100%" TextMode="Password"></asp:TextBox>
-
-                                        </div>
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p>password </p>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <p>confirmar password </p>
-                                        </div>
-                                        <div class="col-lg">
-                                            <asp:TextBox ID="confpass_aval" placeholder="confirmar password" runat="server" CssClass="textboxContactos" Width="100%" TextMode="Password"></asp:TextBox>
-
-                                            <br>
-                                        </div>
+                                    <div class="col-lg">
+                                        <asp:TextBox ID="pass_aval" runat="server" placeholder="password" CssClass="textboxContactos" Width="100%" TextMode="Password" required></asp:TextBox>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 align-right">
-                                            <asp:Button ID="btn_regist_Aval" runat="server" CssClass="btn-registar" OnClick="btn_regist_Aval_Click" Text="Registar" />
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p>confirmar password </p>
+                                    </div>
+                                    <div class="col-lg">
+                                       <asp:TextBox ID="confpass_aval" placeholder="confirmar password" runat="server" CssClass="textboxContactos" Width="100%" TextMode="Password" required></asp:TextBox>
 
-                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 align-right">
+                                        <asp:Button ID="btn_regist_Aval" runat="server" CssClass="btn-registar" OnClick="btn_regist_Aval_Click" Text="Registar" />
+
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
         </div>
-     
+
+
 
         <footer class="footer">
             <div class="container-fluid">
