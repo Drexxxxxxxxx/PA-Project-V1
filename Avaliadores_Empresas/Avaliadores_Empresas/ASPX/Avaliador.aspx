@@ -186,7 +186,7 @@
                                                     <p>Estado de Licenciamento:</p>
                                                 </div>
                                                 <div class="col-12 col-md">
-                                                    <asp:Label ID="Label5" runat="server"></asp:Label>
+                                                    <asp:Label ID="Label5" CssClass="font-weight-bold" runat="server"></asp:Label>
                                                 </div>
                                             </div>
                                             <div class="row">
@@ -262,15 +262,15 @@
                                         </div>
                                         <div class="container">
                                             <div class="col-12">
-                                                <asp:Button ID="Button4" runat="server" Text="Mudar Password" CssClass="btn btn-change-pswd w-100"
+                                                <asp:Button ID="Button4" runat="server" Text="Mudar Password" CssClass="btn-perfil btn btn-change-pswd w-100"
                                                     OnClick="Button1_Click1" />
                                             </div>
                                             <div class="col-12">
-                                                <asp:Button ID="Button6" runat="server" CssClass="btn w-100 mt-1" OnClick="Button6_Click"
+                                                <asp:Button ID="Button6" runat="server" CssClass="btn-perfil btn w-100 mt-1" OnClick="Button6_Click"
                                                     Text="Renovar Licença" />
                                             </div>
                                             <div class="col-12">
-                                                <asp:Button ID="BtnPerfilConfirmar" CssClass="btn w-100 mt-1" runat="server" Text="Confirmar"
+                                                <asp:Button ID="BtnPerfilConfirmar" CssClass="btn-perfil btn w-100 mt-1" runat="server" Text="Confirmar"
                                                     OnClick="BtnPerfilConfirmar_Click" />
 
                                             </div>

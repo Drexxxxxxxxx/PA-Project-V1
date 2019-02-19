@@ -232,3 +232,8 @@ hr {
 .EmptyStars {
     background-image: url(../Imagens/Estrelas/EstrelaCinzenta.png);
 }
+
+.btn-perfil:hover {
+    background-color: rgb(23,82,102);
+    color: white;
+}

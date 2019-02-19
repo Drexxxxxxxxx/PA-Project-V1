@@ -1,6 +1,8 @@
 
 div[class^="col"] {
-    display:grid;
+    padding-right: 5px;
+    padding-left: 5px;
+    display: grid;
 }
 
 .somosNos_innerDiv {

@@ -125,52 +125,56 @@
 
             </div>
 
-            <div class="main_div ml-0 mr-0 text-center">
-                <div class="contactos_innerDiv">
-                    <div class="col-xl-12" style="text-align: left">
-                        <h1>Contactos</h1>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            nome    
+            <div class="container">
+                <div class="main_div ml-0 mr-0 text-center">
+                    <div class="contactos_innerDiv">
+                        <div class="w-100" style="text-align: left">
+                            <h1>Contactos</h1>
                         </div>
-                        <div class="col-lg-8">
-                            <asp:TextBox ID="TextBox1" CssClass="textboxContactos" placeholder="nome" runat="server"></asp:TextBox><br />
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                nome    
+                            </div>
+                            <div class="col-lg-8">
+                                <asp:TextBox ID="TextBox1" CssClass="textboxContactos" placeholder="nome" runat="server"></asp:TextBox><br />
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            e-mail    
+                        <div class="row">
+                            <div class="col-lg-4">
+                                e-mail    
+                            </div>
+                            <div class="col-lg-8">
+                                <asp:TextBox ID="TextBox2" placeholder="e-mail" CssClass="textboxContactos" runat="server"></asp:TextBox><br />
+                            </div>
                         </div>
-                        <div class="col-lg-8">
-                            <asp:TextBox ID="TextBox2" placeholder="e-mail" CssClass="textboxContactos" runat="server"></asp:TextBox><br />
+                        <div class="row">
+                            <div class="col-lg-4">
+                                assunto    
+                            </div>
+                            <div class="col-lg-8">
+                                <asp:TextBox ID="TextBox3" placeholder="assunto" CssClass="textboxContactos" runat="server"></asp:TextBox><br />
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            assunto    
-                        </div>
-                        <div class="col-lg-8">
-                            <asp:TextBox ID="TextBox3" placeholder="assunto" CssClass="textboxContactos" runat="server"></asp:TextBox><br />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            descrição    
-                        </div>
-                        <div class="col-lg-8">
-                            <asp:TextBox ID="TextBox4" placeholder="descrição" CssClass="textboxContactos" runat="server" TextMode="MultiLine" Height="178px"></asp:TextBox><br />
+                        <div class="row">
+                            <div class="col-lg-4">
+                                descrição    
+                            </div>
+                            <div class="col-lg-8">
+                                <asp:TextBox ID="TextBox4" placeholder="descrição" CssClass="textboxContactos" runat="server" TextMode="MultiLine" Height="178px"></asp:TextBox><br />
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <asp:Button ID="Button1" runat="server" CssClass="buttonSend" Text="Enviar" OnClick="Button1_Click" />
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <asp:Button ID="Button1" runat="server" CssClass="buttonSend" Text="Enviar" OnClick="Button1_Click" />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+
 
 
 

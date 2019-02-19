@@ -38,6 +38,9 @@
 .color_white{
     color:white;
 }
+    .color_white:hover {
+        color: white;
+    }
 
 .borders{
     border: 1px solid black;
@@ -124,5 +127,11 @@ hr{
 @media (max-width:991px) {
     .slider {
         height: 100vh;
+    }
+}
+
+@media (max-width:426px) {
+    .login_innerDiv {
+        padding: 20px;
     }
 }

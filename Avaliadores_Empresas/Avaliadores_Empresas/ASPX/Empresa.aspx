@@ -180,7 +180,7 @@
                                                  <p><asp:Label ID="Label4" runat="server">Estado de Licenciamento</asp:Label> </p>
                                             </div>
                                             <div class="col-12 col-md">
-                                                <asp:Label ID="Label5" runat="server"></asp:Label>
+                                                <asp:Label ID="Label5" CssClass="font-weight-bold" runat="server"></asp:Label>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -282,7 +282,7 @@
 
                         <table id="tbl" width="60%" style="visibility: hidden;">
                             <tr>
-                                <td>Nome</td>
+                                <td class="font-weight-bold">Nome:</td>
                             </tr>
                         </table>
                             <table id="tblcontatos" style="visibility: hidden;" width="60%">
@@ -888,7 +888,7 @@
 
                                 tr.appendChild(td);
 
-                                tr.style.backgroundColor = "lightgrey";
+                                tr.style.backgroundColor = "rgba(255,255,255,0.8)";
 
 
 

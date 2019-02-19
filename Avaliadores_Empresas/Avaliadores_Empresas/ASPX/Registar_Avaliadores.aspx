@@ -194,21 +194,20 @@
                                 </div>
 
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <div class="row">
-                                    <div class="col-4">
+                                    <div class="col-12 col-lg-4">
                                         <p>área de atuação </p>
                                     </div>
                                     <div class="col">
                                         <asp:DropDownList CssClass="buttonsobrenos" ID="dp_area" runat="server"></asp:DropDownList>
                                         <asp:Button ID="AddtoListbox" runat="server" OnClick="AddtoListbox_Click" CssClass="btn-light" Text="Adiciona" />
-                                    </div>
-                                    <div>
                                         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Visible="true" Style="display: none" CssClass="btn-light" Text="Remover Área Selecionada" />
 
                                     </div>
-                                    <div class="col-12 col-md-8 offset-md-4">
-                                        <asp:ListBox ID="ListBox1" runat="server" Height="59px" CssClass="listboxcss" Width="100%"></asp:ListBox>
+
+                                    <div class="col-12 col-lg-8 offset-lg-4">
+                                        <asp:ListBox ID="ListBox1" runat="server" Height="59px" CssClass="listboxcss mt-1" Width="100%"></asp:ListBox>
                                         <script>
                                             $("#ListBox1").keyup(function (e) {
                                                 if (e.which == 46) {
@@ -222,38 +221,37 @@
 
                             </div>
                         </div>
-                        <br>
-                        &nbsp;
+                        <br/>
 
-                            <div class="row">
-                                <div class="col-xl-6">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <p>password </p>
-                                        </div>
-                                        <div class="col-lg">
-                                            <asp:TextBox ID="pass_aval" runat="server" placeholder="password" CssClass="textboxContactos" Width="100%" TextMode="Password"></asp:TextBox>
-
-                                        </div>
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p>password </p>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <p>confirmar password </p>
-                                        </div>
-                                        <div class="col-lg">
-                                            <asp:TextBox ID="confpass_aval" placeholder="confirmar password" runat="server" CssClass="textboxContactos" Width="100%" TextMode="Password"></asp:TextBox>
+                                    <div class="col-lg">
+                                        <asp:TextBox ID="pass_aval" runat="server" placeholder="password" CssClass="textboxContactos" Width="100%" TextMode="Password"></asp:TextBox>
 
-                                            <br>
-                                        </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 align-right">
-                                            <asp:Button ID="btn_regist_Aval" runat="server" CssClass="btn-registar" OnClick="btn_regist_Aval_Click" Text="Registar" />
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <p>confirmar password </p>
+                                    </div>
+                                    <div class="col-lg">
+                                        <asp:TextBox ID="confpass_aval" placeholder="confirmar password" runat="server" CssClass="textboxContactos" Width="100%" TextMode="Password"></asp:TextBox>
 
-                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 align-right">
+                                        <asp:Button ID="btn_regist_Aval" runat="server" CssClass="btn-registar" OnClick="btn_regist_Aval_Click" Text="Registar" />
+
                                     </div>
                                 </div>
                             </div>
+                        </div>
                     </div>
                 </div>
 

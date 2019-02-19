@@ -56,3 +56,9 @@
 
 
 }
+
+@media (max-width:375px) {
+    .sub_tit {
+        font-size: 19pt;
+    }
+}

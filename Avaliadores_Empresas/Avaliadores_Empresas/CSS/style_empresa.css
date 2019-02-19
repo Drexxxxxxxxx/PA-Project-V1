@@ -84,6 +84,10 @@
         background-color: white;
         color: black;
     }
+        .divPerfil_inner .btn:hover {
+            background-color: rgb(23,82,102);
+            color: white;
+        }
 
 #divNovaPass {
     background-color: rgba(34, 34, 34, 0.80);
