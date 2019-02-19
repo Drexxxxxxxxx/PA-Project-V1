@@ -35,7 +35,7 @@
         </div>
 
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top">
                 <a class="navbar-brand" href="../HomePage">
                     <img src="../images/Logos/favicon.ico" width="40" height="40" alt="">
                 </a>
