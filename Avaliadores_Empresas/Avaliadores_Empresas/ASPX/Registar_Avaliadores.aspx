@@ -16,24 +16,14 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <link href="../CSS/sumoselect.css" rel="stylesheet">
 
     <link rel="stylesheet" href="../CSS/rAval_style.css">
     <link rel="stylesheet" href="../CSS/Main.css">
 </head>
 
 <body>
-    <form runat="server">
-
-        <div class="custompopup" id="div5" runat="server" visible="false">
-            <p>
-                <asp:Label ID="Label1" runat="server" Text="Quer efetuar que tipo de pagamento?"></asp:Label>
-            </p>
-
-            <asp:Button ID="Button2" runat="server" Text="Mensal" OnClick="Button2_Click" />
-            <asp:Button ID="Button3" runat="server" Text="Anual" OnClick="Button3_Click" />
-        </div>
-
+    <form runat="server">  
         <header>
             <nav class="navbar navbar-expand-md navbar-dark fixed-top">
                 <a class="navbar-brand" href="../HomePage">
@@ -201,22 +191,11 @@
                                         <p>área de atuação </p>
                                     </div>
                                     <div class="col">
-                                        <asp:DropDownList CssClass="buttonsobrenos" ID="dp_area" runat="server"></asp:DropDownList>
-                                        <asp:Button ID="AddtoListbox" runat="server" OnClick="AddtoListbox_Click" CssClass="btn-light" Text="Adiciona" />
-                                        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Visible="true" Style="display: none" CssClass="btn-light" Text="Remover Área Selecionada" />
-
-                                    </div>
-
-                                    <div class="col-12 col-lg-8 offset-lg-4">
-                                        <asp:ListBox ID="ListBox1" runat="server" Height="59px" CssClass="listboxcss mt-1" Width="100%"></asp:ListBox>
-                                        <script>
-                                            $("#ListBox1").keyup(function (e) {
-                                                if (e.which == 46) {
-                                                    $("#Button1").click();
-                                                }
-                                            });
-                                        </script>
-                                    </div>
+                                        <asp:TextBox ID="TextBox1" runat="server" onfocus="Textboxdp_areaFocus()" onchange="sortDpArea()" onkeydown="sortDpArea()"></asp:TextBox>
+                                         <asp:button text="Get Values" visible="false" id="btnGetSelectedValues" onclick="btnGetSelectedValues_Click" runat="server"></asp:button>
+                                        <asp:listbox runat="server" id="dp_area" selectionmode="Multiple">
+                                        </asp:listbox>
+                                    </div>                            
                                 </div>
 
 
@@ -269,10 +248,37 @@
     </form>
 </body>
 
-
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="../JS/jquery.sumoselect.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="../OwlCarousel/dist/owl.carousel.min.js"></script>
 <script src="../JS/carrousels.js"></script>
+
+    
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(<%=dp_area.ClientID%>).SumoSelect();
+    });
+</script>
+
+    <script>
+        function sortDpArea() {
+            $(".optWrapper.multiple ul li").each(function (index) {
+                $(this).show();           
+                var contains = $(this).text().includes(capitalizeFirstLetter($("#TextBox1").val()));
+                if (!contains) {
+                    $(this).hide();
+                }
+            });
+        }
+
+        function Textboxdp_areaFocus() {
+            $(".SumoSelect.sumo_dp_area").addClass("open");
+        }
+
+        function capitalizeFirstLetter(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        }
+    </script>
 </html>

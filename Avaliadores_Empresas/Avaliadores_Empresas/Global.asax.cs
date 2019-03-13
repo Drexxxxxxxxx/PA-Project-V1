@@ -21,24 +21,24 @@ namespace Avaliadores_Empresas
         }
         void RegisterRoutes(RouteCollection routes)
         {
-            routes.MapPageRoute("ASPX/Admin", "ASPX/Admin", "~/ASPX/Admin.aspx");
-            routes.MapPageRoute("ASPX/Login", "ASPX/Login", "~/ASPX/Login.aspx");
-            routes.MapPageRoute("ASPX/Avaliador", "ASPX/Avaliador", "~/ASPX/Avaliador.aspx");
-            routes.MapPageRoute("ASPX/Charge", "ASPX/Charge", "~/ASPX/Charge.aspx");
-            routes.MapPageRoute("ASPX/Contactos", "ASPX/Contactos", "~/ASPX/Contactos.aspx");
-            routes.MapPageRoute("ASPX/Empresa", "ASPX/Empresa", "~/ASPX/Empresa.aspx");
-            routes.MapPageRoute("ASPX/Avaliacao2", "ASPX/Avaliacao2", "~/ASPX/PublicarPedidoAvaliacao2.aspx");
-            routes.MapPageRoute("ASPX/Avaliacao1", "ASPX/Avaliacao1", "~/ASPX/PublicarPedidoAvaliacao1.aspx");
-            routes.MapPageRoute("ASPX/Perfis", "ASPX/Perfis", "~/ASPX/Perfis.aspx");
-            routes.MapPageRoute("ASPX/Avaliacao3", "ASPX/Avaliacao3", "~/ASPX/PublicarPedidoAvaliacao3.aspx");
-            routes.MapPageRoute("ASPX/Registar_Avaliadores", "ASPX/Registar_Avaliadores", "~/ASPX/Registar_Avaliadores.aspx");
-            routes.MapPageRoute("ASPX/Registar_Empresas", "ASPX/Registar_Empresas", "~/ASPX/Registar_Empresas.aspx");
-            routes.MapPageRoute("ASPX/SobreNos", "ASPX/SobreNos", "~/ASPX/SobreNos.aspx");
-            routes.MapPageRoute("ASPX/Stripe", "ASPX/Stripe", "~/ASPX/Stripe.aspx");
-            routes.MapPageRoute("ASPX/Sucesso", "ASPX/Sucesso", "~/ASPX/Sucesso.aspx");
-            routes.MapPageRoute("ASPX/Payment", "ASPX/Payment", "~/ASPX/PaginaTestePaypal.aspx");
-            routes.MapPageRoute("ASPX/HomePage", "ASPX/HomePage", "~/Homepagebottstrap.aspx");
-            routes.MapPageRoute("ASPX/Manuntencao", "ASPX/Manuntencao", "~/Manuntencao.aspx");
+            routes.MapPageRoute("Admin", "Admin", "~/ASPX/Admin.aspx");
+            routes.MapPageRoute("Login", "Login", "~/ASPX/Login.aspx");
+            routes.MapPageRoute("Avaliador", "Avaliador", "~/ASPX/Avaliador.aspx");
+            routes.MapPageRoute("Charge", "Charge", "~/ASPX/Charge.aspx");
+            routes.MapPageRoute("Contactos", "Contactos", "~/ASPX/Contactos.aspx");
+            routes.MapPageRoute("Empresa", "Empresa", "~/ASPX/Empresa.aspx");
+            routes.MapPageRoute("Avaliacao2", "Avaliacao2", "~/ASPX/PublicarPedidoAvaliacao2.aspx");
+            routes.MapPageRoute("Avaliacao1", "Avaliacao1", "~/ASPX/PublicarPedidoAvaliacao1.aspx");
+            routes.MapPageRoute("Perfis", "Perfis", "~/ASPX/Perfis.aspx");
+            routes.MapPageRoute("Avaliacao3", "Avaliacao3", "~/ASPX/PublicarPedidoAvaliacao3.aspx");
+            routes.MapPageRoute("Registar_Avaliadores", "Registar_Avaliadores", "~/ASPX/Registar_Avaliadores.aspx");
+            routes.MapPageRoute("Registar_Empresas", "Registar_Empresas", "~/ASPX/Registar_Empresas.aspx");
+            routes.MapPageRoute("SobreNos", "SobreNos", "~/ASPX/SobreNos.aspx");
+            routes.MapPageRoute("Stripe", "Stripe", "~/ASPX/Stripe.aspx");
+            routes.MapPageRoute("Sucesso", "Sucesso", "~/ASPX/Sucesso.aspx");
+            routes.MapPageRoute("Payment", "Payment", "~/ASPX/PaginaTestePaypal.aspx");
+            routes.MapPageRoute("HomePage", "HomePage", "~/Homepagebottstrap.aspx");
+            routes.MapPageRoute("Manuntencao", "Manuntencao", "~/Manuntencao.aspx");
         }
 
         protected void Session_Start(object sender, EventArgs e)

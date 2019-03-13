@@ -9,6 +9,11 @@
     width: 100%;
 }
 
+.DivBtn {
+    background-color: rgba(161, 206, 221, 0.88);
+    padding: 20px;
+}
+
 .divPerfil_inner {
     background-color: rgba(161, 206, 221, 0.88);
     display: block;

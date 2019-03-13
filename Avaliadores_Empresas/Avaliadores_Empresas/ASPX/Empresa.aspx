@@ -635,6 +635,42 @@
                             </asp:Panel>
                         </asp:Panel>
 
+
+
+
+                         <asp:Panel ID="DivHistorico" CssClass="DivBtn" runat="server" Visible="False">
+                            <div class="row">
+                                <div class="w-100">
+                                    <div class="col-xl-12">
+                                        <h1>Historico </h1>
+                                        <hr class="mt-0" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                     <h2>
+                                        <asp:Label ID="Label24" runat="server" Text="Avaliação"></asp:Label></h2>
+                                    <div class="table-responsive">
+                                        <asp:GridView ID="GridViewAval" runat="server" CssClass="table">                                        
+                                        </asp:GridView>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                     <h2>
+                                        <asp:Label ID="Label25" runat="server" Text="Pacote de Avaliação"></asp:Label></h2>
+                                    <div class="table-responsive">
+                                        <asp:GridView ID="GridViewPacoteAval" runat="server" CssClass="table">
+                                        </asp:GridView>
+                                    </div>
+                                </div>
+                            </div>                          
+                        </asp:Panel>
+
+
+
                     </div>
                     <div class="col-12 col-md-3 order-0 order-md-1">
                         <div class="Emp_div">
@@ -659,6 +695,9 @@
                                     </li>
                                     <li>
                                         <asp:Button ID="BtnRanking" runat="server" Text="Ranking" OnClick="BtnRanking_Click" />
+                                    </li>
+                                     <li>
+                                        <asp:Button ID="BtnHistorico" runat="server" Text="Histórico" OnClick="BtnHistorico_Click" />
                                     </li>
                                 </ul>
 

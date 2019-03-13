@@ -86,11 +86,20 @@ namespace Avaliadores_Empresas
                             if (read[6].ToString() == "1")
                             {
                                 Label5.Text = "Demo";
+                                TextBox5.Visible = false;
+                                BtnTrabalhosRealizados.Visible = false;
+                                BtnAvaliacoesDisponiveis.Visible = false;
+                                BtnAvaliacoes.Visible = false;
+                                BtnRanking.Visible = false;
                             }
                             if (read[6].ToString() == "2")
                             {
                                 Label5.Text = "Cancelada";
                                 TextBox5.Visible = false;
+                                BtnTrabalhosRealizados.Visible = false;
+                                BtnAvaliacoesDisponiveis.Visible = false;
+                                BtnAvaliacoes.Visible = false;
+                                BtnRanking.Visible = false;
                             }
                             if (read[6].ToString() == "3")
                             {
@@ -684,6 +693,7 @@ namespace Avaliadores_Empresas
             DivTrabalhosRealizados.Visible = false;
             DivAvaliacoes.Visible = false;
             DivRanking.Visible = false;
+            DivHistorico.Visible = false;
         }
         private void bindddl()
         {
@@ -2208,6 +2218,179 @@ namespace Avaliadores_Empresas
         {
             GridView11.PageIndex = e.NewPageIndex;
             RankingEmpresa();
+        }
+
+        protected void BtnHistorico_Click(object sender, EventArgs e)
+        {
+            InvisibleDiv();
+            DivHistorico.Visible = true;
+            Passadodata();
+            PassadodataPacote();
+        }
+
+        void Passadodata()
+        {
+            string avaliadorsrtng = "select idAvaliacao from tblavaliadoresnumaavaliacao where idAvaliador = " + Session["idAvaliador"].ToString() + " And Escolhido = 1";
+            var readerAvaliador = querycall(avaliadorsrtng);
+            while (readerAvaliador.Read())
+            {
+                avaliadorsrtng = readerAvaliador[0].ToString();
+            }
+            readerAvaliador.Close();
+
+            string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+            // Codigo para registar
+            MySqlConnection con = new MySqlConnection(constr);
+            con.Open();
+            string AllAvaliacoes = "SELECT * FROM tblavaliacao where id = '" + avaliadorsrtng + "'";
+            MySqlCommand comand = new MySqlCommand(AllAvaliacoes);
+            comand.Connection = con;
+            comand.ExecuteNonQuery();
+
+            // string empresanomestr = "";
+            // string avaliadoremailstr = "";
+
+
+            MySqlDataReader read = comand.ExecuteReader();
+
+
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Tipo");
+            dt.Columns.Add("Localização");
+            dt.Columns.Add("Data");
+            dt.Columns.Add("Denominação");
+            dt.Columns.Add("Empresa");
+
+            //SE EXISTIR ELE ENTRA NO IF
+            while (read.Read())
+            {
+                DateTime myDate = DateTime.Parse(read[3].ToString());
+                myDate = myDate.AddDays(4);
+                string imovelstrng = "";
+                string areastrng = "";
+                string avaliadornomesrtng = "";
+
+                if ((myDate - DateTime.Now).TotalDays < 0)
+                {
+                    var readerimovel = querycall("select Nome from tblimovel where id = " + read[1].ToString() + "");
+
+                    while (readerimovel.Read())
+                    {
+                        imovelstrng = readerimovel[0].ToString();
+                    }
+                    readerimovel.Close();
+
+                    var readercidade = querycall("select Nome from tblareasatuacao where id = " + read[2].ToString() + "");
+                    while (readercidade.Read())
+                    {
+                        areastrng = readercidade[0].ToString();
+                    }
+                    readercidade.Close();
+
+                    var readerAvaliadorNome = querycall("select Nome from tblempresa where id = " + read[4].ToString() + "");
+                    while (readerAvaliadorNome.Read())
+                    {
+                        avaliadornomesrtng = readerAvaliadorNome[0].ToString();
+                    }
+                    readerAvaliadorNome.Close();
+
+                    DataRow dr = dt.NewRow();
+                    dr["Tipo"] = imovelstrng;
+                    dr["Localização"] = areastrng;
+                    dr["Data"] = read[3].ToString();
+                    dr["Denominação"] = read[6].ToString();
+                    dr["Empresa"] = avaliadornomesrtng;
+                    dt.Rows.Add(dr);
+                }
+            }
+
+            GridViewAval.DataSource = dt;
+            GridViewAval.DataBind();
+
+            con.Close();
+            read.Close();
+        }
+
+        MySqlDataReader querycall(string query)
+        {
+            string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+            // Codigo para registar
+            MySqlConnection con = new MySqlConnection(constr);
+            con.Open();
+            string AllAvaliacoes = query;
+            MySqlCommand comand = new MySqlCommand(AllAvaliacoes);
+            comand.Connection = con;
+            comand.ExecuteNonQuery();
+
+            // string empresanomestr = "";
+            // string avaliadoremailstr = "";
+
+
+            MySqlDataReader read = comand.ExecuteReader();
+
+            var readquery = read;
+
+            return readquery;
+        }
+
+        void PassadodataPacote()
+        {
+            string avaliadorsrtng = "";
+
+            var readerAvaliador = querycall("select idAvaliacao from tblavaliadoresnumpacote where idAvaliador = " + Session["idAvaliador"].ToString() + " And Escolhido=1");
+            while (readerAvaliador.Read())
+            {
+                avaliadorsrtng = readerAvaliador[0].ToString();
+            }
+            readerAvaliador.Close();
+
+            string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+            // Codigo para registar
+            MySqlConnection con = new MySqlConnection(constr);
+            con.Open();
+            string AllAvaliacoes = "SELECT * FROM tblpacotetotal where id = '" + avaliadorsrtng + "'";
+            MySqlCommand comand = new MySqlCommand(AllAvaliacoes);
+            comand.Connection = con;
+            comand.ExecuteNonQuery();
+
+            // string empresanomestr = "";
+            // string avaliadoremailstr = "";
+
+            string avaliadornomesrtng = "";
+            MySqlDataReader read = comand.ExecuteReader();
+
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Data");
+            dt.Columns.Add("Denominação");
+            dt.Columns.Add("Avaliador");
+
+            //SE EXISTIR ELE ENTRA NO IF
+            while (read.Read())
+            {
+                DateTime myDate = DateTime.Parse(read[2].ToString());
+                myDate = myDate.AddDays(4);
+                if ((myDate - DateTime.Now).TotalDays < 0)
+                {
+                    var readerAvaliadorNome = querycall("select Nome from tblempresa where id = " + read[3].ToString() + "");
+                    while (readerAvaliadorNome.Read())
+                    {
+                        avaliadornomesrtng = readerAvaliadorNome[0].ToString();
+                    }
+                    readerAvaliadorNome.Close();
+
+                    DataRow dr = dt.NewRow();
+                    dr["Data"] = read[2].ToString();
+                    dr["Denominação"] = read[1].ToString();
+                    dr["Avaliador"] = avaliadornomesrtng;
+                    dt.Rows.Add(dr);
+                }
+            }
+
+            GridViewPacoteAval.DataSource = dt;
+            GridViewPacoteAval.DataBind();
+
+            con.Close();
+            read.Close();
         }
 
     }

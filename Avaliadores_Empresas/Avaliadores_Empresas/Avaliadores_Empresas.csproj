@@ -130,8 +130,10 @@
     <Content Include="CSS\rEmp_style.css" />
     <Content Include="CSS\sN_style.css" />
     <Content Include="CSS\style_empresa.css" />
+    <Content Include="CSS\sumoselect.css" />
     <Content Include="ExcelFileEdited\info.txt" />
     <Content Include="ExcelFileOriginal\Formulario.xlsx" />
+    <Content Include="JS\jquery.sumoselect.min.js" />
     <Content Include="OwlCarousel\.travis.yml" />
     <Content Include="OwlCarousel\bower.json" />
     <Content Include="OwlCarousel\CONTRIBUTING.md" />

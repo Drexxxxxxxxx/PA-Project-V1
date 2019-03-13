@@ -21,48 +21,63 @@ namespace Avaliadores_Empresas
         int DeleteAvalIndex = 0;
         protected void Page_Load(object sender, EventArgs e)
         {
-            // Saber se é Avaliador ?
-            if (!IsPostBack)
+            try
             {
-                string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
-                // Codigo para registar
-                MySqlConnection con = new MySqlConnection(constr);
-                con.Open();
-                string N_Avaliador = "SELECT * from tbladmin where id = @id";
-                MySqlCommand comand = new MySqlCommand(N_Avaliador);
-                if (Session["Tipo"].ToString() == "3")
+                // Saber se é Avaliador ?
+                if (!IsPostBack)
                 {
-                    try
+                    string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+                    // Codigo para registar
+                    MySqlConnection con = new MySqlConnection(constr);
+                    con.Open();
+                    string N_Avaliador = "SELECT * from tbladmin where id = @id";
+                    MySqlCommand comand = new MySqlCommand(N_Avaliador);
+                    if (Session["Tipo"].ToString() == "3")
                     {
-                        comand.Parameters.AddWithValue("@id", Session["idAvaliador"].ToString());
+                        try
+                        {
+                            comand.Parameters.AddWithValue("@id", Session["idAvaliador"].ToString());
+                        }
+                        catch
+                        {
+                            Response.Redirect("Login");
+                        }
                     }
-                    catch
+                    else
                     {
                         Response.Redirect("Login");
                     }
-                }
-                else
-                {
-                    Response.Redirect("Login");
-                }
-                comand.Connection = con;
-                comand.ExecuteNonQuery();
+                    comand.Connection = con;
+                    comand.ExecuteNonQuery();
 
-                MySqlDataReader read = comand.ExecuteReader();
-                //SE EXISTIR ELE ENTRA NO IF
-                if (read.Read())
-                {
-                   // TBoxPerfilNRegisto.Text = read[0].ToString();
-                    TextBox1.Text = read[1].ToString();
-                    TextBox2.Text = read[3].ToString();
-                    TextBox6.Text = read[4].ToString();
+                    MySqlDataReader read = comand.ExecuteReader();
+                    //SE EXISTIR ELE ENTRA NO IF
+                    if (read.Read())
+                    {
+                        // TBoxPerfilNRegisto.Text = read[0].ToString();
+                        TextBox1.Text = read[1].ToString();
+                        TextBox2.Text = read[3].ToString();
+                        TextBox6.Text = read[4].ToString();
+                    }
+                    read.Close();
+                    con.Close();
+                    AllAvaliadores();
+                    AllEmpresas();
                 }
-                read.Close();
-                con.Close();
-                AllAvaliadores();
-                AllEmpresas();
+            }
+            catch
+            {
+                Response.Redirect("Login");
             }
         }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Session.Abandon();
+            Response.Redirect("Login");
+        }
+
         void AllAvaliadores()
         {
             ListBox1.Items.Clear();
@@ -98,7 +113,7 @@ namespace Avaliadores_Empresas
                     dr["Nome"] = read[1].ToString();
                     dr["Email"] = read[3].ToString();
                     dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Teste";
+                    dr["Estado"] = "Ativo";
                     DateTime myDate = DateTime.Parse(read[8].ToString());
                     dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
                     dt.Rows.Add(dr);
@@ -109,7 +124,7 @@ namespace Avaliadores_Empresas
                     dr["Nome"] = read[1].ToString();
                     dr["Email"] = read[3].ToString();
                     dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Ativo";
+                    dr["Estado"] = "Demo";
                     DateTime myDate = DateTime.Parse(read[8].ToString());
                     dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
                     dt.Rows.Add(dr);
@@ -142,7 +157,7 @@ namespace Avaliadores_Empresas
                     dr["Nome"] = read[1].ToString();
                     dr["Email"] = read[3].ToString();
                     dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Ativo";
+                    dr["Estado"] = "Diferente";
                     DateTime myDate = DateTime.Parse(read[8].ToString());
                     dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
                     dt.Rows.Add(dr);
@@ -189,7 +204,7 @@ namespace Avaliadores_Empresas
                     dr["Nome"] = read[1].ToString();
                     dr["Email"] = read[3].ToString();
                     dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Teste";
+                    dr["Estado"] = "Ativo";
                     DateTime myDate = DateTime.Parse(read[8].ToString());
                     dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
                     dt.Rows.Add(dr);
@@ -200,7 +215,7 @@ namespace Avaliadores_Empresas
                     dr["Nome"] = read[1].ToString();
                     dr["Email"] = read[3].ToString();
                     dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Ativo";
+                    dr["Estado"] = "Demo";
                     DateTime myDate = DateTime.Parse(read[8].ToString());
                     dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
                     dt.Rows.Add(dr);
@@ -412,6 +427,13 @@ namespace Avaliadores_Empresas
             {
                 DateTime myDate = DateTime.Parse(read[1].ToString());
                 TextBox8.Text = myDate.ToString("yyyy-MM-dd");
+                try
+                {
+                    DropDownList1.ClearSelection(); //making sure the previous selection has been cleared
+                    DropDownList1.Items.FindByValue(read[0].ToString()).Selected = true;
+                }
+                catch
+                { }
             }
 
 
@@ -443,6 +465,13 @@ namespace Avaliadores_Empresas
             {
                 DateTime myDate = DateTime.Parse(read[1].ToString());
                 TextBox7.Text = myDate.ToString("yyyy-MM-dd");
+                try
+                {
+                    DropDownList2.ClearSelection(); //making sure the previous selection has been cleared
+                    DropDownList2.Items.FindByValue(read[0].ToString()).Selected = true;
+                }
+                catch
+                { }
             }
 
 
@@ -456,10 +485,11 @@ namespace Avaliadores_Empresas
                 // Codigo para registar
                 MySqlConnection con = new MySqlConnection(constr);
                 con.Open();
-                string N_Avaliador = "UPDATE tblavaliador SET datadeexpiracao = @data WHERE id = @id; ";
+                string N_Avaliador = "UPDATE tblavaliador SET datadeexpiracao = @data, Ativo=@ddnvalue  WHERE id = @id; ";
                 MySqlCommand comand = new MySqlCommand(N_Avaliador);
                 comand.Parameters.AddWithValue("@id", ListBox1.Items[GridView1.SelectedIndex].ToString());
                 comand.Parameters.AddWithValue("@data", TextBox8.Text.Trim());
+                comand.Parameters.AddWithValue("@ddnvalue", DropDownList1.SelectedValue.ToString());
                 comand.Connection = con;
                 comand.ExecuteNonQuery();
                 con.Close();
@@ -476,10 +506,11 @@ namespace Avaliadores_Empresas
             // Codigo para registar
             MySqlConnection con = new MySqlConnection(constr);
             con.Open();
-            string N_Avaliador = "UPDATE tblempresa SET datadeexpiracao = @data WHERE id = @id; ";
+            string N_Avaliador = "UPDATE tblempresa SET datadeexpiracao = @data, Ativo=@ddnvalue WHERE id = @id; ";
             MySqlCommand comand = new MySqlCommand(N_Avaliador);
             comand.Parameters.AddWithValue("@id", ListBox2.Items[GridView3.SelectedIndex].ToString());
             comand.Parameters.AddWithValue("@data", TextBox7.Text.Trim());
+            comand.Parameters.AddWithValue("@ddnvalue", DropDownList2.SelectedValue.ToString());
             comand.Connection = con;
             comand.ExecuteNonQuery();
             con.Close();

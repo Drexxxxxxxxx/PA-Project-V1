@@ -181,8 +181,11 @@ namespace Avaliadores_Empresas
 
                         LinkedResource LinkedImage = new LinkedResource(Server.MapPath("~/") + "salazar-01.ico");
                         SendEmail(email_emp.Text.Trim(), "Registo Portal do Avaliador", LinkedImage, "Parabéns! <br><br>Obrigado pelo registo no Portal do Avaliador. <br><br>Pode aceder ao portal nos próximos 5 dias sem qualquer custo. <br><br>Basta aceder a www.portaldoavaliador.com e efetuar o login <br><br>Alguma questão não hesite em contactar,<br><br><div>" + @"<div style=""display: inline-block;""> <img style=""width:65px;"" src='cid:" + LinkedImage.ContentId + @"'/></div><div style=""display: inline-block;"">Portal do avaliador <br> www.portaldoavaliador.com</div></div>");
+                        LinkedImage.Dispose();
 
-                        SendEmail("geral@portaldoavaliador.com", "Nova empresa", LinkedImage, "Nova empresa com o email: " + email_emp.Text.Trim() + " foi registado, está agora com o pagamento pendente");
+                        LinkedResource LinkedImage2 = new LinkedResource(Server.MapPath("~/") + "salazar-01.ico");
+                        SendEmail2("geral@portaldoavaliador.com", "Nova empresa", LinkedImage2, "Nova empresa com o email: " + email_emp.Text.Trim() + " foi registado, está agora com o pagamento pendente");
+                        LinkedImage2.Dispose();
 
                         con.Open();
                         string nregistotoid = "";
@@ -204,6 +207,7 @@ namespace Avaliadores_Empresas
 
                         //Pagamento
                         idAvaliadorstrng = nregistotoid;
+                        Response.Redirect("Login");
                     }
 
 
@@ -217,6 +221,38 @@ namespace Avaliadores_Empresas
         }
 
         private void SendEmail(string To, string Subject, LinkedResource LinkedImage, string body)
+        {
+            MailMessage mail = new MailMessage();
+
+            mail.From = new MailAddress("geral@portaldoavaliador.com");
+            mail.To.Add(To);
+            mail.Subject = Subject;
+            //Envia a password já decriptada
+            // mail.Body = "Parabéns! <br>Obrigado pelo registo no Portal do Avaliador. <br>Pode aceder ao portal nos próximos 5 dias sem qualquer custo. <br>Basta aceder a www.portaldoavaliador.com e efetuar o login <br>Alguma questão não hesite em contactar,<br>";
+            mail.Body = "This is the body of the email";
+
+            LinkedImage.ContentId = "MyPic";
+            //Added the patch for Thunderbird as suggested by Jorge
+            LinkedImage.ContentType = new ContentType(MediaTypeNames.Image.Jpeg);
+
+            AlternateView htmlView = AlternateView.CreateAlternateViewFromString(
+              body,
+              null, "text/html");
+
+            htmlView.LinkedResources.Add(LinkedImage);
+            mail.AlternateViews.Add(htmlView);
+            mail.IsBodyHtml = true;
+            SmtpClient smtp = new SmtpClient("webmail.portaldoavaliador.com");
+            smtp.Port = 25;
+            smtp.Credentials = new System.Net.NetworkCredential("geral@portaldoavaliador.com", "P@ssword1");
+            smtp.EnableSsl = true;
+            ServicePointManager.ServerCertificateValidationCallback = delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { return true; };
+            smtp.Send(mail);
+            smtp.Dispose();
+            mail.Dispose();
+        }
+
+        private void SendEmail2(string To, string Subject, LinkedResource LinkedImage, string body)
         {
             MailMessage mail = new MailMessage();
 

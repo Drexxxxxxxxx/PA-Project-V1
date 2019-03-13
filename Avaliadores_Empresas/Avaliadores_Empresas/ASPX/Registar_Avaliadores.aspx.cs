@@ -130,9 +130,20 @@ namespace Avaliadores_Empresas
         protected void btn_regist_Aval_Click(object sender, EventArgs e)
         {
             // Registar Avaliador
-            if (nome_aval.Text == "" || pass_aval.Text == "" || !email_aval.Text.Contains("@") || nregisto_aval.Text == "" || mobile_aval.Text.Length != 9 || morada_aval.Text == "" || pass_aval.Text != confpass_aval.Text)
+            if (mobile_aval.Text.Length != 9 || pass_aval.Text != confpass_aval.Text || pass_aval.Text == "")
             {
-                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Erro')", true);
+                if(mobile_aval.Text.Length != 9)
+                {
+                    ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('O numero de telemóvel tem que ter 9 digitos')", true);
+                }
+                if (pass_aval.Text != confpass_aval.Text)
+                {
+                    ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('As palavras passes estão diferentes')", true);
+                }
+                if (pass_aval.Text == "")
+                {
+                    ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('As palavras passes não podem ser vazias')", true);
+                }
             }
             else
             {
@@ -204,8 +215,10 @@ namespace Avaliadores_Empresas
 
                         LinkedResource LinkedImage = new LinkedResource(Server.MapPath("~/") + "salazar-01.ico");
                         SendEmail(email_aval.Text.Trim(), "Registo Portal do Avaliador", LinkedImage, "Parabéns! <br><br>Obrigado pelo registo no Portal do Avaliador. <br><br>Pode aceder ao portal nos próximos 5 dias sem qualquer custo. <br><br>Basta aceder a www.portaldoavaliador.com e efetuar o login <br><br>Alguma questão não hesite em contactar,<br><br><div>" + @"<div style=""display: inline-block;""> <img style=""width:65px;"" src='cid:" + LinkedImage.ContentId + @"'/></div><div style=""display: inline-block;"">Portal do avaliador <br> www.portaldoavaliador.com</div></div>");
-
-                        SendEmail("geral@portaldoavaliador.com", "Novo Avaliador", LinkedImage, "Novo Avaliador com o email: " + email_aval.Text.Trim() + " foi registado, está agora com o pagamento pendente");
+                        LinkedImage.Dispose();
+                        LinkedResource LinkedImage2 = new LinkedResource(Server.MapPath("~/") + "salazar-01.ico");
+                        SendEmail2("geral@portaldoavaliador.com", "Novo Avaliador", LinkedImage2, "Novo Avaliador com o email: " + email_aval.Text.Trim() + " foi registado, está agora com o pagamento pendente");
+                        LinkedImage2.Dispose();
 
                         //Fim do codigo do email
                         con.Close();
@@ -227,21 +240,23 @@ namespace Avaliadores_Empresas
                         }
 
                         con.Close();
-                        for (int i = 0; i < ListBox1.Items.Count; i++)
-                        {
-                            con.Open();
 
+                        foreach (int i in dp_area.GetSelectedIndices())
+                        {
+                            con.Open();                
                             MySqlCommand cmd2 = con.CreateCommand();
                             cmd2.CommandText = "insertavaliadorareas";
                             cmd2.CommandType = CommandType.StoredProcedure;
                             cmd2.Parameters.AddWithValue("varidAvaliador", Convert.ToInt16(nregistotoid));
-                            cmd2.Parameters.AddWithValue("varidArea", Convert.ToInt16(ListBox1.Items[i].Value.ToString()));
+                            cmd2.Parameters.AddWithValue("varidArea", Convert.ToInt16(dp_area.Items[i].Value.ToString()));
                             cmd2.ExecuteNonQuery();
                             con.Close();
                         }
                         //Pagamento
                         idAvaliadorstrng = nregistotoid;
-                        div5.Visible = true;
+                        Session["idAvaliador"] = idAvaliadorstrng;
+                        Session["Tipo"] = "1";
+                        Response.Redirect("Avaliador");
                     }
 
 
@@ -287,6 +302,38 @@ namespace Avaliadores_Empresas
             mail.Dispose();
         }
 
+        private void SendEmail2(string To, string Subject, LinkedResource LinkedImage, string body)
+        {
+            MailMessage mail = new MailMessage();
+
+            mail.From = new MailAddress("geral@portaldoavaliador.com");
+            mail.To.Add(To);
+            mail.Subject = Subject;
+            //Envia a password já decriptada
+            // mail.Body = "Parabéns! <br>Obrigado pelo registo no Portal do Avaliador. <br>Pode aceder ao portal nos próximos 5 dias sem qualquer custo. <br>Basta aceder a www.portaldoavaliador.com e efetuar o login <br>Alguma questão não hesite em contactar,<br>";
+            mail.Body = "This is the body of the email";
+
+            LinkedImage.ContentId = "MyPic";
+            //Added the patch for Thunderbird as suggested by Jorge
+            LinkedImage.ContentType = new ContentType(MediaTypeNames.Image.Jpeg);
+
+            AlternateView htmlView = AlternateView.CreateAlternateViewFromString(
+              body,
+              null, "text/html");
+
+            htmlView.LinkedResources.Add(LinkedImage);
+            mail.AlternateViews.Add(htmlView);
+            mail.IsBodyHtml = true;
+            SmtpClient smtp = new SmtpClient("webmail.portaldoavaliador.com");
+            smtp.Port = 25;
+            smtp.Credentials = new System.Net.NetworkCredential("geral@portaldoavaliador.com", "P@ssword1");
+            smtp.EnableSsl = true;
+            ServicePointManager.ServerCertificateValidationCallback = delegate (object s, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors) { return true; };
+            smtp.Send(mail);
+            smtp.Dispose();
+            mail.Dispose();
+        }
+
         private AlternateView getEmbeddedImage(String filePath)
         {
             LinkedResource res = new LinkedResource(filePath);
@@ -295,45 +342,6 @@ namespace Avaliadores_Empresas
             AlternateView alternateView = AlternateView.CreateAlternateViewFromString(htmlBody, null, MediaTypeNames.Text.Html);
             alternateView.LinkedResources.Add(res);
             return alternateView;
-        }
-
-        protected void AddtoListbox_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (ListBox1.Items.FindByValue(dp_area.SelectedValue.ToString()).Value == "")
-                {
-
-                }
-            }
-            catch
-            {
-                ListBox1.Items.Add(new ListItem(dp_area.SelectedItem.Text, dp_area.SelectedValue.ToString()));
-            }
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            if (ListBox1.SelectedIndex != -1)
-            {
-                ListBox1.Items.RemoveAt(ListBox1.SelectedIndex);
-            }
-        }
-
-        protected void Button2_Click(object sender, EventArgs e)
-        { 
-            Session["idAvaliador"] = idAvaliadorstrng;
-            Session["Tipo"] = "1";
-            Session["PagarTipo"] = "0";
-            Response.Redirect("Payment");
-        }
-
-        protected void Button3_Click(object sender, EventArgs e)
-        {
-            Session["idAvaliador"] = idAvaliadorstrng;
-            Session["Tipo"] = "1";
-            Session["PagarTipo"] = "1";
-            Response.Redirect("Payment");
         }
 
         protected void LinkButton2_Click(object sender, EventArgs e)
@@ -427,5 +435,18 @@ namespace Avaliadores_Empresas
             }
             Response.Redirect("Empresa");
         }
+
+        protected void btnGetSelectedValues_Click(object sender, EventArgs e)
+        {
+            string selectedValues = string.Empty;
+            foreach (ListItem li in dp_area.Items)
+            {
+                if (li.Selected == true)
+                {
+                    selectedValues += li.Text + ",";
+                }
+            }
+            Response.Write(selectedValues.ToString());
+        }
     }
-    }
+}

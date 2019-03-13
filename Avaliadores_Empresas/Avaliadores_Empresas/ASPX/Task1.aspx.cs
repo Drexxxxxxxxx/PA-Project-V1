@@ -22,8 +22,9 @@ namespace Avaliadores_Empresas
         {
             Avaliar();
             AvaliarPacote();
-            ApagarPassadodata();
-            ApagarPassadodataPacote();
+
+            //ApagarPassadodata();
+            //ApagarPassadodataPacote();
             MudarContaAval();
             MudarContaEmp();
             VerificarPagouRefEmp();
