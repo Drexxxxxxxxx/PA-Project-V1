@@ -45,26 +45,6 @@
 
                 </div>
             </div>
-
-            <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class=" " href="SobreNos">Somos Nos</a>
-                    </li>
-                    <li class="nav-item">
-                        <asp:LinkButton ID="LinkButton5" runat="server" Text="Avaliador" OnClick="LinkButton5_Click"></asp:LinkButton>
-                    </li>
-                    <li class="nav-item">
-                        <asp:LinkButton id="LinkButton4" runat="server" Text="Empresa" OnClick="LinkButton4_Click"></asp:LinkButton>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="" href="Contactos">Contactos</a>
-                    </li>
-                    <li class="nav-item active">
-                        <asp:LinkButton ID="LinkButton1" CssClass="ativo" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out" style="padding-right: 2px"></span></asp:LinkButton>
-                    </li>
-                </ul>
-            </div>
         </nav>
 
         <div class="position-relative slider">

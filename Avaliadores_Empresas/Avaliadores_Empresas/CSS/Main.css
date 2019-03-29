@@ -5,10 +5,10 @@
     font-family: 'Montserrat';
 }
 
-.dp-nav{
-    display:none;
-    
+.navbar-brand {
+    display: none;
 }
+
     .dp-nav button {
         background: transparent;
         padding: 0;
@@ -45,12 +45,7 @@ a:hover {
 }
 
 @media (max-width:767px) {
-    .dp-nav {
-        display:block;
-    }
-    .navbar-brand {
-        display: none;
-    }
+    
 }
 
 h1 {
