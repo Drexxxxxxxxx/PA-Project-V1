@@ -227,3 +227,9 @@ hr {
 .EmptyStars {
     background-image: url(../Imagens/Estrelas/EstrelaCinzenta.png);
 }
+
+
+#GridView11 > tbody > tr:nth-child(2), #GridView11 > tbody > tr:nth-child(1), #GridView11 > tbody > tr:nth-child(3),
+#GridView12 > tbody > tr:nth-child(2), #GridView12 > tbody > tr:nth-child(1), #GridView12 > tbody > tr:nth-child(3) {
+    font-weight: bold;
+}

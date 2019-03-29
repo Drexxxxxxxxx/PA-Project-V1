@@ -103,97 +103,94 @@ namespace Avaliadores_Empresas
             int contadoremail = 0;
            string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
             // Codigo para registar
-            MySqlConnection con = new MySqlConnection(constr);
-            con.Open();
-            string N_Avaliador = "SELECT id, Pass from tblavaliador where Email = @Email";
-            MySqlCommand comand = new MySqlCommand(N_Avaliador);
-            comand.Parameters.AddWithValue("@Email", txt_email.Text);
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
 
-            MySqlDataReader read = comand.ExecuteReader();
-            //SE EXISTIR ELE ENTRA NO IF
-            if (read.Read())
-            {
-                string encriptacaopass = Encrypt(txt_pass.Text);
-                if (encriptacaopass == read[1].ToString())
-                {
-                    Session["idAvaliador"] = read[0].ToString();
-                    Session["Tipo"] = "1";
-                    Response.Redirect("Avaliador");
-                }
-                else
-                {
-                    lbl_msg.Text = "Password Incorreta";
-                }
-            }
-            else
-            {
-                contadoremail++;
-            }
-            con.Close();
-            con.Open();
-            N_Avaliador = "SELECT id, Pass from tblempresa where Email = @Email";
-            comand = new MySqlCommand(N_Avaliador);
-            comand.Parameters.AddWithValue("@Email", txt_email.Text);
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
 
-            read = comand.ExecuteReader();
-            //SE EXISTIR ELE ENTRA NO IF
-            if (read.Read())
+            using (MySqlConnection con = new MySqlConnection(constr))
             {
-                string encriptacaopass = Encrypt(txt_pass.Text);
-                if (encriptacaopass == read[1].ToString())
+                con.Open();
+                using (MySqlCommand command = new MySqlCommand("SELECT id, Pass from tblavaliador where Email = '" + txt_email.Text + "'", con))
+                using (MySqlDataReader read = command.ExecuteReader())
                 {
-                    Session["idAvaliador"] = read[0].ToString();
-                    Session["Tipo"] = "2";
-                    Response.Redirect("Empresa");
-                }
-                else
-                {
-                    lbl_msg.Text = "Password Incorreta";
+                    if (read.Read())
+                    {
+                        string encriptacaopass = Encrypt(txt_pass.Text);
+                        if (encriptacaopass == read[1].ToString())
+                        {
+                            Session["idAvaliador"] = read[0].ToString();
+                            Session["Tipo"] = "1";
+                            Response.Redirect("Avaliador");
+                        }
+                        else
+                        {
+                            lbl_msg.Text = "Password Incorreta";
+                        }
+                    }
+                    else
+                    {
+                        contadoremail++;
+                    }
                 }
             }
-            else
+
+            using (MySqlConnection con = new MySqlConnection(constr))
             {
-                contadoremail++;
+                con.Open();
+                using (MySqlCommand command = new MySqlCommand("SELECT id, Pass from tblempresa where Email = '" + txt_email.Text + "'", con))
+                using (MySqlDataReader read = command.ExecuteReader())
+                {
+                    if (read.Read())
+                    {
+                        string encriptacaopass = Encrypt(txt_pass.Text);
+                        if (encriptacaopass == read[1].ToString())
+                        {
+                            Session["idAvaliador"] = read[0].ToString();
+                            Session["Tipo"] = "2";
+                            Response.Redirect("Empresa");
+                        }
+                        else
+                        {
+                            lbl_msg.Text = "Password Incorreta";
+                        }
+                    }
+                    else
+                    {
+                        contadoremail++;
+                    }
+                }
             }
-            // Se não preencher nada ?
+
+            using (MySqlConnection con = new MySqlConnection(constr))
+            {
+                con.Open();
+                using (MySqlCommand command = new MySqlCommand("SELECT id, Pass from tbladmin where Email = '" + txt_email.Text + "'", con))
+                using (MySqlDataReader read = command.ExecuteReader())
+                {
+                    if (read.Read())
+                    {
+                        string encriptacaopass = Encrypt(txt_pass.Text);
+                        if (encriptacaopass == read[1].ToString())
+                        {
+                            Session["idAvaliador"] = read[0].ToString();
+                            Session["Tipo"] = "3";
+                            Response.Redirect("Admin");
+                        }
+                        else
+                        {
+                            lbl_msg.Text = "Password Incorreta";
+                        }
+                    }
+                    else
+                    {
+                        contadoremail++;
+                    }
+                }
+            }
 
             if (txt_email.Text == "" && txt_pass.Text == "")
             {
                 lbl_msg.Text = " Tem que preencher os dois campos ";
             }
 
-            con.Close();
-            con.Open();
-            N_Avaliador = "SELECT id, Pass from tbladmin where Email = @Email";
-            comand = new MySqlCommand(N_Avaliador);
-            comand.Parameters.AddWithValue("@Email", txt_email.Text);
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
-
-            read = comand.ExecuteReader();
-            //SE EXISTIR ELE ENTRA NO IF
-            if (read.Read())
-            {
-                string encriptacaopass = Encrypt(txt_pass.Text);
-                if (encriptacaopass == read[1].ToString())
-                {
-                    Session["idAvaliador"] = read[0].ToString();
-                    Session["Tipo"] = "3";
-                    Response.Redirect("Admin");
-                }
-                else
-                {
-                    lbl_msg.Text = "Password Incorreta";
-                }
-            }
-            else
-            {
-                contadoremail++;
-            }
             // Se não preencher nada ?
             if(contadoremail == 3)
             {
@@ -203,8 +200,6 @@ namespace Avaliadores_Empresas
             {
                 lbl_msg.Text = " Tem que preencher os dois campos ";
             }
-            read.Close();
-            con.Close();
         }
 
         protected void LinkButton2_Click(object sender, EventArgs e)
@@ -219,66 +214,59 @@ namespace Avaliadores_Empresas
             string password = "";
             string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
             // Codigo para registar
-            MySqlConnection con = new MySqlConnection(constr);
-            con.Open();
-            string N_Avaliador = "SELECT id, Pass from tblavaliador where Email = @Email";
-            MySqlCommand comand = new MySqlCommand(N_Avaliador);
-            comand.Parameters.AddWithValue("@Email", TextBox1.Text);
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
 
-            MySqlDataReader read = comand.ExecuteReader();
-            //SE EXISTIR ELE ENTRA NO IF
-            if (read.Read())
+            using (MySqlConnection con = new MySqlConnection(constr))
             {
-                password = read[1].ToString();
+                con.Open();
+                using (MySqlCommand command = new MySqlCommand("SELECT id, Pass from tblavaliador where Email = '" + TextBox1.Text + "'", con))
+                using (MySqlDataReader read = command.ExecuteReader())
+                {
+                    if (read.Read())
+                    {
+                        password = read[1].ToString();
+                    }
+                    else
+                    {
+                        contadoremail++;
+                    }
+                }
             }
-            else
+            using (MySqlConnection con = new MySqlConnection(constr))
             {
-                contadoremail++;
+                con.Open();
+                using (MySqlCommand command = new MySqlCommand("SELECT id, Pass from tblempresa where Email = '" + TextBox1.Text + "'", con))
+                using (MySqlDataReader read = command.ExecuteReader())
+                {
+                    if (read.Read())
+                    {
+                        password = read[1].ToString();
+                    }
+                    else
+                    {
+                        contadoremail++;
+                    }
+                }
             }
-            con.Close();
-            con.Open();
-            N_Avaliador = "SELECT id, Pass from tblempresa where Email = @Email";
-            comand = new MySqlCommand(N_Avaliador);
-            comand.Parameters.AddWithValue("@Email", TextBox1.Text);
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
 
-            read = comand.ExecuteReader();
-            //SE EXISTIR ELE ENTRA NO IF
-            if (read.Read())
+            using (MySqlConnection con = new MySqlConnection(constr))
             {
-                password = read[1].ToString();
-            }
-            else
-            {
-                contadoremail++;
-            }
-            con.Close();
-            con.Open();
-            N_Avaliador = "SELECT id, Pass from tbladmin where Email = @Email";
-            comand = new MySqlCommand(N_Avaliador);
-            comand.Parameters.AddWithValue("@Email", TextBox1.Text);
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
-
-            read = comand.ExecuteReader();
-            //SE EXISTIR ELE ENTRA NO IF
-            if (read.Read())
-            {
-                password = read[1].ToString();
-            }
-            else
-            {
-                contadoremail++;
+                con.Open();
+                using (MySqlCommand command = new MySqlCommand("SELECT id, Pass from tbladmin where Email = '" + TextBox1.Text + "'", con))
+                using (MySqlDataReader read = command.ExecuteReader())
+                {
+                    if (read.Read())
+                    {
+                        password = read[1].ToString();
+                    }
+                    else
+                    {
+                        contadoremail++;
+                    }
+                }
             }
             // Se não preencher nada ?
             if (contadoremail != 3)
             {
-                read.Close();
-                con.Close();
-
                 MailMessage mail = new MailMessage();
 
                 mail.From = new MailAddress("geral@portaldoavaliador.com");
@@ -393,22 +381,24 @@ namespace Avaliadores_Empresas
                     {
                         string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
                         // Codigo para registar
-                        MySqlConnection con = new MySqlConnection(constr);
-                        con.Open();
-                        string N_Avaliador = "SELECT * from tblavaliador where id = @id";
-                        MySqlCommand comand = new MySqlCommand(N_Avaliador);
-
-                        try
+                        using (MySqlConnection con = new MySqlConnection(constr))
                         {
-                            comand.Parameters.AddWithValue("@id", Session["idAvaliador"].ToString());
-                        }
-                        catch
-                        {
-                            Response.Redirect("Registar_Avaliadores");
-                        }
+                            con.Open();
+                            using (MySqlCommand command = new MySqlCommand("SELECT * from tblavaliador where id = @id", con))
+                            {
+                                try
+                                {
+                                    command.Parameters.AddWithValue("@id", Session["idAvaliador"].ToString());
+                                }
+                                catch
+                                {
+                                    Response.Redirect("Registar_Avaliadores");
+                                }
 
-                        comand.Connection = con;
-                        comand.ExecuteNonQuery();
+                                command.Connection = con;
+                                command.ExecuteNonQuery();
+                            }
+                        }                  
                     }
                     catch
                     {
@@ -439,22 +429,24 @@ namespace Avaliadores_Empresas
                     {
                         string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
                         // Codigo para registar
-                        MySqlConnection con = new MySqlConnection(constr);
-                        con.Open();
-                        string N_Avaliador = "SELECT * from TblEmpresa where id = @id";
-                        MySqlCommand comand = new MySqlCommand(N_Avaliador);
-
-                        try
+                        using (MySqlConnection con = new MySqlConnection(constr))
                         {
-                            comand.Parameters.AddWithValue("@id", Session["idAvaliador"].ToString());
-                        }
-                        catch
-                        {
-                            Response.Redirect("Registar_Empresas");
-                        }
+                            con.Open();
+                            using (MySqlCommand command = new MySqlCommand("SELECT * from TblEmpresa where id = @id", con))
+                            {
+                                try
+                                {
+                                    command.Parameters.AddWithValue("@id", Session["idAvaliador"].ToString());
+                                }
+                                catch
+                                {
+                                    Response.Redirect("Registar_Empresas");
+                                }
 
-                        comand.Connection = con;
-                        comand.ExecuteNonQuery();
+                                command.Connection = con;
+                                command.ExecuteNonQuery();
+                            }
+                        }
                     }
                     catch
                     {

@@ -1,0 +1,95 @@
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 38px ;
+    overflow-y: hidden;
+  }
+
+.navbar{
+    background-color: #222022 !important;
+
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li a {
+    padding: 10px 10px;
+    display: inline-block;
+    font-weight: 100;
+    color: white !important;
+    font-family: 'Montserrat';
+    font-size: 12pt;
+    max-height:64px;
+    margin: 0px 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 38px;
+    line-height: 38px; /* Vertically center the text there */
+    background-color: rgb(34,34,34);
+    font-weight: 100;
+    color: white !important;
+    font-family: 'Montserrat';
+    font-size: 9pt;
+  }
+
+.carousel-item{
+    height:100vh;
+    background-position: center;
+}
+
+.slider{
+    margin-left: unset !important; 
+    margin-right: unset !important;
+}
+.slider div{
+    padding-right: unset !important; 
+    padding-left: unset !important;
+}
+
+.carousel-inner > .item {
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
+
+.texto{
+    position: absolute; 
+    text-align: center; 
+    margin-top: 171px;
+    width: 100%; 
+    background-color: rgba(34,34,34,0.69);
+    padding: 45px
+}
+
+.sub_tit{
+    font-size: 22pt;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: white
+}
+
+.titulo{
+    font-size: 30pt; 
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: white
+}
+
+.texto button{
+    border-radius: 1.5px;
+    font-size: 12pt; 
+    font-family: 'Montserrat';
+    font-weight: 300;
+    background-color: white;
+    width: 105px;
+    height: 35px;
+}
+
+  

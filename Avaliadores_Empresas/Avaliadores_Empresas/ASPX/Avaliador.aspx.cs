@@ -705,10 +705,10 @@ namespace Avaliadores_Empresas
                 adp.Fill(dt);
                 if (dt.Rows.Count > 0)
                 {
-                    dpPerfilArea.DataSource = dt;
-                    dpPerfilArea.DataTextField = "Nome";
-                    dpPerfilArea.DataValueField = "id";
-                    dpPerfilArea.DataBind();
+                    dp_area.DataSource = dt;
+                    dp_area.DataTextField = "Nome";
+                    dp_area.DataValueField = "id";
+                    dp_area.DataBind();
                 }
             }
         }
@@ -734,35 +734,6 @@ namespace Avaliadores_Empresas
             }
             con.Close();
 
-        }
-
-        protected void BtnPerfilDropdown_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (LBoxPerfilArea.Items.FindByValue(dpPerfilArea.SelectedValue.ToString()).Value == "")
-                {
-
-                }
-            }
-            catch
-            {
-                string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
-                // Codigo para registar
-                MySqlConnection con = new MySqlConnection(constr);
-                con.Open();
-
-                MySqlCommand cmd2 = con.CreateCommand();
-                cmd2.CommandText = "insertavaliadorareas";
-                cmd2.CommandType = CommandType.StoredProcedure;
-                cmd2.Parameters.AddWithValue("varidAvaliador", Convert.ToInt16(Session["idAvaliador"].ToString()));
-                cmd2.Parameters.AddWithValue("varidArea", Convert.ToInt16(dpPerfilArea.SelectedValue.ToString()));
-
-                cmd2.ExecuteNonQuery();
-                con.Close();
-                LBoxPerfilArea.Items.Clear();
-                binLbox();
-            }
         }
 
         protected void BtnPerfilConfirmar_Click(object sender, EventArgs e)
@@ -2393,5 +2364,49 @@ namespace Avaliadores_Empresas
             read.Close();
         }
 
+        protected void btnGetSelectedValues_Click(object sender, EventArgs e)
+        {
+            string selectedValues = string.Empty;
+            foreach (ListItem li in dp_area.Items)
+            {
+                if (li.Selected == true)
+                {
+                    selectedValues += li.Text + ",";
+                }
+            }
+            Response.Write(selectedValues.ToString());
+        }
+
+        protected void SelectedValueChange(object sender, EventArgs e)
+        {
+            string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+            // Codigo para registar
+
+            MySqlConnection con2 = new MySqlConnection(constr);
+            con2.Open();
+            string NomeLocalizacao = "DELETE FROM tblavaliadorareas WHERE idAvaliador = " + Session["idAvaliador"].ToString();
+            MySqlCommand comand2 = new MySqlCommand(NomeLocalizacao);
+            comand2.Connection = con2;
+            comand2.ExecuteNonQuery();
+            con2.Close();
+
+
+
+            MySqlConnection con = new MySqlConnection(constr);
+
+            foreach (int i in dp_area.GetSelectedIndices())
+            {
+                con.Open();
+                MySqlCommand cmd2 = con.CreateCommand();
+                cmd2.CommandText = "insertavaliadorareas";
+                cmd2.CommandType = CommandType.StoredProcedure;
+                cmd2.Parameters.AddWithValue("varidAvaliador", Convert.ToInt16(Session["idAvaliador"].ToString()));
+                cmd2.Parameters.AddWithValue("varidArea", Convert.ToInt16(dp_area.Items[i].Value.ToString()));
+                cmd2.ExecuteNonQuery();
+                con.Close();
+            }
+            LBoxPerfilArea.Items.Clear();
+            binLbox();
+        }
     }
 }

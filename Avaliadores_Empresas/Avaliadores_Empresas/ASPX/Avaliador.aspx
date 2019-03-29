@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="../OwlCarousel/dist/assets/owl.carousel.css" />
     <link rel="stylesheet" href="../OwlCarousel/dist/assets/owl.theme.default.min.css" />
+    <link href="../CSS/sumoselect.css" rel="stylesheet">
 
     <link rel="stylesheet" href="../CSS/Main.css">
     <link rel="stylesheet" type="text/css" href="../CSS/Aval_style.css" />
@@ -25,7 +26,7 @@
     </style>
 </head>
 
-<body>
+<body onload="SelecttedValues()">
     <form id="form1" runat="server">
         <header>
             <nav class="navbar navbar-expand-md navbar-dark fixed-top">
@@ -208,14 +209,19 @@
                                         </div>
 
                                         <div class="col-12 col-md-6">
-                                            <asp:DropDownList ID="dpPerfilArea" runat="server"></asp:DropDownList>
-                                            <asp:Button ID="BtnPerfilDropdown" CssClass="btn btn-dark" runat="server"
-                                                Text="Add" OnClick="BtnPerfilDropdown_Click" />
+                                            <div class="col">
+                                                <asp:TextBox ID="TxtBoxSelectArea" runat="server" autocomplete="off" onfocus="Textboxdp_areaFocus()" onchange="sortDpArea()" onkeyup="sortDpArea()"></asp:TextBox>
+                                                <asp:button text="Get Values" visible="false" id="btnGetSelectedValues" onclick="btnGetSelectedValues_Click" runat="server"></asp:button>
+                                                <asp:listbox runat="server" id="dp_area" selectionmode="Multiple">
+                                                </asp:listbox>
+                                                <asp:Button ID="Button16" runat="server" Text="Save" OnClick="SelectedValueChange"/>
+                                            </div>   
                                             <br />
-                                            <asp:ListBox ID="LBoxPerfilArea" runat="server"></asp:ListBox>
+                                            <asp:ListBox ID="LBoxPerfilArea" runat="server" style="display:none"></asp:ListBox>
                                             <br />
                                             <asp:Button ID="Button1" CssClass="btn btn-dark" runat="server" OnClick="Button1_Click"
                                                 Style="display: none;" Text="Apagar Área Selecionada" />
+
                                             <script>
                                                 $("#LBoxPerfilArea").keyup(function (e) {
                                                     if (e.which == 46) {
@@ -420,7 +426,7 @@
                                             <asp:Label ID="Label12" runat="server" Text="Empresa"></asp:Label></h2>
                                         <br />
                                         <div class="table-responsive">
-                                            <asp:GridView ID="GridView11" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView11_PageIndexChanging" PageSize="20">
+                                            <asp:GridView ID="GridView11" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView11_PageIndexChanging" PageSize="20" ShowHeader="False">
                                                 <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
                                             </asp:GridView>
                                         </div>
@@ -433,7 +439,7 @@
                                            <asp:Label ID="Label13" runat="server" Text="Avaliador"></asp:Label></h2>
                                         <br />
                                         <div class="table-responsive">
-                                            <asp:GridView ID="GridView12" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView12_PageIndexChanging" PageSize="20">
+                                            <asp:GridView ID="GridView12" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView12_PageIndexChanging" PageSize="20" ShowHeader="False">
                                                 <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
                                             </asp:GridView>
                                         </div>
@@ -580,9 +586,84 @@
     crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
+<script src="../JS/jquery.sumoselect.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 <script src="../OwlCarousel/dist/owl.carousel.min.js"></script>
 <script src="../JS/carrousels.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(<%=dp_area.ClientID%>).SumoSelect();
+        });
+    </script>
+
+       <script>
+           var textodp_area = "";
+           var contador = 0;
+           function sortDpArea() {
+               $(".optWrapper.multiple ul li").each(function (index) {
+                   $(this).show();
+                   var contains = $(this).text().includes(capitalizeFirstLetter($("#TxtBoxSelectArea").val()));
+                   if (!contains) {
+                       $(this).hide();
+                   }
+               });
+           }
+
+           function SaveSelectedDropdown() {
+               $("#BtnSelectArea").click();
+           }
+
+
+           function Textboxdp_areaFocus() {
+               $(".SumoSelect.sumo_dp_area").addClass("open");
+           }
+
+           function capitalizeFirstLetter(string) {
+               return string.charAt(0).toUpperCase() + string.slice(1);
+           }
+
+           function SelecttedValues() {
+               var values = $("#LBoxPerfilArea>option").map(function () { return $(this).val(); }).get();
+               jQuery.each(values, function (index, item) {
+                  select_option(item);
+               });
+           }
+           function select_option(i) {           
+               $('#dp_area').prop('aria-expanded', true);
+               $('#dp_area option[value="' + i + '"]').attr("selected", "selected");
+               var length = $('#dp_area > option:checked').length;
+               if (length < 3) {
+                   if (contador == 0) {
+                       textodp_area = textodp_area + $('#dp_area option[value="' + i + '"]').text();
+                   }
+                   else {
+                       textodp_area = textodp_area + ", " + $('#dp_area option[value="' + i + '"]').text();
+                   }
+               }
+               else {
+                   textodp_area = length + " Locais";
+               }
+               
+               $('.CaptionCont.SelectBox span').text(textodp_area);
+               $('.CaptionCont.SelectBox span').removeClass("placeholder");
+
+               var values = $("#dp_area option").map(function () { return $(this).val(); }).get();
+               jQuery.each(values, function (index, item) {
+                   if (item == i) {
+                       var contadorIndex = 0;
+                       jQuery(".optWrapper.multiple ul li").each(function () {
+                           if (index == contadorIndex) {
+                               jQuery(this).addClass("selected");
+                           }
+                           contadorIndex++;
+                       });
+                   }
+               });
+
+               contador++;
+           }
+    </script>
 
 </html>

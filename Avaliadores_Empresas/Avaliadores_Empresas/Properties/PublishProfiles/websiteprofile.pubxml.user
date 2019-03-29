@@ -5,65 +5,65 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\lboavida\Desktop\ProjectPublish</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\Luis Boavida\Desktop\ProjectPublish</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="Admin.aspx">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="ASPX/Admin.aspx">
-      <publishTime>11/01/2018 15:38:38</publishTime>
+      <publishTime>02/27/2019 00:20:25</publishTime>
     </File>
     <File Include="ASPX/Avaliador.aspx">
-      <publishTime>11/21/2018 16:18:34</publishTime>
+      <publishTime>03/23/2019 21:19:08</publishTime>
     </File>
     <File Include="ASPX/Charge.aspx">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:52</publishTime>
     </File>
     <File Include="ASPX/Contactos.aspx">
-      <publishTime>11/21/2018 16:48:54</publishTime>
+      <publishTime>02/19/2019 20:18:47</publishTime>
     </File>
     <File Include="ASPX/Empresa.aspx">
-      <publishTime>11/21/2018 16:19:45</publishTime>
+      <publishTime>03/20/2019 22:10:23</publishTime>
     </File>
     <File Include="ASPX/Login.aspx">
-      <publishTime>11/21/2018 16:51:12</publishTime>
+      <publishTime>03/20/2019 22:28:11</publishTime>
     </File>
     <File Include="ASPX/PaginaTestePaypal.aspx">
-      <publishTime>10/05/2018 03:34:11</publishTime>
+      <publishTime>02/17/2019 20:55:52</publishTime>
     </File>
     <File Include="ASPX/Perfis.aspx">
-      <publishTime>08/24/2018 18:01:48</publishTime>
+      <publishTime>02/17/2019 20:55:52</publishTime>
     </File>
     <File Include="ASPX/PublicarPedidoAvaliacao1.aspx">
-      <publishTime>10/17/2018 12:30:53</publishTime>
+      <publishTime>02/17/2019 20:55:52</publishTime>
     </File>
     <File Include="ASPX/PublicarPedidoAvaliacao2.aspx">
-      <publishTime>10/17/2018 12:30:53</publishTime>
+      <publishTime>02/17/2019 20:55:52</publishTime>
     </File>
     <File Include="ASPX/PublicarPedidoAvaliacao3.aspx">
-      <publishTime>10/17/2018 12:30:52</publishTime>
+      <publishTime>02/17/2019 20:55:52</publishTime>
     </File>
     <File Include="ASPX/Registar_Avaliadores.aspx">
-      <publishTime>11/21/2018 16:52:10</publishTime>
+      <publishTime>03/07/2019 23:58:26</publishTime>
     </File>
     <File Include="ASPX/Registar_Empresas.aspx">
-      <publishTime>11/21/2018 16:52:42</publishTime>
+      <publishTime>02/19/2019 21:59:40</publishTime>
     </File>
     <File Include="ASPX/SobreNos.aspx">
-      <publishTime>11/21/2018 16:53:14</publishTime>
+      <publishTime>02/19/2019 20:18:48</publishTime>
     </File>
     <File Include="ASPX/Stripe.aspx">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="ASPX/Sucesso.aspx">
-      <publishTime>08/20/2018 04:10:01</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="ASPX/Task1.aspx">
-      <publishTime>08/31/2018 22:36:26</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="ASPX/testegridview.aspx">
-      <publishTime>08/27/2018 00:35:16</publishTime>
+      <publishTime>02/22/2019 01:25:22</publishTime>
     </File>
     <File Include="Avaliador.aspx">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -72,10 +72,10 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>01/09/2018 15:56:26</publishTime>
     </File>
     <File Include="bin/Avaliadores_Empresas.dll">
-      <publishTime>11/21/2018 16:54:43</publishTime>
+      <publishTime>03/23/2019 23:46:51</publishTime>
     </File>
     <File Include="bin/Avaliadores_Empresas.pdb">
-      <publishTime>11/21/2018 16:54:43</publishTime>
+      <publishTime>03/23/2019 23:46:51</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>02/10/2017 10:47:02</publishTime>
@@ -90,7 +90,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>07/19/2018 19:01:32</publishTime>
     </File>
     <File Include="bin/Microsoft.Win32.Primitives.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/MySql.Data.dll">
       <publishTime>08/02/2018 23:12:23</publishTime>
@@ -99,7 +99,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>07/20/2018 15:44:12</publishTime>
     </File>
     <File Include="bin/netstandard.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/RestSharp.dll">
       <publishTime>08/03/2018 01:39:18</publishTime>
@@ -252,289 +252,289 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>08/02/2018 15:12:54</publishTime>
     </File>
     <File Include="bin/System.AppContext.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Collections.Concurrent.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Collections.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Collections.NonGeneric.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Collections.Specialized.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.ComponentModel.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.ComponentModel.EventBasedAsync.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.ComponentModel.Primitives.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.ComponentModel.TypeConverter.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Console.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Data.Common.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Diagnostics.Contracts.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Diagnostics.Debug.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Diagnostics.FileVersionInfo.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Diagnostics.Process.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Diagnostics.StackTrace.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Diagnostics.TextWriterTraceListener.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Diagnostics.Tools.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Diagnostics.TraceSource.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Diagnostics.Tracing.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Drawing.Primitives.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Dynamic.Runtime.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Globalization.Calendars.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Globalization.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Globalization.Extensions.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.IO.Compression.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.IO.Compression.ZipFile.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.IO.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.IO.FileSystem.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.IO.FileSystem.DriveInfo.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.IO.FileSystem.Primitives.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.IO.FileSystem.Watcher.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.IO.IsolatedStorage.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.IO.MemoryMappedFiles.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.IO.Pipes.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.IO.UnmanagedMemoryStream.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Json.dll">
       <publishTime>08/03/2018 01:59:56</publishTime>
     </File>
     <File Include="bin/System.Linq.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Linq.Expressions.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Linq.Parallel.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Linq.Queryable.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Net.Http.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Net.NameResolution.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Net.NetworkInformation.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Net.Ping.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Net.Primitives.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Net.Requests.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Net.Security.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Net.Sockets.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Net.WebHeaderCollection.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Net.WebSockets.Client.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Net.WebSockets.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.ObjectModel.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Reflection.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Reflection.Extensions.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Reflection.Primitives.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Resources.Reader.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Resources.ResourceManager.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Resources.Writer.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Runtime.CompilerServices.VisualC.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Runtime.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Runtime.Extensions.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Runtime.Handles.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Runtime.InteropServices.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Runtime.InteropServices.RuntimeInformation.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Runtime.Numerics.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Runtime.Serialization.Formatters.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Runtime.Serialization.Json.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Runtime.Serialization.Primitives.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Runtime.Serialization.Xml.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Security.Claims.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Security.Cryptography.Algorithms.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Security.Cryptography.Csp.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Security.Cryptography.Encoding.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Security.Cryptography.Primitives.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Security.Cryptography.X509Certificates.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Security.Principal.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Security.SecureString.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Text.Encoding.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Text.Encoding.Extensions.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Text.RegularExpressions.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Threading.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Threading.Overlapped.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Threading.Tasks.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Threading.Tasks.Parallel.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Threading.Thread.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Threading.ThreadPool.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Threading.Timer.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.ValueTuple.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Xml.ReaderWriter.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Xml.XDocument.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Xml.XmlDocument.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Xml.XmlSerializer.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Xml.XPath.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="bin/System.Xml.XPath.XDocument.dll">
-      <publishTime>09/21/2018 09:35:11</publishTime>
+      <publishTime>02/21/2018 14:17:12</publishTime>
     </File>
     <File Include="Charge.aspx">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -543,49 +543,52 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="CSS/Aval_style.css">
-      <publishTime>11/04/2018 04:50:48</publishTime>
+      <publishTime>03/20/2019 22:07:46</publishTime>
     </File>
     <File Include="CSS/Ct_style.css">
-      <publishTime>10/18/2018 11:58:48</publishTime>
+      <publishTime>02/19/2019 20:18:48</publishTime>
     </File>
     <File Include="CSS/Hp_style.css">
-      <publishTime>10/18/2018 11:43:06</publishTime>
+      <publishTime>02/19/2019 20:18:48</publishTime>
     </File>
     <File Include="CSS/login_style.css">
-      <publishTime>10/18/2018 15:14:47</publishTime>
+      <publishTime>02/19/2019 20:18:48</publishTime>
     </File>
     <File Include="CSS/Main.css">
-      <publishTime>10/18/2018 12:04:10</publishTime>
+      <publishTime>02/19/2019 20:18:48</publishTime>
     </File>
     <File Include="CSS/Manuntecao_style.css">
-      <publishTime>11/21/2018 12:59:30</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="CSS/rAval_style.css">
-      <publishTime>11/19/2018 10:23:14</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="CSS/rEmp_style.css">
-      <publishTime>11/19/2018 10:23:21</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="CSS/sN_style.css">
-      <publishTime>10/17/2018 14:21:09</publishTime>
+      <publishTime>02/19/2019 20:18:48</publishTime>
     </File>
     <File Include="CSS/style_empresa.css">
-      <publishTime>11/04/2018 04:57:07</publishTime>
+      <publishTime>03/20/2019 22:07:56</publishTime>
+    </File>
+    <File Include="CSS/sumoselect.css">
+      <publishTime>12/28/2017 20:41:00</publishTime>
     </File>
     <File Include="Empresa.aspx">
-      <publishTime>03/09/2018 15:23:08</publishTime>
+      <publishTime>09/03/2018 15:23:08</publishTime>
     </File>
     <File Include="ExcelFileEdited/info.txt">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="ExcelFileOriginal/Formulario.xlsx">
-      <publishTime>08/17/2018 15:39:11</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Homepagebottstrap.aspx">
-      <publishTime>11/21/2018 16:49:20</publishTime>
+      <publishTime>02/17/2019 21:41:04</publishTime>
     </File>
     <File Include="imagemfundo.jpg">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -594,208 +597,211 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Imagens/Estrelas/EstrelaAmarela.png">
-      <publishTime>08/26/2018 23:19:38</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/Estrelas/EstrelaCinzenta.png">
-      <publishTime>08/26/2018 23:26:15</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/1.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/10.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/11.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/12.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/13.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/14.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/15.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/16.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/17.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/18.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/19.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/2.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/3.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/4.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/5.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/6.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/7.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/8.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_cinzas/9.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/1.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/10.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/11.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/12.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/13.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/14.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/15.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/16.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/17.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/18.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/19.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/2.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/3.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/4.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/5.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/6.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/7.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/8.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/imagens_em_azul/9.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/Logos/favicon.ico">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/Logos/lg_azul.png">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/Logos/lg_branco.png">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="Imagens/Logos/lg_preto.png">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="images/imagens_em_azul/1.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/10.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/11.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/12.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/13.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/14.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/15.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/16.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/17.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/18.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/19.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/2.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/3.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/4.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/5.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/6.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/7.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/8.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/imagens_em_azul/9.jpg">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/Logos/favicon.ico">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/Logos/lg_azul.png">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/Logos/lg_branco.png">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="images/Logos/lg_preto.png">
-      <publishTime>08/13/2018 12:54:06</publishTime>
+      <publishTime>02/17/2019 20:55:56</publishTime>
     </File>
     <File Include="JS/carrousels.js">
-      <publishTime>10/17/2018 13:22:29</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
+    </File>
+    <File Include="JS/jquery.sumoselect.min.js">
+      <publishTime>12/28/2017 20:41:00</publishTime>
     </File>
     <File Include="Login.aspx">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -804,583 +810,583 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Manuntencao.aspx">
-      <publishTime>11/21/2018 12:58:08</publishTime>
+      <publishTime>02/19/2019 20:18:48</publishTime>
     </File>
     <File Include="OwlCarousel/.gitattributes">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/.gitignore">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/.travis.yml">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/bower.json">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/CONTRIBUTING.md">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/dist/assets/ajax-loader.gif">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/dist/assets/owl.carousel.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/dist/assets/owl.carousel.min.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/dist/assets/owl.theme.default.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/dist/assets/owl.theme.default.min.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/dist/assets/owl.theme.green.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/dist/assets/owl.theme.green.min.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/dist/assets/owl.video.play.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/dist/LICENSE">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/dist/owl.carousel.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/dist/owl.carousel.min.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/dist/README.md">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/css/animate.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/css/docs.theme.min.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/img/bird_blue_32.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/img/download.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/img/feature-drag.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/img/feature-modern.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/img/feature-module.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/img/feature-options.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/img/feature-responsive.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/img/feature-zombie.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/img/owl-logo.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/img/twitter_25.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/js/app.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/js/foundation.min.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/owlcarousel/assets/ajax-loader.gif">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/owlcarousel/assets/owl.carousel.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/owlcarousel/assets/owl.carousel.min.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/owlcarousel/assets/owl.theme.default.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/owlcarousel/assets/owl.theme.green.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/owlcarousel/assets/owl.theme.green.min.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/owlcarousel/assets/owl.video.play.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/owlcarousel/owl.carousel.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/owlcarousel/owl.carousel.min.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/owlcarousel/README.md">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/vendors/foundation.min.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/vendors/highlight.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/vendors/jquery.min.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/vendors/jquery.min.map">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/assets/vendors/jquery.mousewheel.min.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/animate.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/autoheight.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/autoplay.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/autowidth.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/basic.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/center.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/demos.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/events.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/lazyLoad.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/merge.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/mousewheel.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/responsive.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/rtl.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/stagepadding.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/test.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/urlhashnav.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/demos/video.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/docs/api-classes.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/docs/api-events.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/docs/api-options.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/docs/dev-buildin-plugins.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/docs/dev-external.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/docs/dev-plugin-api.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/docs/dev-styles.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/docs/started-faq.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/docs/started-installation.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/docs/started-welcome.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/docs/support-changelog.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/docs/support-contact.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/docs/support-contributing.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs/index.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/css/animate.css">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/img/bird_blue_32.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/img/download.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/img/feature-drag.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/img/feature-modern.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/img/feature-module.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/img/feature-options.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/img/feature-responsive.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/img/feature-zombie.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/img/owl-logo.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/img/twitter_25.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/js/app.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/js/foundation.min.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/scss/custom.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/scss/demos.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/scss/docs.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/scss/docs.theme.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/scss/highlight.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/scss/_settings.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/vendors/foundation.min.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/vendors/highlight.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/vendors/jquery.min.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/vendors/jquery.min.map">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/assets/vendors/jquery.mousewheel.min.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/data/classes.json">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/data/events.json">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/data/features.json">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/data/options.json">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/helpers/modulo.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/helpers/test.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/layouts/demos.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/layouts/docs.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/layouts/home.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/animate.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/autoheight.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/autoplay.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/autowidth.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/basic.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/center.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/demos.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/events.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/lazyLoad.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/merge.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/mousewheel.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/responsive.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/rtl.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/stagepadding.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/test.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/urlhashnav.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/demos/video.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/docs/api-classes.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/docs/api-events.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/docs/api-options.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/docs/dev-buildin-plugins.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/docs/dev-external.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/docs/dev-plugin-api.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/docs/dev-styles.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/docs/started-faq.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/docs/started-installation.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/docs/started-welcome.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/docs/support-changelog.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/docs/support-contact.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/docs/support-contributing.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/pages/index.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/partials/footer.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/partials/head.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/partials/header.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/partials/home-carousel.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/partials/home-features.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/partials/home-hero.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/partials/home-teaser-text.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/partials/javascripts.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/partials/releated-docs.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/partials/sidenav-docs.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/partials/title.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/docs_src/templates/partials/vendors.hbs">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/Gruntfile.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/ISSUE_TEMPLATE.md">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/LICENSE">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/package-lock.json">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/package.json">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/README.md">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/ROADMAP.md">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/img/ajax-loader.gif">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/img/owl.video.play.png">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/js/.jscsrc">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/js/.jshintrc">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/js/owl.animate.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/js/owl.autoheight.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/js/owl.autoplay.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/js/owl.autorefresh.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/js/owl.carousel.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/js/owl.hash.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/js/owl.lazyload.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/js/owl.navigation.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/js/owl.support.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/js/owl.support.modernizr.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/js/owl.video.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/scss/owl.carousel.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/scss/owl.theme.default.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/scss/owl.theme.green.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/scss/_animate.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/scss/_autoheight.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/scss/_core.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/scss/_lazyload.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/scss/_theme.default.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/scss/_theme.green.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/scss/_theme.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/src/scss/_video.scss">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/test/index.html">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/test/unit/autoplay.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/test/unit/core.js">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="OwlCarousel/_config.json">
-      <publishTime>04/20/2018 14:22:10</publishTime>
+      <publishTime>02/17/2019 20:55:53</publishTime>
     </File>
     <File Include="PaginaTestePaypal.aspx">
-      <publishTime>05/10/2018 03:34:11</publishTime>
+      <publishTime>10/05/2018 03:34:11</publishTime>
     </File>
     <File Include="Perfis.aspx">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -1440,7 +1446,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/19/2018 10:09:19</publishTime>
+      <publishTime>03/24/2019 00:48:36</publishTime>
     </File>
   </ItemGroup>
 </Project>

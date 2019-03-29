@@ -1,9 +1,4 @@
 
-.main_div {
-    position: relative;
-    padding-top: 100px;
-    width: 100%;
-}
 
 #DivPerfil {
     width: 100%;
@@ -241,4 +236,10 @@ hr {
 .btn-perfil:hover {
     background-color: rgb(23,82,102);
     color: white;
+}
+
+
+#GridView11 > tbody > tr:nth-child(2), #GridView11 > tbody > tr:nth-child(1), #GridView11 > tbody > tr:nth-child(3),
+#GridView12 > tbody > tr:nth-child(2), #GridView12 > tbody > tr:nth-child(1), #GridView12 > tbody > tr:nth-child(3) {
+    font-weight: bold;
 }

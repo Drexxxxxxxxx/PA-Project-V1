@@ -28,41 +28,43 @@ namespace Avaliadores_Empresas
                 {
                     string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
                     // Codigo para registar
-                    MySqlConnection con = new MySqlConnection(constr);
-                    con.Open();
-                    string N_Avaliador = "SELECT * from tbladmin where id = @id";
-                    MySqlCommand comand = new MySqlCommand(N_Avaliador);
-                    if (Session["Tipo"].ToString() == "3")
-                    {
-                        try
-                        {
-                            comand.Parameters.AddWithValue("@id", Session["idAvaliador"].ToString());
-                        }
-                        catch
-                        {
-                            Response.Redirect("Login");
-                        }
-                    }
-                    else
-                    {
-                        Response.Redirect("Login");
-                    }
-                    comand.Connection = con;
-                    comand.ExecuteNonQuery();
 
-                    MySqlDataReader read = comand.ExecuteReader();
-                    //SE EXISTIR ELE ENTRA NO IF
-                    if (read.Read())
+                    using (MySqlConnection con = new MySqlConnection(constr))
                     {
-                        // TBoxPerfilNRegisto.Text = read[0].ToString();
-                        TextBox1.Text = read[1].ToString();
-                        TextBox2.Text = read[3].ToString();
-                        TextBox6.Text = read[4].ToString();
+                        con.Open();
+                        using (MySqlCommand comand = new MySqlCommand("SELECT * from tbladmin where id = @id", con))
+                        {
+                            if (Session["Tipo"].ToString() == "3")
+                            {
+                                try
+                                {
+                                    comand.Parameters.AddWithValue("@id", Session["idAvaliador"].ToString());
+                                }
+                                catch
+                                {
+                                    Response.Redirect("Login");
+                                }
+                            }
+                            else
+                            {
+                                Response.Redirect("Login");
+                            }
+                            comand.Connection = con;
+                            comand.ExecuteNonQuery();
+                            using (MySqlDataReader read = comand.ExecuteReader())
+                            {
+                                if (read.Read())
+                                {
+                                    // TBoxPerfilNRegisto.Text = read[0].ToString();
+                                    TextBox1.Text = read[1].ToString();
+                                    TextBox2.Text = read[3].ToString();
+                                    TextBox6.Text = read[4].ToString();
+                                }
+                            }
+                            AllAvaliadores();
+                            AllEmpresas();
+                        }
                     }
-                    read.Close();
-                    con.Close();
-                    AllAvaliadores();
-                    AllEmpresas();
                 }
             }
             catch
@@ -85,86 +87,86 @@ namespace Avaliadores_Empresas
             // Saber se é Avaliador ?
             string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
             // Codigo para registar
-            MySqlConnection con = new MySqlConnection(constr);
-            con.Open();
-            string N_Avaliador = "SELECT * from tblavaliador";
-            MySqlCommand comand = new MySqlCommand(N_Avaliador);
-
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
-
-            DataTable dt = new DataTable();
-            dt.Columns.Add("Id pagamento");
-            dt.Columns.Add("Nome");
-            dt.Columns.Add("Email");
-            dt.Columns.Add("Telemovel");
-            dt.Columns.Add("Estado");
-            dt.Columns.Add("Data de expiração");
-            MySqlDataReader read = comand.ExecuteReader();
-            //SE EXISTIR ELE ENTRA NO IF
-            while (read.Read())
+            using (MySqlConnection con = new MySqlConnection(constr))
             {
-                DataRow dr = dt.NewRow();
-                ListBox1.Items.Add(read[7].ToString());
+                con.Open();
+                using (MySqlCommand command = new MySqlCommand("SELECT * from tblavaliador", con))
+                { 
+                    DataTable dt = new DataTable();
+                    dt.Columns.Add("Id pagamento");
+                    dt.Columns.Add("Nome");
+                    dt.Columns.Add("Email");
+                    dt.Columns.Add("Telemovel");
+                    dt.Columns.Add("Estado");
+                    dt.Columns.Add("Data de expiração");
+                    using (MySqlDataReader read = command.ExecuteReader())
+                    {
+                        while (read.Read())
+                        {
+                            DataRow dr = dt.NewRow();
+                            ListBox1.Items.Add(read[7].ToString());
 
-                if (read[6].ToString() == "0")
-                {
-                    dr["Id pagamento"] = read[9].ToString();
-                    dr["Nome"] = read[1].ToString();
-                    dr["Email"] = read[3].ToString();
-                    dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Ativo";
-                    DateTime myDate = DateTime.Parse(read[8].ToString());
-                    dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
-                    dt.Rows.Add(dr);
-                }
-                if (read[6].ToString() == "1")
-                {
-                    dr["Id pagamento"] = read[9].ToString();
-                    dr["Nome"] = read[1].ToString();
-                    dr["Email"] = read[3].ToString();
-                    dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Demo";
-                    DateTime myDate = DateTime.Parse(read[8].ToString());
-                    dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
-                    dt.Rows.Add(dr);
-                }
-                if (read[6].ToString() == "2")
-                {
-                    dr["Id pagamento"] = read[9].ToString();
-                    dr["Nome"] = read[1].ToString();
-                    dr["Email"] = read[3].ToString();
-                    dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Cancelado";
-                    DateTime myDate = DateTime.Parse(read[8].ToString());
-                    dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
-                    dt.Rows.Add(dr);
-                }
-                if (read[6].ToString() == "3")
-                {
-                    dr["Id pagamento"] = read[9].ToString();
-                    dr["Nome"] = read[1].ToString();
-                    dr["Email"] = read[3].ToString();
-                    dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Ativo";
-                    DateTime myDate = DateTime.Parse(read[8].ToString());
-                    dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
-                    dt.Rows.Add(dr);
-                }
-                if (read[6].ToString() != "1" && read[6].ToString() != "2" && read[6].ToString() != "3" && read[6].ToString() != "0")
-                {
-                    dr["Id pagamento"] = read[9].ToString();
-                    dr["Nome"] = read[1].ToString();
-                    dr["Email"] = read[3].ToString();
-                    dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Diferente";
-                    DateTime myDate = DateTime.Parse(read[8].ToString());
-                    dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
-                    dt.Rows.Add(dr);
+                            if (read[6].ToString() == "0")
+                            {
+                                dr["Id pagamento"] = read[9].ToString();
+                                dr["Nome"] = read[1].ToString();
+                                dr["Email"] = read[3].ToString();
+                                dr["Telemovel"] = read[4].ToString();
+                                dr["Estado"] = "Ativo";
+                                DateTime myDate = DateTime.Parse(read[8].ToString());
+                                dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
+                                dt.Rows.Add(dr);
+                            }
+                            if (read[6].ToString() == "1")
+                            {
+                                dr["Id pagamento"] = read[9].ToString();
+                                dr["Nome"] = read[1].ToString();
+                                dr["Email"] = read[3].ToString();
+                                dr["Telemovel"] = read[4].ToString();
+                                dr["Estado"] = "Demo";
+                                DateTime myDate = DateTime.Parse(read[8].ToString());
+                                dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
+                                dt.Rows.Add(dr);
+                            }
+                            if (read[6].ToString() == "2")
+                            {
+                                dr["Id pagamento"] = read[9].ToString();
+                                dr["Nome"] = read[1].ToString();
+                                dr["Email"] = read[3].ToString();
+                                dr["Telemovel"] = read[4].ToString();
+                                dr["Estado"] = "Cancelado";
+                                DateTime myDate = DateTime.Parse(read[8].ToString());
+                                dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
+                                dt.Rows.Add(dr);
+                            }
+                            if (read[6].ToString() == "3")
+                            {
+                                dr["Id pagamento"] = read[9].ToString();
+                                dr["Nome"] = read[1].ToString();
+                                dr["Email"] = read[3].ToString();
+                                dr["Telemovel"] = read[4].ToString();
+                                dr["Estado"] = "Ativo";
+                                DateTime myDate = DateTime.Parse(read[8].ToString());
+                                dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
+                                dt.Rows.Add(dr);
+                            }
+                            if (read[6].ToString() != "1" && read[6].ToString() != "2" && read[6].ToString() != "3" && read[6].ToString() != "0")
+                            {
+                                dr["Id pagamento"] = read[9].ToString();
+                                dr["Nome"] = read[1].ToString();
+                                dr["Email"] = read[3].ToString();
+                                dr["Telemovel"] = read[4].ToString();
+                                dr["Estado"] = "Diferente";
+                                DateTime myDate = DateTime.Parse(read[8].ToString());
+                                dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
+                                dt.Rows.Add(dr);
+                            }
+                        }
+                    }
+                    GridView1.DataSource = dt;
+                    GridView1.DataBind();
                 }
             }
-            GridView1.DataSource = dt;
-            GridView1.DataBind();
         }
 
         void AllEmpresas()
@@ -174,88 +176,86 @@ namespace Avaliadores_Empresas
             // Saber se é Avaliador ?
             string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
             // Codigo para registar
-            MySqlConnection con = new MySqlConnection(constr);
-            con.Open();
-            string N_Avaliador = "SELECT * from tblempresa";
-            MySqlCommand comand = new MySqlCommand(N_Avaliador);
-
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
-
-            DataTable dt = new DataTable();
-            dt.Columns.Add("Id pagamento");
-            dt.Columns.Add("Nome");
-            dt.Columns.Add("Email");
-            dt.Columns.Add("Telemovel");
-            dt.Columns.Add("Estado");
-            dt.Columns.Add("Data de expiração");
-
-            MySqlDataReader read = comand.ExecuteReader();
-            //SE EXISTIR ELE ENTRA NO IF
-
-            while (read.Read())
+            using (MySqlConnection con = new MySqlConnection(constr))
             {
-                DataRow dr = dt.NewRow();
-                ListBox2.Items.Add(read[7].ToString());
+                con.Open();
+                using (MySqlCommand command = new MySqlCommand("SELECT * from tblempresa", con))
+                {
+                    DataTable dt = new DataTable();
+                    dt.Columns.Add("Id pagamento");
+                    dt.Columns.Add("Nome");
+                    dt.Columns.Add("Email");
+                    dt.Columns.Add("Telemovel");
+                    dt.Columns.Add("Estado");
+                    dt.Columns.Add("Data de expiração");
+                    using (MySqlDataReader read = command.ExecuteReader())
+                    {
+                        while (read.Read())
+                        {
+                            DataRow dr = dt.NewRow();
+                            ListBox2.Items.Add(read[7].ToString());
 
-                if (read[6].ToString() == "0")
-                {
-                    dr["Id pagamento"] = read[9].ToString();
-                    dr["Nome"] = read[1].ToString();
-                    dr["Email"] = read[3].ToString();
-                    dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Ativo";
-                    DateTime myDate = DateTime.Parse(read[8].ToString());
-                    dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
-                    dt.Rows.Add(dr);
-                }
-                if (read[6].ToString() == "1")
-                {
-                    dr["Id pagamento"] = read[9].ToString();
-                    dr["Nome"] = read[1].ToString();
-                    dr["Email"] = read[3].ToString();
-                    dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Demo";
-                    DateTime myDate = DateTime.Parse(read[8].ToString());
-                    dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
-                    dt.Rows.Add(dr);
-                }
-                if (read[6].ToString() == "2")
-                {
-                    dr["Id pagamento"] = read[9].ToString();
-                    dr["Nome"] = read[1].ToString();
-                    dr["Email"] = read[3].ToString();
-                    dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Cancelado";
-                    DateTime myDate = DateTime.Parse(read[8].ToString());
-                    dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
-                    dt.Rows.Add(dr);
-                }
-                if (read[6].ToString() == "3")
-                {
-                    dr["Id pagamento"] = read[9].ToString();
-                    dr["Nome"] = read[1].ToString();
-                    dr["Email"] = read[3].ToString();
-                    dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Ativo";
-                    DateTime myDate = DateTime.Parse(read[8].ToString());
-                    dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
-                    dt.Rows.Add(dr);
-                }
-                if (read[6].ToString() != "1" && read[6].ToString() != "2" && read[6].ToString() != "3" && read[6].ToString() != "0")
-                {
-                    dr["Id pagamento"] = read[9].ToString();
-                    dr["Nome"] = read[1].ToString();
-                    dr["Email"] = read[3].ToString();
-                    dr["Telemovel"] = read[4].ToString();
-                    dr["Estado"] = "Diferente";
-                    DateTime myDate = DateTime.Parse(read[8].ToString());
-                    dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
-                    dt.Rows.Add(dr);
+                            if (read[6].ToString() == "0")
+                            {
+                                dr["Id pagamento"] = read[9].ToString();
+                                dr["Nome"] = read[1].ToString();
+                                dr["Email"] = read[3].ToString();
+                                dr["Telemovel"] = read[4].ToString();
+                                dr["Estado"] = "Ativo";
+                                DateTime myDate = DateTime.Parse(read[8].ToString());
+                                dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
+                                dt.Rows.Add(dr);
+                            }
+                            if (read[6].ToString() == "1")
+                            {
+                                dr["Id pagamento"] = read[9].ToString();
+                                dr["Nome"] = read[1].ToString();
+                                dr["Email"] = read[3].ToString();
+                                dr["Telemovel"] = read[4].ToString();
+                                dr["Estado"] = "Demo";
+                                DateTime myDate = DateTime.Parse(read[8].ToString());
+                                dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
+                                dt.Rows.Add(dr);
+                            }
+                            if (read[6].ToString() == "2")
+                            {
+                                dr["Id pagamento"] = read[9].ToString();
+                                dr["Nome"] = read[1].ToString();
+                                dr["Email"] = read[3].ToString();
+                                dr["Telemovel"] = read[4].ToString();
+                                dr["Estado"] = "Cancelado";
+                                DateTime myDate = DateTime.Parse(read[8].ToString());
+                                dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
+                                dt.Rows.Add(dr);
+                            }
+                            if (read[6].ToString() == "3")
+                            {
+                                dr["Id pagamento"] = read[9].ToString();
+                                dr["Nome"] = read[1].ToString();
+                                dr["Email"] = read[3].ToString();
+                                dr["Telemovel"] = read[4].ToString();
+                                dr["Estado"] = "Ativo";
+                                DateTime myDate = DateTime.Parse(read[8].ToString());
+                                dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
+                                dt.Rows.Add(dr);
+                            }
+                            if (read[6].ToString() != "1" && read[6].ToString() != "2" && read[6].ToString() != "3" && read[6].ToString() != "0")
+                            {
+                                dr["Id pagamento"] = read[9].ToString();
+                                dr["Nome"] = read[1].ToString();
+                                dr["Email"] = read[3].ToString();
+                                dr["Telemovel"] = read[4].ToString();
+                                dr["Estado"] = "Diferente";
+                                DateTime myDate = DateTime.Parse(read[8].ToString());
+                                dr["Data de expiração"] = myDate.ToString("yyyy-MM-dd");
+                                dt.Rows.Add(dr);
+                            }
+                        }
+                        GridView3.DataSource = dt;
+                        GridView3.DataBind();
+                    }
                 }
             }
-            GridView3.DataSource = dt;
-            GridView3.DataBind();
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -355,29 +355,27 @@ namespace Avaliadores_Empresas
         {
             string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
             // Codigo para registar
-            MySqlConnection con = new MySqlConnection(constr);
-            con.Open();
-            string N_Avaliador = "SELECT Pass from tbladmin where id = @id";
-            MySqlCommand comand = new MySqlCommand(N_Avaliador);
-            comand.Parameters.AddWithValue("@id", Session["idAvaliador"].ToString());
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
 
-            MySqlDataReader read = comand.ExecuteReader();
-            //SE EXISTIR ELE ENTRA NO IF
-            if (read.Read())
+            using (MySqlConnection con = new MySqlConnection(constr))
             {
-                if (Decrypt(read[0].ToString()) == TextBox3.Text)
+                con.Open();
+                using (MySqlCommand command = new MySqlCommand("SELECT Pass from tbladmin where id = '" + Session["idAvaliador"].ToString() + "'", con))
+                using (MySqlDataReader read = command.ExecuteReader())
                 {
-                    divNovaPass.Visible = true;
-                    divThankYou.Visible = false;
-                }
-                else
-                {
-                    ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Password incorreta')", true);
+                    if (read.Read())
+                    {
+                        if (Decrypt(read[0].ToString()) == TextBox3.Text)
+                        {
+                            divNovaPass.Visible = true;
+                            divThankYou.Visible = false;
+                        }
+                        else
+                        {
+                            ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Password incorreta')", true);
+                        }
+                    }
                 }
             }
-            con.Close();
         }
 
         protected void Button6_Click(object sender, EventArgs e)
@@ -385,18 +383,21 @@ namespace Avaliadores_Empresas
             if (TextBox4.Text == TextBox5.Text && TextBox4.Text != "")
             {
                 string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+
                 // Codigo para registar
-                MySqlConnection con = new MySqlConnection(constr);
-                con.Open();
-                string N_Avaliador = "UPDATE tbladmin SET tbladmin.Pass = @pass WHERE tbladmin.id = @id; ";
-                MySqlCommand comand = new MySqlCommand(N_Avaliador);
-                comand.Parameters.AddWithValue("@id", Session["idAvaliador"].ToString());
-                comand.Parameters.AddWithValue("@pass", Encrypt(TextBox4.Text));
-                comand.Connection = con;
-                comand.ExecuteNonQuery();
-                con.Close();
-                divNovaPass.Visible = false;
-                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Password alterada com sucesso')", true);
+                using (MySqlConnection con = new MySqlConnection(constr))
+                {
+                    con.Open();
+                    using (MySqlCommand command = new MySqlCommand("UPDATE tbladmin SET tbladmin.Pass = @pass WHERE tbladmin.id = @id; ", con))
+                    {
+                        command.Parameters.AddWithValue("@id", Session["idAvaliador"].ToString());
+                        command.Parameters.AddWithValue("@pass", Encrypt(TextBox4.Text));
+                        command.Connection = con;
+                        command.ExecuteNonQuery();
+                        divNovaPass.Visible = false;
+                        ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Password alterada com sucesso')", true);
+                    }
+                }
             }
             else
             {
@@ -410,36 +411,27 @@ namespace Avaliadores_Empresas
 
             // Saber se é Avaliador ?
             string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
-            // Codigo para registar
-            MySqlConnection con = new MySqlConnection(constr);
-            con.Open();
-            string AllAvaliacoes = "SELECT Ativo, datadeexpiracao FROM tblavaliador WHERE id = @id";
-            MySqlCommand comand = new MySqlCommand(AllAvaliacoes);
-            comand.Parameters.AddWithValue("@id", ListBox1.Items[GridView1.SelectedIndex].ToString());
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
 
-            MySqlDataReader read = comand.ExecuteReader();
-
-
-            //SE EXISTIR ELE ENTRA NO IF
-            while (read.Read())
+            using (MySqlConnection con = new MySqlConnection(constr))
             {
-                DateTime myDate = DateTime.Parse(read[1].ToString());
-                TextBox8.Text = myDate.ToString("yyyy-MM-dd");
-                try
+                con.Open();
+                using (MySqlCommand command = new MySqlCommand("SELECT Ativo, datadeexpiracao FROM tblavaliador WHERE id = '" + ListBox1.Items[GridView1.SelectedIndex].ToString() + "'", con))
+                using (MySqlDataReader read = command.ExecuteReader())
                 {
-                    DropDownList1.ClearSelection(); //making sure the previous selection has been cleared
-                    DropDownList1.Items.FindByValue(read[0].ToString()).Selected = true;
+                    while (read.Read())
+                    {
+                        DateTime myDate = DateTime.Parse(read[1].ToString());
+                        TextBox8.Text = myDate.ToString("yyyy-MM-dd");
+                        try
+                        {
+                            DropDownList1.ClearSelection(); //making sure the previous selection has been cleared
+                            DropDownList1.Items.FindByValue(read[0].ToString()).Selected = true;
+                        }
+                        catch
+                        { }
+                    }
                 }
-                catch
-                { }
-            }
-
-
-            con.Close();
-            read.Close();
-
+            }     
         }
 
         protected void GridView3_SelectedIndexChanged(object sender, EventArgs e)
@@ -448,55 +440,48 @@ namespace Avaliadores_Empresas
 
             // Saber se é Avaliador ?
             string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
-            // Codigo para registar
-            MySqlConnection con = new MySqlConnection(constr);
-            con.Open();
-            string AllAvaliacoes = "SELECT Ativo, datadeexpiracao FROM tblempresa WHERE id = @id";
-            MySqlCommand comand = new MySqlCommand(AllAvaliacoes);
-            comand.Parameters.AddWithValue("@id", ListBox2.Items[GridView3.SelectedIndex].ToString());
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
 
-            MySqlDataReader read = comand.ExecuteReader();
-
-
-            //SE EXISTIR ELE ENTRA NO IF
-            while (read.Read())
+            using (MySqlConnection con = new MySqlConnection(constr))
             {
-                DateTime myDate = DateTime.Parse(read[1].ToString());
-                TextBox7.Text = myDate.ToString("yyyy-MM-dd");
-                try
+                con.Open();
+                using (MySqlCommand command = new MySqlCommand("SELECT Ativo, datadeexpiracao FROM tblavaliador WHERE id = '" + ListBox1.Items[GridView1.SelectedIndex].ToString() + "'", con))
+                using (MySqlDataReader read = command.ExecuteReader())
                 {
-                    DropDownList2.ClearSelection(); //making sure the previous selection has been cleared
-                    DropDownList2.Items.FindByValue(read[0].ToString()).Selected = true;
+                    while (read.Read())
+                    {
+                        DateTime myDate = DateTime.Parse(read[1].ToString());
+                        TextBox8.Text = myDate.ToString("yyyy-MM-dd");
+                        try
+                        {
+                            DropDownList1.ClearSelection(); //making sure the previous selection has been cleared
+                            DropDownList1.Items.FindByValue(read[0].ToString()).Selected = true;
+                        }
+                        catch
+                        { }
+                    }
                 }
-                catch
-                { }
             }
-
-
-            con.Close();
-            read.Close();
         }
 
         protected void Button7_Click(object sender, EventArgs e)
         {
-                string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
-                // Codigo para registar
-                MySqlConnection con = new MySqlConnection(constr);
+            string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
+            // Codigo para registar
+            using (MySqlConnection con = new MySqlConnection(constr))
+            {
                 con.Open();
-                string N_Avaliador = "UPDATE tblavaliador SET datadeexpiracao = @data, Ativo=@ddnvalue  WHERE id = @id; ";
-                MySqlCommand comand = new MySqlCommand(N_Avaliador);
-                comand.Parameters.AddWithValue("@id", ListBox1.Items[GridView1.SelectedIndex].ToString());
-                comand.Parameters.AddWithValue("@data", TextBox8.Text.Trim());
-                comand.Parameters.AddWithValue("@ddnvalue", DropDownList1.SelectedValue.ToString());
-                comand.Connection = con;
-                comand.ExecuteNonQuery();
-                con.Close();
-            div1.Visible = false;
-            Response.Redirect("Admin");
-
-
+                using (MySqlCommand comand = new MySqlCommand("UPDATE tblavaliador SET datadeexpiracao = @data, Ativo=@ddnvalue  WHERE id = @id; ", con))
+                {
+                    comand.Parameters.AddWithValue("@id", ListBox1.Items[GridView1.SelectedIndex].ToString());
+                    comand.Parameters.AddWithValue("@data", TextBox8.Text.Trim());
+                    comand.Parameters.AddWithValue("@ddnvalue", DropDownList1.SelectedValue.ToString());
+                    comand.Connection = con;
+                    comand.ExecuteNonQuery();
+                    con.Close();
+                    div1.Visible = false;
+                    Response.Redirect("Admin");
+                }
+            }
         }
 
         protected void Button8_Click(object sender, EventArgs e)
@@ -504,18 +489,21 @@ namespace Avaliadores_Empresas
             ListBox2.Items.Add(index2);
             string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
             // Codigo para registar
-            MySqlConnection con = new MySqlConnection(constr);
-            con.Open();
-            string N_Avaliador = "UPDATE tblempresa SET datadeexpiracao = @data, Ativo=@ddnvalue WHERE id = @id; ";
-            MySqlCommand comand = new MySqlCommand(N_Avaliador);
-            comand.Parameters.AddWithValue("@id", ListBox2.Items[GridView3.SelectedIndex].ToString());
-            comand.Parameters.AddWithValue("@data", TextBox7.Text.Trim());
-            comand.Parameters.AddWithValue("@ddnvalue", DropDownList2.SelectedValue.ToString());
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
-            con.Close();
-            div2.Visible = false;
-            Response.Redirect("Admin");
+            using (MySqlConnection con = new MySqlConnection(constr))
+            {
+                con.Open();
+                using (MySqlCommand comand = new MySqlCommand("UPDATE tblempresa SET datadeexpiracao = @data, Ativo=@ddnvalue WHERE id = @id; ", con))
+                {
+                    comand.Parameters.AddWithValue("@id", ListBox2.Items[GridView3.SelectedIndex].ToString());
+                    comand.Parameters.AddWithValue("@data", TextBox7.Text.Trim());
+                    comand.Parameters.AddWithValue("@ddnvalue", DropDownList2.SelectedValue.ToString());
+                    comand.Connection = con;
+                    comand.ExecuteNonQuery();
+                    con.Close();
+                    div2.Visible = false;
+                    Response.Redirect("Admin");
+                }
+            }
         }
 
         protected void GridView3_RowCommand(object sender, GridViewCommandEventArgs e)
@@ -532,16 +520,19 @@ namespace Avaliadores_Empresas
             // Saber se é Avaliador ?
             string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
             // Codigo para registar
-            MySqlConnection con = new MySqlConnection(constr);
-            con.Open();
-            string AllAvaliacoes = "DELETE FROM tblempresa WHERE id = @id";
-            MySqlCommand comand = new MySqlCommand(AllAvaliacoes);
-            comand.Parameters.AddWithValue("@id", ListBox2.Items[Convert.ToInt16(Label13.Text)].ToString());
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
-            
-            con.Close();
-            div3.Visible = false;
+            using (MySqlConnection con = new MySqlConnection(constr))
+            {
+                con.Open();
+                using (MySqlCommand comand = new MySqlCommand("DELETE FROM tblempresa WHERE id = @id", con))
+                {
+                    comand.Parameters.AddWithValue("@id", ListBox2.Items[Convert.ToInt16(Label13.Text)].ToString());
+                    comand.Connection = con;
+                    comand.ExecuteNonQuery();
+
+                    con.Close();
+                    div3.Visible = false;
+                }
+            }
         }
 
         protected void Button10_Click(object sender, EventArgs e)
@@ -563,16 +554,19 @@ namespace Avaliadores_Empresas
             // Saber se é Avaliador ?
             string constr = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
             // Codigo para registar
-            MySqlConnection con = new MySqlConnection(constr);
-            con.Open();
-            string AllAvaliacoes = "DELETE FROM tblavaliador WHERE id = @id";
-            MySqlCommand comand = new MySqlCommand(AllAvaliacoes);
-            comand.Parameters.AddWithValue("@id", ListBox1.Items[Convert.ToInt16(Label12.Text)].ToString());
-            comand.Connection = con;
-            comand.ExecuteNonQuery();
+            using (MySqlConnection con = new MySqlConnection(constr))
+            {
+                con.Open();
+                using (MySqlCommand comand = new MySqlCommand("DELETE FROM tblavaliador WHERE id = @id", con))
+                {
+                    comand.Parameters.AddWithValue("@id", ListBox1.Items[Convert.ToInt16(Label12.Text)].ToString());
+                    comand.Connection = con;
+                    comand.ExecuteNonQuery();
 
-            con.Close();
-            div4.Visible = false;
+                    con.Close();
+                    div4.Visible = false;
+                }
+            }
         }
 
         protected void Button12_Click(object sender, EventArgs e)

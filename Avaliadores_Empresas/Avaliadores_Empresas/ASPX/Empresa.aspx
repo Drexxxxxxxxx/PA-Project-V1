@@ -533,7 +533,7 @@
                                     <h2>
                                         <asp:Label ID="Label12" runat="server" Text="Empresa"></asp:Label></h2>
                                     <div class="table-responsive">
-                                        <asp:GridView id="GridView11" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView11_PageIndexChanging" PageSize="20">
+                                        <asp:GridView id="GridView11" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView11_PageIndexChanging" PageSize="20" ShowHeader="False">
                                             <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
                                         </asp:GridView>
                                     </div>
@@ -543,7 +543,7 @@
                                     <h2>
                                         <asp:Label ID="Label13" runat="server" Text="Avaliador"></asp:Label></h2>
                                     <div class="table-responsive">
-                                        <asp:GridView ID="GridView12" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView12_PageIndexChanging" PageSize="20">
+                                        <asp:GridView ID="GridView12" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView12_PageIndexChanging" PageSize="20" ShowHeader="False">
                                             <PagerSettings FirstPageText="First" LastPageText="Last" Mode="NumericFirstLast" PageButtonCount="4" />
                                         </asp:GridView>
                                     </div>

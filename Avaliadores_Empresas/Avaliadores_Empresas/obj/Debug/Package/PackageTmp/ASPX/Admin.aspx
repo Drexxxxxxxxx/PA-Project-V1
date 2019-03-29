@@ -191,6 +191,11 @@
                                 <p>
                                     <asp:Label ID="Label9" runat="server" Text="Data expiração"></asp:Label>
                                     <asp:TextBox ID="TextBox8" runat="server" TextMode="Date"></asp:TextBox>
+                                    <asp:DropDownList ID="DropDownList1" runat="server">
+                                        <asp:ListItem Value="0">Ativo</asp:ListItem>
+                                        <asp:ListItem Value="1">Demo</asp:ListItem>
+                                        <asp:ListItem Value="2">Cancelada</asp:ListItem>
+                                    </asp:DropDownList>
                                 </p>
                                 <asp:Button ID="Button7" CssClass="butoespopup" Width="25%" runat="server" Text="Ok" OnClick="Button7_Click" />
                             </div>
@@ -198,6 +203,11 @@
                                 <p>
                                     <asp:Label ID="Label8" runat="server" Text="Data expiração"></asp:Label>
                                     <asp:TextBox ID="TextBox7" runat="server" TextMode="Date"></asp:TextBox>
+                                    <asp:DropDownList ID="DropDownList2" runat="server">
+                                        <asp:ListItem Value="0">Ativo</asp:ListItem>
+                                        <asp:ListItem Value="1">Demo</asp:ListItem>
+                                        <asp:ListItem Value="2">Cancelada</asp:ListItem>
+                                    </asp:DropDownList>
                                 </p>
                                 <asp:Button ID="Button8" CssClass="butoespopup" Width="25%" runat="server" Text="Ok" OnClick="Button8_Click" />
                             </div>

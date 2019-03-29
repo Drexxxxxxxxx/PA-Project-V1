@@ -86,10 +86,15 @@ nav li a {
     margin: 0px 10px;
 }
 
+.container{
+    height:100%;
+}
+
 .main_div {
     position: relative;
-    padding-top: 100px;
     width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
