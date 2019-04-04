@@ -43,6 +43,15 @@
                                     style="padding-right: 2px"></span>Logout</asp:LinkButton>
                     </div>
                 </div>
+
+                <div class="navbar-collapse collapse w-100 order-2 dual-collapse2">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out"
+                                    style="padding-right: 2px"></span>Logout</asp:LinkButton>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
 

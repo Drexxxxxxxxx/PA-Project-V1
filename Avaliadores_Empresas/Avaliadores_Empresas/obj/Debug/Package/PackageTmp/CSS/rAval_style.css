@@ -142,13 +142,3 @@ hr{
     font-size: 12pt;
     border: none;
 }
-
-.SumoSelect {
-    position: absolute;
-    top: 7px;
-    right: 17px;
-}
-
-.area-text{
-    height:50px;
-}

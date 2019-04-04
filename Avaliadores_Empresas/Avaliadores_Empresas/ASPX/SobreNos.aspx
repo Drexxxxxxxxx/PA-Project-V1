@@ -106,7 +106,7 @@
 
             </div>
             <div class="container">
-                <div class="row main_div somos-nos mr-0 ml-0">
+                <div class="row main_div mr-0 ml-0">
                     <div class="somosNos_innerDiv">
                         <div class="w-100" style="text-align: left">
                             <h1>Sobre Nós</h1>

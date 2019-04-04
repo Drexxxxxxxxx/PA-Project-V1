@@ -125,11 +125,8 @@ hr{
         }
 
 @media (max-width:991px) {
-    .main_div {
-        top: unset;
-        transform: unset;
-        padding-top: 110px;
-        padding-bottom: 50px;
+    .slider {
+        height: 100vh;
     }
 }
 

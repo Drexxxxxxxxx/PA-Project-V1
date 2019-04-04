@@ -32,6 +32,13 @@
             color: white;
         }
 
+.main_div {
+    position: relative;
+    padding-top: 100px;
+    width: 100%;
+}
+
+
 #DivPerfil {
     width: 100%;
 }

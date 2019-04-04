@@ -44,7 +44,9 @@ a:hover {
     text-decoration: none;
 }
 
-
+@media (max-width:767px) {
+    
+}
 
 h1 {
     font-family: 'Montserrat' ;
@@ -82,9 +84,6 @@ nav li a {
 .container{
     height:100%;
 }
-.container-fluid{
-    height:100%;
-}
 
 .main_div {
     position: relative;
@@ -119,37 +118,37 @@ input:not([type='checkbox']):not([type='submit']) {
     width: 100%;
 }
     textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        color: rgba(0,0,0,0.5);
+        color: black;
     }
 
-textarea::-moz-placeholder { /* Firefox 19+ */
-    color: rgba(0,0,0,0.5);
-}
+    textarea::-moz-placeholder { /* Firefox 19+ */
+        color: black;
+    }
 
-textarea:-ms-input-placeholder { /* IE 10+ */
-    color: rgba(0,0,0,0.5);
-}
+    textarea:-ms-input-placeholder { /* IE 10+ */
+        color: black;
+    }
 
-textarea:-moz-placeholder { /* Firefox 18- */
-    color: rgba(0,0,0,0.5);
-}
+    textarea:-moz-placeholder { /* Firefox 18- */
+        color: black;
+    }
 
 
-input:not([type='checkbox']):not([type='submit'])::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: rgba(0,0,0,0.5);
-}
+    input:not([type='checkbox']):not([type='submit'])::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: black;
+    }
 
-input:not([type='checkbox']):not([type='submit'])::-moz-placeholder { /* Firefox 19+ */
-    color: rgba(0,0,0,0.5);
-}
+    input:not([type='checkbox']):not([type='submit'])::-moz-placeholder { /* Firefox 19+ */
+        color: black;
+    }
 
-input:not([type='checkbox']):not([type='submit']):-ms-input-placeholder { /* IE 10+ */
-    color: rgba(0,0,0,0.5);
-}
+    input:not([type='checkbox']):not([type='submit']):-ms-input-placeholder { /* IE 10+ */
+        color: black;
+    }
 
-input:not([type='checkbox']):not([type='submit']):-moz-placeholder { /* Firefox 18- */
-    color: rgba(0,0,0,0.5);
-}
+    input:not([type='checkbox']):not([type='submit']):-moz-placeholder { /* Firefox 18- */
+        color: black;
+    }
 
 .slider{
     height:100vh;
