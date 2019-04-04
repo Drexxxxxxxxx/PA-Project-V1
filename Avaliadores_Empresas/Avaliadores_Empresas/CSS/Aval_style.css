@@ -243,3 +243,12 @@ hr {
 #GridView12 > tbody > tr:nth-child(2), #GridView12 > tbody > tr:nth-child(1), #GridView12 > tbody > tr:nth-child(3) {
     font-weight: bold;
 }
+
+@media (max-width:991px) {
+    .main_div {
+        top: unset;
+        transform: unset;
+        padding-top: 110px;
+        padding-bottom: 50px;
+    }
+}

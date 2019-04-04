@@ -119,7 +119,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="row">
-                                    <div class="col-12 col-md">
+                                    <div class="col-12 col-md-4">
                                         <p>E-mail </p>
                                     </div>
                                     <div class="col-12 col-md-8">
@@ -127,7 +127,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-12 col-md">
+                                    <div class="col-12 col-md-4">
                                         <p>Password </p>
                                     </div>
                                     <div class="col-12 col-md-8">

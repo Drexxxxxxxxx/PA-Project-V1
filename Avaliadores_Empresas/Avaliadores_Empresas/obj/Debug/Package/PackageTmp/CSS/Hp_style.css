@@ -13,7 +13,6 @@
 .texto {
     position: absolute;
     text-align: center;
-    top: 171px;
     width: 100%;
     background-color: rgba(34,34,34,0.69);
     padding-top:45px !important;

@@ -50,8 +50,10 @@ textarea{
 
 
 @media (max-width:991px) {
-    .slider {
-        height: 100vh;
+    .main_div {
+        top: unset;
+        transform: unset;
+        padding-top: 110px;
+        padding-bottom: 50px;
     }
-
 }

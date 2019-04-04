@@ -152,3 +152,12 @@ hr{
 .area-text{
     height:50px;
 }
+
+@media only screen and (max-height: 991px) {
+    .main_div {
+        top: unset;
+        transform: unset;
+        padding-top: 110px;
+        padding-bottom: 50px;
+    }
+}
