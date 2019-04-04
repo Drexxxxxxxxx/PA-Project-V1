@@ -51,6 +51,7 @@ div[class^="col"] {
         padding-bottom: 50px;
     }
 }
+
 @media only screen and (max-height: 662px) {
     .somosNos_div {
         height: 100%;

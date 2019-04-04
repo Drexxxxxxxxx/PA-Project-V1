@@ -14,9 +14,9 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="../CSS/Main.css">
 
     <link rel="stylesheet" href="../CSS/rEmp_style.css">
-    <link rel="stylesheet" href="../CSS/Main.css">
 </head>
 
 
