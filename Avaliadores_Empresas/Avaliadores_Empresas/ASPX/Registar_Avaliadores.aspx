@@ -18,8 +18,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="../CSS/sumoselect.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="../CSS/rAval_style.css">
+
     <link rel="stylesheet" href="../CSS/Main.css">
+    <link rel="stylesheet" href="../CSS/rAval_style.css">
+    
 </head>
 
 <body>
@@ -125,7 +127,7 @@
                                     <div class="col-lg-3">
                                         <p>nome </p>
                                     </div>
-                                    <div class="col-lg">
+                                    <div class="col-lg-9">
                                         <asp:TextBox ID="nome_aval" placeholder="nome" CssClass="textboxContactos" Width="100%" runat="server" required></asp:TextBox>
 
                                     </div>
@@ -134,7 +136,7 @@
                                     <div class="col-lg-3">
                                         <p>e-mail </p>
                                     </div>
-                                    <div class="col-lg">
+                                    <div class="col-lg-9">
                                         <asp:TextBox ID="email_aval" CssClass="textboxContactos" placeholder="e-mail" Width="100%" runat="server" required TextMode="Email"></asp:TextBox>
                                     </div>
                                 </div>
@@ -142,7 +144,7 @@
                                     <div class="col-lg-3">
                                         <p>telefone  </p>
                                     </div>
-                                    <div class="col-lg">
+                                    <div class="col-lg-9">
                                         <asp:TextBox ID="mobile_aval" CssClass="textboxContactos" placeholder="telefone" Width="100%" MaxLength="9" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" runat="server"></asp:TextBox>
                                     </div>
                                 </div>
@@ -150,7 +152,7 @@
                                     <div class="col-lg-3">
                                         <p>morada </p>
                                     </div>
-                                    <div class="col-lg">
+                                    <div class="col-lg-9">
                                         <asp:TextBox ID="morada_aval" CssClass="textboxContactos" placeholder="morada" Width="100%" runat="server" required></asp:TextBox>
                                     </div>
                                 </div>
@@ -158,7 +160,7 @@
                                     <div class="col-lg-3">
                                         <p>nº registo CMVM </p>
                                     </div>
-                                    <div class="col-lg">
+                                    <div class="col-lg-9">
                                         <asp:TextBox ID="nregisto_aval" placeholder="CMVM" CssClass="textboxContactos" Width="100%" runat="server" required></asp:TextBox>
 
                                     </div>
@@ -189,7 +191,7 @@
                                     <div class="col-lg-3">
                                         <p>password </p>
                                     </div>
-                                    <div class="col-lg">
+                                    <div class="col-lg-9">
                                         <asp:TextBox ID="pass_aval" runat="server" placeholder="password" CssClass="textboxContactos" Width="100%" TextMode="Password" required></asp:TextBox>
                                     </div>
                                 </div>
@@ -197,7 +199,7 @@
                                     <div class="col-lg-3">
                                         <p>confirmar password </p>
                                     </div>
-                                    <div class="col-lg">
+                                    <div class="col-lg-9">
                                        <asp:TextBox ID="confpass_aval" placeholder="confirmar password" runat="server" CssClass="textboxContactos" Width="100%" TextMode="Password" required></asp:TextBox>
 
                                         <br>

@@ -120,6 +120,7 @@
     <Content Include="ASPX\Registar_Empresas.aspx" />
     <Content Include="ASPX\SobreNos.aspx" />
     <Content Include="ASPX\Charge.aspx" />
+    <Content Include="CSS\Admin.css" />
     <Content Include="CSS\Aval_style.css" />
     <Content Include="CSS\Ct_style.css" />
     <Content Include="CSS\Hp_style.css" />

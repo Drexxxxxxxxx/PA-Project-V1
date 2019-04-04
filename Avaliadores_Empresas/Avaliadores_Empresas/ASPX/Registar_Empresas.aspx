@@ -132,7 +132,7 @@
                                     <div class="col-lg-3">
                                         <p>nome </p>
                                     </div>
-                                    <div class="col-lg">
+                                    <div class="col-lg-9">
                                         <asp:TextBox ID="nome_emp" placeholder="nome" Width="100%" CssClass="textboxContactos" runat="server" required></asp:TextBox>
 
                                     </div>
@@ -141,7 +141,7 @@
                                     <div class="col-lg-3">
                                         <p>e-mail </p>
                                     </div>
-                                    <div class="col-lg">
+                                    <div class="col-lg-9">
                                         <asp:TextBox ID="email_emp" placeholder="email" Width="100%" CssClass="textboxContactos" runat="server" required TextMode="Email"></asp:TextBox>
                                     </div>
                                 </div>
@@ -149,7 +149,7 @@
                                     <div class="col-lg-3">
                                         <p>telefone </p>
                                     </div>
-                                    <div class="col-lg">
+                                    <div class="col-lg-9">
                                         <asp:TextBox ID="mobile_emp" placeholder="telefone" Width="100%" CssClass="textboxContactos" MaxLength="9" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" runat="server"></asp:TextBox>
                                     </div>
                                 </div>
@@ -157,7 +157,7 @@
                                     <div class="col-lg-3">
                                         <p>morada </p>
                                     </div>
-                                    <div class="col-lg">
+                                    <div class="col-lg-9">
                                         <asp:TextBox ID="morada_emp" placeholder="morada" Width="100%" CssClass="textboxContactos" runat="server" required></asp:TextBox>
                                     </div>
                                 </div>
@@ -168,7 +168,7 @@
                                     <div class="col-lg-4">
                                         <p>nº registo CMVM </p>
                                     </div>
-                                    <div class="col-lg">
+                                    <div class="col-lg-8">
                                         <asp:TextBox ID="nregisto_emp" Width="100%" placeholder="CMVM" CssClass="textboxContactos" runat="server" required></asp:TextBox>
                                     </div>
                                 </div>
@@ -185,7 +185,7 @@
                                         <div class="col-lg-3">
                                             <p>password </p>
                                         </div>
-                                        <div class="col-lg">
+                                        <div class="col-lg-9">
                                             <asp:TextBox ID="pass_emp" placeholder="password" runat="server" CssClass="textboxContactos" TextMode="Password" required></asp:TextBox>
                                         </div>
                                     </div>
@@ -193,7 +193,7 @@
                                         <div class="col-lg-3">
                                             <p>confirmar password </p>
                                         </div>
-                                        <div class="col-lg">
+                                        <div class="col-lg-9">
                                             <asp:TextBox ID="confpass_emp" placeholder="confirmar password" runat="server" CssClass="textboxContactos" TextMode="Password" required></asp:TextBox>
                                             <br>
                                         </div>

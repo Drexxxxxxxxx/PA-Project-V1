@@ -43,11 +43,23 @@ div[class^="col"] {
     top: 119px;
 }
 
-@media only screen and (max-width: 500px) {
-    .somosNos_innerDiv {
-        width: 100%;
+@media (max-width:991px) {
+    .main_div {
+        top: unset;
+        transform: unset;
+        padding-top: 110px;
+        padding-bottom: 50px;
     }
 }
+@media only screen and (max-height: 662px) {
+    .somosNos_div {
+        height: 100%;
+    }
+}
+
+
+
+
 @media only screen and (max-height: 530px) {
     .container-fluid2 {
         top: 69px;
@@ -55,8 +67,9 @@ div[class^="col"] {
 }
 
 
-@media only screen and (max-height: 662px) {
-    .somosNos_div {
-        height: 100%;
+
+@media only screen and (max-width: 500px) {
+    .somosNos_innerDiv {
+        width: 100%;
     }
 }
