@@ -5,6 +5,10 @@
     font-family: 'Montserrat';
 }
 
+.DivBtn{
+    min-height:360px;
+}
+
 .navbar-brand {
     display: none;
 }
