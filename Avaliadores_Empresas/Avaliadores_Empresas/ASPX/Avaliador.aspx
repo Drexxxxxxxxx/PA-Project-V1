@@ -41,6 +41,16 @@
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                         <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out"
                                     style="padding-right: 2px"></span>Logout</asp:LinkButton>
+                        <hr />
+                        <asp:LinkButton ID="BtnPerfil" CssClass="" runat="server" OnClick="BtnPerfil_Click">Perfil</asp:LinkButton>
+                        <asp:LinkButton ID="BtnAvaliacoesDisponiveis" CssClass="" runat="server" OnClick="BtnAvaliacoesDisponiveis_Click">Trabalhos Disponiveis</asp:LinkButton>
+                        <asp:LinkButton ID="BtnTrabalhosRealizados" CssClass="" runat="server" Text="Trabalhos ativos"
+                            OnClick="BtnTrabalhosRealizados_Click"></asp:LinkButton>
+                        <asp:LinkButton ID="BtnAvaliacoes" CssClass="" runat="server"
+                            OnClick="BtnAvaliacoes_Click">Avaliações</asp:LinkButton>
+                        <asp:LinkButton ID="BtnRanking" CssClass="" runat="server" OnClick="BtnRanking_Click">Ranking</asp:LinkButton>
+                        <asp:LinkButton ID="BtnHistorico" runat="server" OnClick="BtnHistorico_Click">Histórico</asp:LinkButton>
+
                     </div>
                 </div>
             </nav>
@@ -202,13 +212,12 @@
                                         <div class="col-12 col-md-6">
                                             <div class="col">
                                                 <asp:TextBox ID="TxtBoxSelectArea" runat="server" autocomplete="off" onfocus="Textboxdp_areaFocus()" onchange="sortDpArea()" onkeyup="sortDpArea()"></asp:TextBox>
-                                                <asp:button text="Get Values" visible="false" id="btnGetSelectedValues" onclick="btnGetSelectedValues_Click" runat="server"></asp:button>
-                                                <asp:listbox runat="server" id="dp_area" selectionmode="Multiple">
-                                                </asp:listbox>
-                                                <asp:Button ID="Button16" runat="server" Text="Save" OnClick="SelectedValueChange"/>
-                                            </div>   
+                                                <asp:Button Text="Get Values" Visible="false" ID="btnGetSelectedValues" OnClick="btnGetSelectedValues_Click" runat="server"></asp:Button>
+                                                <asp:ListBox runat="server" ID="dp_area" SelectionMode="Multiple"></asp:ListBox>
+                                                <asp:Button ID="Button16" runat="server" Text="Save" OnClick="SelectedValueChange" />
+                                            </div>
                                             <br />
-                                            <asp:ListBox ID="LBoxPerfilArea" runat="server" style="display:none"></asp:ListBox>
+                                            <asp:ListBox ID="LBoxPerfilArea" runat="server" Style="display: none"></asp:ListBox>
                                             <br />
                                             <asp:Button ID="Button1" CssClass="btn btn-dark" runat="server" OnClick="Button1_Click"
                                                 Style="display: none;" Text="Apagar Área Selecionada" />
@@ -427,7 +436,7 @@
                                     </div>
                                     <div class="col-12 col-md-6">
                                         <h2>
-                                           <asp:Label ID="Label13" runat="server" Text="Avaliador"></asp:Label></h2>
+                                            <asp:Label ID="Label13" runat="server" Text="Avaliador"></asp:Label></h2>
                                         <br />
                                         <div class="table-responsive">
                                             <asp:GridView ID="GridView12" runat="server" CssClass="table" AllowPaging="True" OnPageIndexChanging="GridView12_PageIndexChanging" PageSize="20" ShowHeader="False">
@@ -451,36 +460,36 @@
 
 
 
-                             <asp:Panel ID="DivHistorico" CssClass="DivBtn" runat="server" Visible="False">
-                            <div class="row">
-                                <div class="w-100">
-                                    <div class="col-xl-12">
-                                        <h1>Historico </h1>
-                                        <hr class="mt-0" />
+                            <asp:Panel ID="DivHistorico" CssClass="DivBtn" runat="server" Visible="False">
+                                <div class="row">
+                                    <div class="w-100">
+                                        <div class="col-xl-12">
+                                            <h1>Historico </h1>
+                                            <hr class="mt-0" />
+                                        </div>
                                     </div>
-                                </div>
 
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-md-6">
-                                     <h2>
-                                        <asp:Label ID="Label24" runat="server" Text="Avaliação"></asp:Label></h2>
-                                    <div class="table-responsive">
-                                        <asp:GridView ID="GridViewAval" runat="server" CssClass="table">                                        
-                                        </asp:GridView>
-                                    </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <h2>
+                                            <asp:Label ID="Label24" runat="server" Text="Avaliação"></asp:Label></h2>
+                                        <div class="table-responsive">
+                                            <asp:GridView ID="GridViewAval" runat="server" CssClass="table">
+                                            </asp:GridView>
+                                        </div>
+                                    </div>
 
-                                <div class="col-12 col-md-6">
-                                     <h2>
-                                        <asp:Label ID="Label25" runat="server" Text="Pacote de Avaliação"></asp:Label></h2>
-                                    <div class="table-responsive">
-                                        <asp:GridView ID="GridViewPacoteAval" runat="server" CssClass="table">
-                                        </asp:GridView>
+                                    <div class="col-12 col-md-6">
+                                        <h2>
+                                            <asp:Label ID="Label25" runat="server" Text="Pacote de Avaliação"></asp:Label></h2>
+                                        <div class="table-responsive">
+                                            <asp:GridView ID="GridViewPacoteAval" runat="server" CssClass="table">
+                                            </asp:GridView>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>                          
-                        </asp:Panel>
+                            </asp:Panel>
 
 
                             <!-- DivRanking -->
@@ -533,27 +542,12 @@
                         <div class="Aval_div">
                             <div class="Aval_innerDiv">
                                 <ul class="p-0 h-100" style="list-style-type: none;">
-                                    <li>
-                                        <asp:Button ID="BtnPerfil" CssClass="" runat="server" Text="Perfil" OnClick="BtnPerfil_Click" />
-                                    </li>
-                                    <li>
-                                        <asp:Button ID="BtnAvaliacoesDisponiveis" CssClass="" runat="server" Text="Trabalhos Disponiveis"
-                                            OnClick="BtnAvaliacoesDisponiveis_Click" />
-                                    </li>
-                                    <li>
-                                        <asp:Button ID="BtnTrabalhosRealizados" CssClass="" runat="server" Text="Trabalhos ativos"
-                                            OnClick="BtnTrabalhosRealizados_Click" />
-                                    </li>
-                                    <li>
-                                        <asp:Button ID="BtnAvaliacoes" CssClass="" runat="server" Text="Avaliações"
-                                            OnClick="BtnAvaliacoes_Click" />
-                                    </li>
-                                    <li>
-                                        <asp:Button ID="BtnRanking" CssClass="" runat="server" Text="Ranking" OnClick="BtnRanking_Click" />
-                                    </li>
-                                    <li>
-                                        <asp:Button ID="BtnHistorico" runat="server" Text="Histórico" OnClick="BtnHistorico_Click" />
-                                    </li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
                                 </ul>
 
 
@@ -583,78 +577,78 @@
 <script src="../OwlCarousel/dist/owl.carousel.min.js"></script>
 <script src="../JS/carrousels.js"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(<%=dp_area.ClientID%>).SumoSelect();
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(<%=dp_area.ClientID%>).SumoSelect();
+    });
+</script>
+
+<script>
+    var textodp_area = "";
+    var contador = 0;
+    function sortDpArea() {
+        $(".optWrapper.multiple ul li").each(function (index) {
+            $(this).show();
+            var contains = $(this).text().includes(capitalizeFirstLetter($("#TxtBoxSelectArea").val()));
+            if (!contains) {
+                $(this).hide();
+            }
         });
-    </script>
+    }
 
-       <script>
-           var textodp_area = "";
-           var contador = 0;
-           function sortDpArea() {
-               $(".optWrapper.multiple ul li").each(function (index) {
-                   $(this).show();
-                   var contains = $(this).text().includes(capitalizeFirstLetter($("#TxtBoxSelectArea").val()));
-                   if (!contains) {
-                       $(this).hide();
-                   }
-               });
-           }
-
-           function SaveSelectedDropdown() {
-               $("#BtnSelectArea").click();
-           }
+    function SaveSelectedDropdown() {
+        $("#BtnSelectArea").click();
+    }
 
 
-           function Textboxdp_areaFocus() {
-               $(".SumoSelect.sumo_dp_area").addClass("open");
-           }
+    function Textboxdp_areaFocus() {
+        $(".SumoSelect.sumo_dp_area").addClass("open");
+    }
 
-           function capitalizeFirstLetter(string) {
-               return string.charAt(0).toUpperCase() + string.slice(1);
-           }
+    function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
 
-           function SelecttedValues() {
-               var values = $("#LBoxPerfilArea>option").map(function () { return $(this).val(); }).get();
-               jQuery.each(values, function (index, item) {
-                  select_option(item);
-               });
-           }
-           function select_option(i) {           
-               $('#dp_area').prop('aria-expanded', true);
-               $('#dp_area option[value="' + i + '"]').attr("selected", "selected");
-               var length = $('#dp_area > option:checked').length;
-               if (length < 3) {
-                   if (contador == 0) {
-                       textodp_area = textodp_area + $('#dp_area option[value="' + i + '"]').text();
-                   }
-                   else {
-                       textodp_area = textodp_area + ", " + $('#dp_area option[value="' + i + '"]').text();
-                   }
-               }
-               else {
-                   textodp_area = length + " Locais";
-               }
-               
-               $('.CaptionCont.SelectBox span').text(textodp_area);
-               $('.CaptionCont.SelectBox span').removeClass("placeholder");
+    function SelecttedValues() {
+        var values = $("#LBoxPerfilArea>option").map(function () { return $(this).val(); }).get();
+        jQuery.each(values, function (index, item) {
+            select_option(item);
+        });
+    }
+    function select_option(i) {
+        $('#dp_area').prop('aria-expanded', true);
+        $('#dp_area option[value="' + i + '"]').attr("selected", "selected");
+        var length = $('#dp_area > option:checked').length;
+        if (length < 3) {
+            if (contador == 0) {
+                textodp_area = textodp_area + $('#dp_area option[value="' + i + '"]').text();
+            }
+            else {
+                textodp_area = textodp_area + ", " + $('#dp_area option[value="' + i + '"]').text();
+            }
+        }
+        else {
+            textodp_area = length + " Locais";
+        }
 
-               var values = $("#dp_area option").map(function () { return $(this).val(); }).get();
-               jQuery.each(values, function (index, item) {
-                   if (item == i) {
-                       var contadorIndex = 0;
-                       jQuery(".optWrapper.multiple ul li").each(function () {
-                           if (index == contadorIndex) {
-                               jQuery(this).addClass("selected");
-                           }
-                           contadorIndex++;
-                       });
-                   }
-               });
+        $('.CaptionCont.SelectBox span').text(textodp_area);
+        $('.CaptionCont.SelectBox span').removeClass("placeholder");
 
-               contador++;
-           }
-    </script>
+        var values = $("#dp_area option").map(function () { return $(this).val(); }).get();
+        jQuery.each(values, function (index, item) {
+            if (item == i) {
+                var contadorIndex = 0;
+                jQuery(".optWrapper.multiple ul li").each(function () {
+                    if (index == contadorIndex) {
+                        jQuery(this).addClass("selected");
+                    }
+                    contadorIndex++;
+                });
+            }
+        });
+
+        contador++;
+    }
+</script>
 
 </html>

@@ -36,6 +36,19 @@
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                         <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out"
                                     style="padding-right: 2px"></span>Logout</asp:LinkButton>
+                        <hr />
+                        <asp:LinkButton ID="BtnPerfil" runat="server" OnClick="BtnPerfil_Click">Perfil</asp:LinkButton>
+                        <asp:LinkButton ID="BtnPesquisaAvaliacoes" runat="server" OnClick="BtnPesquisaAvaliacoes_Click"> Pesquisa Avaliadores </asp:LinkButton>
+                        <asp:LinkButton ID="BtnPublicarPedidoAvaliacao" runat="server" OnClick="BtnPublicarPedidoAvaliacao_Click">Publicar Pedido Avaliacao</asp:LinkButton>
+                        <asp:LinkButton ID="BtnMinhasAvaliacoes" runat="server" OnClick="BtnMinhasAvaliacoes_Click">Meus Trabalhos</asp:LinkButton>
+                        <asp:LinkButton ID="BtnAvaliacoes" runat="server" OnClick="BtnAvaliacoes_Click">Avaliações</asp:LinkButton>
+                        <asp:LinkButton ID="BtnRanking" runat="server" OnClick="BtnRanking_Click">Ranking</asp:LinkButton>
+                        <asp:LinkButton ID="BtnHistorico" runat="server" OnClick="BtnHistorico_Click">Histórico</asp:LinkButton>
+
+
+
+
+
                     </div>
                 </div>       
             </nav>
@@ -662,41 +675,7 @@
 
 
 
-                    </div>
-                    <div class="col-12 col-md-3 order-0 order-md-1">
-                        <div class="Emp_div">
-                            <div class="Emp_innerDiv">
-                                <ul class="p-0 h-100" style="list-style-type: none;">
-                                    <li>
-                                        <asp:Button ID="BtnPerfil" runat="server" Text="Perfil" OnClick="BtnPerfil_Click" />
-                                    </li>
-                                    <li>
-                                        <asp:Button ID="BtnPesquisaAvaliacoes" runat="server" Text="Pesquisa Avaliadores"
-                                            OnClick="BtnPesquisaAvaliacoes_Click" />
-                                    </li>
-                                    <li>
-                                        <asp:Button ID="BtnPublicarPedidoAvaliacao" runat="server" Text="Publicar Pedido Avaliacao"
-                                            OnClick="BtnPublicarPedidoAvaliacao_Click" />
-                                    </li>
-                                    <li>
-                                        <asp:Button ID="BtnMinhasAvaliacoes" runat="server" Text="Meus Trabalhos" OnClick="BtnMinhasAvaliacoes_Click" />
-                                    </li>
-                                    <li>
-                                        <asp:Button ID="BtnAvaliacoes" runat="server" Text="Avaliações" OnClick="BtnAvaliacoes_Click" />
-                                    </li>
-                                    <li>
-                                        <asp:Button ID="BtnRanking" runat="server" Text="Ranking" OnClick="BtnRanking_Click" />
-                                    </li>
-                                     <li>
-                                        <asp:Button ID="BtnHistorico" runat="server" Text="Histórico" OnClick="BtnHistorico_Click" />
-                                    </li>
-                                </ul>
-
-
-                            </div>
-
-                        </div>
-                    </div>
+                    </div>                 
                 </div>
             </div>
 

@@ -9,9 +9,17 @@
     min-height:360px;
 }
 
-.navbar-brand {
-    display: none;
+.table{
+    border:transparent;
 }
+
+    .table td, .table th {
+        border: transparent;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
 
     .dp-nav button {
         background: transparent;
@@ -29,6 +37,7 @@
             font-size: 12pt;
             padding: 5px;
             box-shadow: none;
+            display:block;
         }
 
         .dp-nav .dropdown-menu a:focus {
@@ -38,6 +47,11 @@
         .dp-nav .dropdown-menu a:hover {
            color:black;
            background-color:white;
+        }
+
+        .dp-nav .dropdown-menu hr {
+            border-color: white;
+            
         }
         
 
