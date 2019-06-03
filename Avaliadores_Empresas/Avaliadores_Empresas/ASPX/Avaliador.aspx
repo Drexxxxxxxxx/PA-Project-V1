@@ -41,8 +41,8 @@
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                         <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><span class="glyphicon glyphicon-log-out"
                                     style="padding-right: 2px"></span>Logout</asp:LinkButton>
-                        <hr />
-                        <asp:LinkButton ID="BtnPerfil" CssClass="" runat="server" OnClick="BtnPerfil_Click">Perfil</asp:LinkButton>
+                        <hr />                       
+                        <asp:LinkButton ID="BtnPerfil" runat="server" OnClick="BtnPerfil_Click">Perfil</asp:LinkButton>
                         <asp:LinkButton ID="BtnAvaliacoesDisponiveis" CssClass="" runat="server" OnClick="BtnAvaliacoesDisponiveis_Click">Trabalhos Disponiveis</asp:LinkButton>
                         <asp:LinkButton ID="BtnTrabalhosRealizados" CssClass="" runat="server" Text="Trabalhos ativos"
                             OnClick="BtnTrabalhosRealizados_Click"></asp:LinkButton>

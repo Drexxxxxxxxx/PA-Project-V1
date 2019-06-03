@@ -117,7 +117,7 @@ namespace Avaliadores_Empresas
                     bindddl();
                     binLbox();
                 }
-                catch
+                catch (Exception ex)
                 {
                     Response.Redirect("Login");
                 }
