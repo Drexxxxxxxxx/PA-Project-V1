@@ -415,7 +415,6 @@
     <Content Include="ASPX\Stripe.aspx" />
     <Content Include="ASPX\Sucesso.aspx" />
     <Content Include="ASPX\Task1.aspx" />
-    <Content Include="ASPX\testegridview.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -557,13 +556,6 @@
     </Compile>
     <Compile Include="ASPX\Task1.aspx.designer.cs">
       <DependentUpon>Task1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ASPX\testegridview.aspx.cs">
-      <DependentUpon>testegridview.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ASPX\testegridview.aspx.designer.cs">
-      <DependentUpon>testegridview.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

@@ -1941,7 +1941,8 @@ namespace Avaliadores_Empresas
 
         protected void PPA1Button2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Empresa");
+            InvisibleDiv();
+            DivPublicarPedidoAvaliacao.Visible = true;
         }
 
 
@@ -2120,7 +2121,8 @@ namespace Avaliadores_Empresas
 
         protected void PPA2Button6_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Empresa");
+            InvisibleDiv();
+            DivPublicarPedidoAvaliacao.Visible = true;
         }
 
 
@@ -2339,7 +2341,8 @@ namespace Avaliadores_Empresas
 
         protected void PPA3Button6_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Empresa");
+            InvisibleDiv();
+            DivPublicarPedidoAvaliacao.Visible = true;
         }
 
         protected void PPA3Button5_Click(object sender, EventArgs e)

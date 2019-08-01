@@ -9,9 +9,18 @@
     min-height:360px;
 }
 
-.navbar-brand {
-    display: none;
+.table{
+    border:transparent;
+    padding:15px;
 }
+
+    .table td, .table th {
+        border: transparent;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
 
     .dp-nav button {
         background: transparent;
@@ -29,6 +38,7 @@
             font-size: 12pt;
             padding: 5px;
             box-shadow: none;
+            display:block;
         }
 
         .dp-nav .dropdown-menu a:focus {
@@ -38,6 +48,11 @@
         .dp-nav .dropdown-menu a:hover {
            color:black;
            background-color:white;
+        }
+
+        .dp-nav .dropdown-menu hr {
+            border-color: white;
+            
         }
         
 
@@ -99,6 +114,32 @@ nav li a {
     top: 50%;
     transform: translateY(-50%);
 }
+
+.custom-input-file input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.custom-input-file label
+{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    cursor:pointer;
+    padding:15px;
+}
+
+.custom-input-file:focus + label,
+.custom-input-file + label:hover {
+    background-color: red;
+}
+
 
 
 .footer {
