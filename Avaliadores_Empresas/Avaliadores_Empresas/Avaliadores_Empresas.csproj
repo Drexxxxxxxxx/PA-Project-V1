@@ -134,6 +134,9 @@
     <Content Include="CSS\sumoselect.css" />
     <Content Include="ExcelFileEdited\info.txt" />
     <Content Include="ExcelFileOriginal\Formulario.xlsx" />
+    <Content Include="Imagens\AddPubs\onePubBlack.png" />
+    <Content Include="Imagens\AddPubs\PackPubs.png" />
+    <Content Include="Imagens\AddPubs\PubsBlack.png" />
     <Content Include="JS\jquery.sumoselect.min.js" />
     <Content Include="OwlCarousel\.travis.yml" />
     <Content Include="OwlCarousel\bower.json" />

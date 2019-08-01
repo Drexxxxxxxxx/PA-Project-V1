@@ -32,6 +32,7 @@
         border: 0px;
         border-radius:0;
         left:-16px;
+        min-width:300px;
     }
         .dp-nav .dropdown-menu a {
             color: white;

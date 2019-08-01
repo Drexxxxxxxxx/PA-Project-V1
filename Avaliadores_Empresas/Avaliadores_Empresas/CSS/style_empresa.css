@@ -195,6 +195,10 @@ hr {
             border-color: #555 #888 #888;
         }
 
+.img-packs{
+    max-width:80%;
+}
+
 .DivBtn {
     background-color: rgba(161, 206, 221, 0.88);
     padding: 20px;

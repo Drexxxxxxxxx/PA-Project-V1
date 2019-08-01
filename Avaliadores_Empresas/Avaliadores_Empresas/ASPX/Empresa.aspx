@@ -314,25 +314,27 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-4 text-center">
-                                                <asp:Button ID="Button6" CssClass="btn_numeros btn btn-dark" runat="server"
+                                        <asp:LinkButton ID="Button6" runat="server" OnClick="Button6_Click"><img class="img-packs" src="../Imagens/AddPubs/onePubBlack.png" /></asp:LinkButton>                                      
+                                              <%--  <asp:Button ID="Button6" CssClass="btn_numeros btn btn-dark" runat="server"
                                                     Text="1" OnClick="Button6_Click" />
                                                 <p class="text-center mt-2">
                                                     Publicar avaliação
-                                                </p>
+                                                </p>--%>
                                     </div>
                                     <div class="col-lg-4 text-center">
-                                                <asp:Button ID="Button7" CssClass="btn_numeros btn btn-dark" runat="server"
-                                                    Text="2" OnClick="Button7_Click" />
+                                        <asp:LinkButton ID="Button7" runat="server" OnClick="Button7_Click" > <img  class="img-packs" src="../Imagens/AddPubs/PubsBlack.png" /></asp:LinkButton>
+                                               <%-- <asp:Button  CssClass="btn_numeros btn btn-dark"  />
                                                 <p class="text-center mt-2">
                                                    Publicar várias avaliações
-                                                </p>
+                                                </p>--%>
                                     </div>
                                     <div class="col-lg-4 text-center">
-                                                <asp:Button ID="Button8" CssClass="btn_numeros btn btn-dark" runat="server"
+                                        <asp:LinkButton ID="Button8" runat="server" OnClick="Button8_Click" ><img  class="img-packs" src="../Imagens/AddPubs/PackPubs.png" /></asp:LinkButton>
+                                                <%--<asp:Button ID="Button8" CssClass="btn_numeros btn btn-dark" runat="server"
                                                     Text="3" OnClick="Button8_Click" />
                                                 <p class="text-center mt-2">
                                                     Publicar pacote de avaliações
-                                                </p>
+                                                </p>--%>
                                     </div>
                                     </div>
                             </asp:Panel>
