@@ -444,3 +444,13 @@ $RECYCLE.BIN/
 Avaliadores_Empresas/.vs/Avaliadores_Empresas/DesignTimeBuild/.dtbcache
 Avaliadores_Empresas/.vs/Avaliadores_Empresas/v15/.suo
 Avaliadores_Empresas/.vs/config/applicationhost.config
+*.dll
+*.pdb
+*.cache
+Avaliadores_Empresas/Avaliadores_Empresas/bin/Avaliadores_Empresas.dll
+Avaliadores_Empresas/Avaliadores_Empresas/bin/Avaliadores_Empresas.pdb
+Avaliadores_Empresas/Avaliadores_Empresas/obj/Debug/Avaliadores_Empresas.csproj.CoreCompileInputs.cache
+Avaliadores_Empresas/Avaliadores_Empresas/obj/Debug/Avaliadores_Empresas.csproj.FileListAbsolute.txt
+Avaliadores_Empresas/Avaliadores_Empresas/obj/Debug/Avaliadores_Empresas.csprojAssemblyReference.cache
+Avaliadores_Empresas/Avaliadores_Empresas/obj/Debug/Avaliadores_Empresas.dll
+Avaliadores_Empresas/Avaliadores_Empresas/obj/Debug/Avaliadores_Empresas.pdb
